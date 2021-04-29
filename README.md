@@ -27,6 +27,13 @@ Inte testat ännu
 
 Hämtas från lantmäteriet
 
+- AL (Fastighetsindelning) - Linjeskikt med gränser
+- BY (Bebyggelse) - Ytskikt med byggnader
+- MV (Hydrografi) - Ytskikt med vatten
+- VL (Kommunikation) - Linjeskikt med vägar
+
+Lägg till som bakgrundsbilder.
+
 ### GPS-Rutter
 
 Ut och spring!
