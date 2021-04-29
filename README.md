@@ -23,6 +23,9 @@ Hämtas från lantmäteriet
 [Laserscan tool](https://www.openorienteering.org/apps/laserscan-tool/)
 Inte testat ännu
 
+[Map Puzzle](http://www.mappuzzle.se/)
+Inte testat ännu
+
 ### Fastighetskartan
 
 Hämtas från lantmäteriet
@@ -37,6 +40,11 @@ Lägg till som bakgrundsbilder.
 ### GPS-Rutter
 
 Ut och spring!
+
+### Live-GPS
+
+Fungerar inte med NMEA?
+https://github.com/OpenOrienteering/mapper/issues/422
 
 ### Verktyg
 
