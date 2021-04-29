@@ -30,3 +30,7 @@ Hämtas från lantmäteriet
 ### GPS-Rutter
 
 Ut och spring!
+
+### Verktyg
+
+[Geo Data Viewer](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.geo-data-viewer) Verktyg för att förhandsgranska GPX-filer i Visual Studio Code
