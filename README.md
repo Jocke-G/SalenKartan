@@ -23,9 +23,6 @@ Hämtas från lantmäteriet
 [Laserscan tool](https://www.openorienteering.org/apps/laserscan-tool/)
 Inte testat ännu
 
-[Map Puzzle](http://www.mappuzzle.se/)
-Inte testat ännu
-
 ### Fastighetskartan
 
 Hämtas från lantmäteriet
@@ -37,9 +34,17 @@ Hämtas från lantmäteriet
 
 Lägg till som bakgrundsbilder.
 
+### Karttjänster
+
+[Map Puzzle](http://www.mappuzzle.se/) kan användas för att tanka ned georefererade bakgrundsbilder från mängder med tjänster. Bocka för "Generate world file" och välj formatet Lat/Lon.
+
+När bakgrundsbilden öppnas i OOM, välj först Georefererad, och sedan "Koordinater (WGS84)".
+
 ### GPS-Rutter
 
 Ut och spring!
+
+GPX med flera kan antingen importeras eller öppnas som bakgrundsbild.
 
 ### Live-GPS
 
