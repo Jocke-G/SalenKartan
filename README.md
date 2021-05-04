@@ -48,8 +48,13 @@ GPX med flera kan antingen importeras eller öppnas som bakgrundsbild.
 
 ### Live-GPS
 
-Fungerar inte med NMEA?
-https://github.com/OpenOrienteering/mapper/issues/422
+GPS-mottagare som kommunicerar NMEA över COM-port kan anslutas till OOM, men det är lite knöligt att få igång.
+
+En billig [NEO-6M](https://www.electroschematics.com/neo-6m-gps-module/) från Ebay fungerar fint.
+
+Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/service/fragen/gruppe_59_uCenter/beitrag/40_uBlox-and-Change-the-Baudrate.html).
+
+https://github.com/OpenOrienteering/mapper/issues/1944
 
 ### Verktyg
 
