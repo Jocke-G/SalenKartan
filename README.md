@@ -14,6 +14,11 @@ https://www.svenskorientering.se/Arrangera/kartfragor/stoddokumentochfiler/
 
 Hämtas från lantmäteriet
 
+För närvarande är det [Laserdata NH](https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/laserdata-nh/) från 2009 som gäller. Filer hämtas från [Geodataplatsen](https://www.lantmateriet.se/sv/Om-Lantmateriet/Samverkan-med-andra/Geodatasamverkan/Geodataplatsen/), som tyvärr kräver inloggning som man får genom avtal om geodatasamverkan.
+
+[Laserdata Nedladdning, skog](https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/laserdata-nedladdning-skog/) ca 2023
+
+
 #### Program
 
 [karttapullautin](http://www.routegadget.net/karttapullautin/)
@@ -26,6 +31,8 @@ Inte testat ännu
 ### Fastighetskartan
 
 Hämtas från lantmäteriet
+
+https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/fastighetskartan/
 
 - AL (Fastighetsindelning) - Linjeskikt med gränser
 - BY (Bebyggelse) - Ytskikt med byggnader
