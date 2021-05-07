@@ -61,8 +61,12 @@ En billig [NEO-6M](https://www.electroschematics.com/neo-6m-gps-module/) från E
 
 Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/service/fragen/gruppe_59_uCenter/beitrag/40_uBlox-and-Change-the-Baudrate.html).
 
-https://github.com/OpenOrienteering/mapper/issues/1944
+[Live-GPS using NMEA on Windows](https://github.com/OpenOrienteering/mapper/issues/1944)
 
 ### Verktyg
 
+[Visual Studio Code](https://code.visualstudio.com/)
+
 [Geo Data Viewer](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.geo-data-viewer) Verktyg för att förhandsgranska GPX-filer i Visual Studio Code
+
+[More Revision-Control-friendly file format](https://github.com/OpenOrienteering/mapper/issues/1290)
