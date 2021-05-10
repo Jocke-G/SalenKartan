@@ -70,3 +70,9 @@ Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/
 [Geo Data Viewer](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.geo-data-viewer) Verktyg för att förhandsgranska GPX-filer i Visual Studio Code
 
 [More Revision-Control-friendly file format](https://github.com/OpenOrienteering/mapper/issues/1290)
+
+### Skicka till handhållen Garmin-GPS
+
+[Dakota 20](https://buy.garmin.com/sv-SE/SE/p/30926)
+[KMZ/KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)
+[Garmin Support Center>General Guidelines for Creating Garmin Custom Maps](https://support.garmin.com/en-GB/?faq=FtEncUXbaE0xE04yZ7gTq5)
