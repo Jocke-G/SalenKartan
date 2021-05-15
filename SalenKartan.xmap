@@ -351,7 +351,7 @@
         </color>
     </colors>
     <barrier version="6" required="0.6.0">
-        <symbols count="209" id="OCD">
+        <symbols count="201" id="OCD">
             <symbol type="2" id="0" code="101.0" name="Höjdkurva">
                 <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAsklEQVQ4jbVU0Q7EIAiDxf++7cu7hx07Y4CCyfVJEUttEAUA+QOGLS7VNPHTrK8AYKTRZXbu4agosjP2KpeYoWvF4CkPIrVRvETseTwTeq+hxBEps6akOFKaxQRfnL/lu19jnbyRVV6fu1qQWfISM8+qPWx5pT5mXeHlpVYYPEu8QvN+sH7cVa/VsRkJiAZU+YN4l7Opp6dIqnh3lJat6JCKNMZmh1SkOd0Mle4JiXfIZtzb/LvwVECwzAAAAABJRU5ErkJggg=="/>
@@ -995,11 +995,7 @@
                 </point_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARUlEQVQ4jWP8////fwYaACZaGDpqMApgwSbIyEiaIdiiH6vBuBST4oihF8ajBo8aTEeDceY8UrM1UQZTo+gfemE89AwGAMT2CjBsCK9GAAAAAElFTkSuQmCC"/>
             </symbol>
-            <symbol type="4" id="56" code="401.0" name="Öppen lättlöpt mark">
-                <area_symbol inner_color="29" min_area="0" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPklEQVQ4jWP8/5/hPwMNABMDAwMDAyOaKBX4jLR1MQkuIZZPYxePhjHDaBgjgdEwhvNHwxgORsMYwRxyYQwARbQhPu3XdRQAAAAASUVORK5CYII="/>
-            </symbol>
-            <symbol type="1" id="57" code="312.0" name="Källa">
+            <symbol type="1" id="56" code="312.0" name="Källa">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="4" code="">
@@ -1068,7 +1064,7 @@
                 </point_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAU0lEQVQ4jWP8////fwYaACZaGDpq8KjBg8FgRkbiDcCldpgExf//xAUHIyNELdEGUwOw4JJAdjW6q3CJE2Uwskb0YCGmoMVrMCkGoYNhktxGpsEAHgIULCY6MK8AAAAASUVORK5CYII="/>
             </symbol>
-            <symbol type="1" id="58" code="313.0" name="Speciellt vattenföremål">
+            <symbol type="1" id="57" code="313.0" name="Speciellt vattenföremål">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="6">
                     <element>
                         <symbol type="2" code="">
@@ -1156,6 +1152,10 @@
                     </element>
                 </point_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAb0lEQVQ4je2UUQrAIAxDrfe/c/YlFNY1USjCtH9WfEqTaADQCqpXQC94M9jsvY5602B2MNtLwcPdEWD0sgQYC8jXy1isqHiruZRc4eGAdpkE9uNgoslgL1Qm6BQ4Ul+F04BE81Tg1G6r9aNP6DzwAzLFJibGGFw4AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="58" code="401.0" name="Öppen lättlöpt mark">
+                <area_symbol inner_color="29" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPklEQVQ4jWP8/5/hPwMNABMDAwMDAyOaKBX4jLR1MQkuIZZPYxePhjHDaBgjgdEwhvNHwxgORsMYwRxyYQwARbQhPu3XdRQAAAAASUVORK5CYII="/>
             </symbol>
             <symbol type="4" id="59" code="402.0" name="Öppen lättlöpt mark med träd">
                 <area_symbol inner_color="29" min_area="0" patterns="1">
@@ -1960,7 +1960,17 @@
                 </line_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAASUlEQVQ4je3TMQ4AIAhD0X7vf+c6uWhIGCQmBubyWCi2rYIZFWjDDb+GAQFpIMojKdW8VdDsUfZKr8Vs06P8Ad+aD76i4Ybr4AlAnRYocWf2SwAAAABJRU5ErkJggg=="/>
             </symbol>
-            <symbol type="2" id="116" code="516.0" name="Stängsel">
+            <symbol type="2" id="116" code="515.0" name="Hög stenmur">
+                <line_symbol color="7" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3200" end_length="800" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="2" mid_symbol_distance="800" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="250" inner_color="7" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARUlEQVQ4je2UMQ4AIAwCOeP/v1wnF2N1arrARkKuXYCICBVoVEANNrgLDAhQ5k/98kgqad7cjd7XMn/7+JXHW2GwwQ3gBXWzGDj5k3KUAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="117" code="516.0" name="Stängsel">
                 <line_symbol color="7" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2000" end_length="800" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
                     <mid_symbol>
                         <symbol type="1" code="">
@@ -1984,16 +1994,6 @@
                     </mid_symbol>
                 </line_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAS0lEQVQ4je3Uuw0AIAxDQRux/8qmo4R8lAIUD3BFpBdKEgo2KtCGG/4FJoCS8qa1aJLw1G86hRc1wRH0CkfRI5xBj3D2Tb8XSMN7C1cyGiKYJKSvAAAAAElFTkSuQmCC"/>
-            </symbol>
-            <symbol type="2" id="117" code="515.0" name="Hög stenmur">
-                <line_symbol color="7" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3200" end_length="800" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="2" mid_symbol_distance="800" mid_symbol_placement="2">
-                    <mid_symbol>
-                        <symbol type="1" code="">
-                            <point_symbol rotatable="true" inner_radius="250" inner_color="7" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                </line_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARUlEQVQ4je2UMQ4AIAwCOeP/v1wnF2N1arrARkKuXYCICBVoVEANNrgLDAhQ5k/98kgqad7cjd7XMn/7+JXHW2GwwQ3gBXWzGDj5k3KUAAAAAElFTkSuQmCC"/>
             </symbol>
             <symbol type="2" id="118" code="517.0" name="Raserat stängsel">
                 <line_symbol color="7" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1650" break_length="350" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="1">
@@ -2418,13 +2418,13 @@
                 <line_symbol color="2" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAALElEQVQ4je3MsREAIACDQOL+O8cVYi3U3KdtGUrCuAJw5vMxYWFhYWHhX+ALioMHKO9PimUAAAAASUVORK5CYII="/>
             </symbol>
-            <symbol type="2" id="142" code="601.2" name="violett linje">
-                <line_symbol color="12" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAALElEQVQ4je3MsREAMAyDQOz9d1ZWkOtAzf0kCU0DdCcA26+3hIWFhYWFf4EfmZoFKAAKlIcAAAAASUVORK5CYII="/>
-            </symbol>
-            <symbol type="2" id="143" code="601.1" name="Meridian för karta m mycket svart op lite blåt">
+            <symbol type="2" id="142" code="601.1" name="Meridian för karta m mycket svart op lite blåt">
                 <line_symbol color="8" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAMElEQVQ4jWP8////fwYiAGMjhP5fT4xqBgYm4pSRDkYNHjV41OBRg0cNHjV4pBgMAA8eBii9VklBAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="143" code="601.2" name="violett linje">
+                <line_symbol color="12" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAALElEQVQ4je3MsREAMAyDQOz9d1ZWkOtAzf0kCU0DdCcA26+3hIWFhYWFf4EfmZoFKAAKlIcAAAAASUVORK5CYII="/>
             </symbol>
             <symbol type="1" id="144" code="602.0" name="Passmärke">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
@@ -3022,54 +3022,26 @@
                 </text_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAhklEQVQ4je2UUQrAIAxDU/FeXn2erPuqOLWKtvsZy5egebQBQ8zM2FQmQlrYQv34VJmo8wcPaGJGYn5wAoDlWjOJt40naIYdjTI3g2X9Nucoh9M4NJ9LFD/4Y2C6gPNvNwO/3m7eKu02qr4dDWtTas8LWsCWabW8XSfu2s2SrVb0sb60qGXchQ5HeU+1VGsAAAAASUVORK5CYII="/>
             </symbol>
-            <symbol type="2" id="197" code="103.3" name="Hjälpkurva">
-                <line_symbol color="16" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="200" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAANklEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgxgMODARznv1+hJKDjozEGTyapUcNHjV4OBkMAKJtDSF4jyfHAAAAAElFTkSuQmCC"/>
+            <symbol type="2" id="197" code="901" name="Traktgräns" is_helper_symbol="true">
+                <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="1" id="198" code="10600.1" name="Minimum Distance Conflict">
+            <symbol type="8" id="198" code="902" name="Traktnamn" is_helper_symbol="true">
+                <text_symbol icon_text="T">
+                    <font family="Arial" size="3528" bold="true"/>
+                    <text color="0" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                    <tabs count="1">
+                        <tab>8000</tab>
+                    </tabs>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAIAAAC1eHXNAAAACXBIWXMAABJ0AAASdAHeZh94AAAAwklEQVRYhe3YsQmFMBSF4ZtHFERwHlewsHIHd3AEtxEsXMFtrCxESV7zmvMgKULAW5y/TEj8ILFQ45wTBX3eBvyiA9PisLHJbZP7zvaoopCuC02ayPti+l7OM5ujrv26hia1nAsdmBZH7J7KvsvzBFfO8/8trio/TcHdrJW2TXJEM8MgxwFDTeOXJW03LedCB0YHRgdGB0YHRgdGB0YHRgdGB0YHRgemxRH9HxTNj6NcFwyVZfJu6d+3edNyLnRgWhxfjSMqBaLoL8kAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="199" code="10600.1" name="Minimum Distance Conflict">
                 <point_symbol inner_radius="75" inner_color="0" outer_width="0" outer_color="-1" elements="0"/>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAUElEQVQ4jWP8////fwYaACZaGDpqMH0MZiGogpERU4yIhITfxdgMxSdOlMGENBOQH3qRN5wMJpSkCMjjdzEuzUSkY8IZhMxSdThF3qjB1AIA25UQKlH3nOsAAAAASUVORK5CYII="/>
             </symbol>
-            <symbol type="2" id="199" code="10600.3" name="Minimum line distance conflict">
+            <symbol type="2" id="200" code="10600.3" name="Minimum line distance conflict">
                 <line_symbol color="0" line_width="150" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAM0lEQVQ4jWP8////fwYaACZaGDpq8KjBdDaY8T8Dw2gGoa3BLAy0KYOGYFCMGjxqMCYAAFaJCCXKiE+7AAAAAElFTkSuQmCC"/>
-            </symbol>
-            <symbol type="4" id="200" code="301.1" name="Opasserbar vattenyta (yta)">
-                <area_symbol inner_color="40" min_area="0" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAXklEQVQ4jWP8////fwYaACZaGDpq8BA3mIWQAsZG3HL/6/How5WO8RlIjAVYg4IUQ3GpxzCYVENx6Rt6qQLDYHwxjQ+g68PqYlINx6YeZ3KDK6B2OqYUDINUMXINBgA0vB4bwuuMmwAAAABJRU5ErkJggg=="/>
-            </symbol>
-            <symbol type="2" id="201" code="416.0" name="Beståndsgräns">
-                <line_symbol color="-1" line_width="0" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="450" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
-                    <mid_symbol>
-                        <symbol type="1" code="">
-                            <point_symbol rotatable="true" inner_radius="110" inner_color="39" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                </line_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAR0lEQVQ4je2QMQ4AIBDCwPj/L5+TztTodp1JQ+qqKgXYliSFc41odcFMh+nTzbfHsdj26fxUTOnGXEzpxlxM6cZcTOnGXExZ8NEWQYMZC+EAAAAASUVORK5CYII="/>
-            </symbol>
-            <symbol type="2" id="202" code="503.0" name="Väg">
-                <line_symbol color="38" line_width="350" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAANElEQVQ4je3UwQkAMBACwb2Q/ls2VXgQWAuYh6CTJBRyGqiw8DI8gAMB4Jau4sMqhIUX4Qf+hQglguD36AAAAABJRU5ErkJggg=="/>
-            </symbol>
-            <symbol type="4" id="203" code="521.0" name="Byggnad">
-                <area_symbol inner_color="39" min_area="0" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAO0lEQVQ4jWP8////fwYaACZaGDpqMH0MZkEXYGRkJMsg9MQ19IJi1OBRg+loMEbOo1bxPPSCYtRgOAAACl8KKXVlOGoAAAAASUVORK5CYII="/>
-            </symbol>
-            <symbol type="2" id="204" code="1" name="Spår">
-                <line_symbol color="46" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-            </symbol>
-            <symbol type="2" id="205" code="2" name="Linje">
-                <line_symbol color="47" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-            </symbol>
-            <symbol type="1" id="206" code="1" name="Punkt">
-                <point_symbol inner_radius="500" inner_color="47" outer_width="0" outer_color="-1" elements="0"/>
-            </symbol>
-            <symbol type="1" id="207" code="3" name="Waypoint">
-                <point_symbol inner_radius="500" inner_color="46" outer_width="0" outer_color="-1" elements="0"/>
-            </symbol>
-            <symbol type="2" id="208" code="2" name="Rutt">
-                <line_symbol color="46" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
         </symbols>
         <parts count="1" current="0">
@@ -9505,7 +9477,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="2">
                             <coord x="74219" y="-83231"/>
                             <coord x="87020" y="-82944" flags="16"/>
@@ -9514,7 +9486,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="2">
                             <coord x="74732" y="-81648"/>
                             <coord x="74224" y="-83214" flags="16"/>
@@ -9523,7 +9495,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="9">
                             <coord x="79244" y="-77369"/>
                             <coord x="76695" y="-74372" flags="32"/>
@@ -9606,7 +9578,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="26">
                             <coord x="81058" y="-78554" flags="33"/>
                             <coord x="81367" y="-79027"/>
@@ -9639,7 +9611,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="5">
                             <coord x="81051" y="-78547" flags="1"/>
                             <coord x="80663" y="-78638"/>
@@ -9801,7 +9773,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="5">
                             <coord x="96550" y="-50332" flags="32"/>
                             <coord x="98117" y="-47442" flags="32"/>
@@ -10513,7 +10485,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="14">
                             <coord x="97102" y="-45129" flags="32"/>
                             <coord x="101312" y="-47310"/>
@@ -10662,7 +10634,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="17">
                             <coord x="102031" y="-25034"/>
                             <coord x="101175" y="-29106"/>
@@ -10695,7 +10667,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="11">
                             <coord x="94919" y="-50281"/>
                             <coord x="94270" y="-55022" flags="32"/>
@@ -18190,7 +18162,7 @@
                         <tags>
                             <t k="Layer">cont</t>
                         </tags>
-                        <coords count="865">
+                        <coords count="634">
                             <coord x="41600" y="-34600" flags="1"/>
                             <coord x="41871" y="-35240"/>
                             <coord x="41863" y="-35412"/>
@@ -18511,18 +18483,18 @@
                             <coord x="95239" y="-101501"/>
                             <coord x="95239" y="-101693" flags="1"/>
                             <coord x="95326" y="-102589"/>
-                            <coord x="95693" y="-102634"/>
-                            <coord x="95736" y="-103196" flags="1"/>
-                            <coord x="95751" y="-103365"/>
+                            <coord x="95556" y="-102906"/>
+                            <coord x="95722" y="-103308" flags="1"/>
+                            <coord x="95787" y="-103465"/>
                             <coord x="96319" y="-104343"/>
                             <coord x="96537" y="-104473" flags="1"/>
                             <coord x="96644" y="-104537"/>
                             <coord x="96929" y="-104533"/>
                             <coord x="97060" y="-104424" flags="1"/>
                             <coord x="97273" y="-104247"/>
-                            <coord x="97135" y="-104049"/>
-                            <coord x="97621" y="-103977" flags="1"/>
-                            <coord x="97635" y="-103975"/>
+                            <coord x="97390" y="-104103"/>
+                            <coord x="97811" y="-103850" flags="1"/>
+                            <coord x="98158" y="-103642"/>
                             <coord x="98346" y="-103774"/>
                             <coord x="98741" y="-103684" flags="1"/>
                             <coord x="98951" y="-103636"/>
@@ -18535,526 +18507,295 @@
                             <coord x="101368" y="-102183"/>
                             <coord x="100733" y="-103089" flags="1"/>
                             <coord x="100405" y="-103555"/>
-                            <coord x="100539" y="-104024"/>
-                            <coord x="100467" y="-104228" flags="1"/>
-                            <coord x="100343" y="-104580"/>
-                            <coord x="100211" y="-104852"/>
-                            <coord x="100245" y="-105073" flags="1"/>
-                            <coord x="100344" y="-105715"/>
-                            <coord x="101002" y="-105897"/>
-                            <coord x="100733" y="-106125" flags="1"/>
-                            <coord x="100732" y="-106126"/>
-                            <coord x="100541" y="-106189"/>
-                            <coord x="100587" y="-106212" flags="1"/>
-                            <coord x="100791" y="-106319"/>
-                            <coord x="100749" y="-106075"/>
+                            <coord x="100522" y="-103971"/>
+                            <coord x="100450" y="-104175" flags="1"/>
+                            <coord x="100326" y="-104527"/>
+                            <coord x="100167" y="-104831"/>
+                            <coord x="100209" y="-105051" flags="1"/>
+                            <coord x="100308" y="-105564"/>
+                            <coord x="100575" y="-105551"/>
+                            <coord x="100676" y="-106034" flags="1"/>
+                            <coord x="100685" y="-106076"/>
+                            <coord x="100671" y="-106280"/>
                             <coord x="100749" y="-106583" flags="1"/>
-                            <coord x="100749" y="-106902"/>
-                            <coord x="100901" y="-106865"/>
-                            <coord x="100907" y="-106959" flags="1"/>
-                            <coord x="100937" y="-107376"/>
-                            <coord x="100998" y="-107234"/>
-                            <coord x="101009" y="-107256" flags="1"/>
-                            <coord x="101010" y="-107258"/>
-                            <coord x="100986" y="-107411"/>
-                            <coord x="100987" y="-107412" flags="1"/>
-                            <coord x="101112" y="-107671"/>
-                            <coord x="101199" y="-107592"/>
-                            <coord x="101427" y="-107773" flags="1"/>
-                            <coord x="101607" y="-107922"/>
-                            <coord x="101683" y="-108291"/>
-                            <coord x="101691" y="-108308" flags="1"/>
-                            <coord x="101695" y="-108319"/>
-                            <coord x="102519" y="-109067"/>
-                            <coord x="102527" y="-109072" flags="1"/>
-                            <coord x="102997" y="-109307"/>
-                            <coord x="102385" y="-108757"/>
-                            <coord x="103412" y="-109653" flags="1"/>
-                            <coord x="103420" y="-109659"/>
-                            <coord x="103336" y="-109828"/>
-                            <coord x="103328" y="-109871" flags="1"/>
-                            <coord x="103236" y="-110306"/>
-                            <coord x="103483" y="-110133"/>
-                            <coord x="103547" y="-110185" flags="1"/>
-                            <coord x="103667" y="-110284"/>
-                            <coord x="103589" y="-110873"/>
-                            <coord x="103612" y="-110920" flags="1"/>
-                            <coord x="103647" y="-110983"/>
-                            <coord x="103792" y="-110892"/>
-                            <coord x="103841" y="-110957" flags="1"/>
-                            <coord x="103923" y="-111080"/>
-                            <coord x="104139" y="-112385"/>
-                            <coord x="104143" y="-112389" flags="1"/>
-                            <coord x="104185" y="-112433"/>
-                            <coord x="104246" y="-112335"/>
-                            <coord x="104297" y="-112368" flags="1"/>
-                            <coord x="104300" y="-112370"/>
-                            <coord x="104421" y="-112644"/>
-                            <coord x="104421" y="-112644" flags="1"/>
-                            <coord x="105193" y="-113322"/>
-                            <coord x="104902" y="-112848"/>
+                            <coord x="100800" y="-106779"/>
+                            <coord x="100820" y="-106940"/>
+                            <coord x="100842" y="-107032" flags="1"/>
+                            <coord x="100915" y="-107331"/>
+                            <coord x="101086" y="-107613"/>
+                            <coord x="101371" y="-107797" flags="1"/>
+                            <coord x="101598" y="-107943"/>
+                            <coord x="101593" y="-108059"/>
+                            <coord x="101693" y="-108260" flags="1"/>
+                            <coord x="101760" y="-108393"/>
+                            <coord x="101888" y="-108565"/>
+                            <coord x="102202" y="-108818" flags="1"/>
+                            <coord x="102611" y="-109147"/>
+                            <coord x="102899" y="-109220"/>
+                            <coord x="103071" y="-109362" flags="1"/>
+                            <coord x="103251" y="-109511"/>
+                            <coord x="103368" y="-109939"/>
+                            <coord x="103439" y="-110129" flags="1"/>
+                            <coord x="103508" y="-110313"/>
+                            <coord x="103585" y="-110813"/>
+                            <coord x="103766" y="-111024" flags="1"/>
+                            <coord x="104059" y="-111365"/>
+                            <coord x="104052" y="-112146"/>
+                            <coord x="104151" y="-112306" flags="1"/>
+                            <coord x="104288" y="-112527"/>
+                            <coord x="104879" y="-112978"/>
+                            <coord x="104572" y="-112739" flags="1"/>
+                            <coord x="104435" y="-112633"/>
+                            <coord x="104913" y="-112938"/>
                             <coord x="104792" y="-113473" flags="1"/>
-                            <coord x="104772" y="-113590"/>
-                            <coord x="104915" y="-113509"/>
-                            <coord x="104911" y="-113755" flags="1"/>
-                            <coord x="104906" y="-113954"/>
-                            <coord x="105053" y="-114124"/>
-                            <coord x="105188" y="-114144" flags="1"/>
-                            <coord x="105514" y="-114193"/>
-                            <coord x="105287" y="-114453"/>
-                            <coord x="105717" y="-114815" flags="1"/>
-                            <coord x="105735" y="-114833"/>
-                            <coord x="106613" y="-115079"/>
-                            <coord x="106636" y="-115096" flags="1"/>
-                            <coord x="106791" y="-115209"/>
-                            <coord x="106613" y="-115222"/>
-                            <coord x="106679" y="-115320" flags="1"/>
-                            <coord x="106706" y="-115359"/>
-                            <coord x="106770" y="-115296"/>
-                            <coord x="106800" y="-115333" flags="1"/>
-                            <coord x="106920" y="-115478"/>
-                            <coord x="106575" y="-115702"/>
-                            <coord x="106533" y="-115865" flags="1"/>
-                            <coord x="106459" y="-116157"/>
-                            <coord x="106735" y="-115851"/>
-                            <coord x="106600" y="-116133" flags="1"/>
-                            <coord x="106239" y="-116901"/>
-                            <coord x="106154" y="-118100"/>
-                            <coord x="106533" y="-118133" flags="1"/>
-                            <coord x="106678" y="-118144"/>
-                            <coord x="107242" y="-118001"/>
-                            <coord x="107333" y="-117933" flags="1"/>
-                            <coord x="107657" y="-117693"/>
-                            <coord x="107992" y="-116347"/>
-                            <coord x="108387" y="-116545" flags="1"/>
-                            <coord x="108430" y="-116567"/>
-                            <coord x="108364" y="-116635"/>
-                            <coord x="108400" y="-116667" flags="1"/>
-                            <coord x="108438" y="-116700"/>
-                            <coord x="108493" y="-116633"/>
-                            <coord x="108529" y="-116669" flags="1"/>
-                            <coord x="108565" y="-116705"/>
-                            <coord x="108496" y="-116765"/>
-                            <coord x="108533" y="-116800" flags="1"/>
-                            <coord x="108571" y="-116836"/>
-                            <coord x="108630" y="-116763"/>
-                            <coord x="108667" y="-116800" flags="1"/>
-                            <coord x="108683" y="-116816"/>
-                            <coord x="108651" y="-117450"/>
-                            <coord x="108667" y="-117467" flags="1"/>
-                            <coord x="108701" y="-117504"/>
-                            <coord x="108773" y="-117426"/>
-                            <coord x="108795" y="-117471" flags="1"/>
-                            <coord x="108835" y="-117552"/>
-                            <coord x="108631" y="-117653"/>
-                            <coord x="108669" y="-117729" flags="1"/>
-                            <coord x="108692" y="-117775"/>
-                            <coord x="108778" y="-117687"/>
+                            <coord x="104766" y="-113589"/>
+                            <coord x="104847" y="-113784"/>
+                            <coord x="104989" y="-113985" flags="1"/>
+                            <coord x="105148" y="-114211"/>
+                            <coord x="105394" y="-114583"/>
+                            <coord x="105628" y="-114726" flags="1"/>
+                            <coord x="105776" y="-114817"/>
+                            <coord x="106248" y="-114916"/>
+                            <coord x="106483" y="-115180" flags="1"/>
+                            <coord x="106738" y="-115466"/>
+                            <coord x="106680" y="-115685"/>
+                            <coord x="106634" y="-115865" flags="1"/>
+                            <coord x="106560" y="-116157"/>
+                            <coord x="106478" y="-116499"/>
+                            <coord x="106348" y="-116783" flags="1"/>
+                            <coord x="106222" y="-117058"/>
+                            <coord x="106158" y="-117757"/>
+                            <coord x="106394" y="-117963" flags="1"/>
+                            <coord x="106560" y="-118108"/>
+                            <coord x="106895" y="-118134"/>
+                            <coord x="107088" y="-118064" flags="1"/>
+                            <coord x="107281" y="-117994"/>
+                            <coord x="107378" y="-117860"/>
+                            <coord x="107412" y="-117814" flags="1"/>
+                            <coord x="107641" y="-117506"/>
+                            <coord x="107763" y="-117136"/>
+                            <coord x="107960" y="-116858" flags="1"/>
+                            <coord x="108082" y="-116686"/>
+                            <coord x="108270" y="-116643"/>
+                            <coord x="108432" y="-116812" flags="1"/>
+                            <coord x="108688" y="-117079"/>
+                            <coord x="108623" y="-117497"/>
                             <coord x="108800" y="-117733" flags="1"/>
-                            <coord x="108839" y="-117817"/>
-                            <coord x="108625" y="-117918"/>
-                            <coord x="108687" y="-117979" flags="1"/>
-                            <coord x="108691" y="-117983"/>
-                            <coord x="109063" y="-117760"/>
-                            <coord x="109304" y="-118028" flags="1"/>
-                            <coord x="109317" y="-118042"/>
-                            <coord x="109328" y="-118217"/>
+                            <coord x="108978" y="-117971"/>
+                            <coord x="109235" y="-118038"/>
                             <coord x="109356" y="-118243" flags="1"/>
-                            <coord x="109531" y="-118407"/>
-                            <coord x="109331" y="-118390"/>
-                            <coord x="109376" y="-118489" flags="1"/>
-                            <coord x="109420" y="-118585"/>
-                            <coord x="109594" y="-118481"/>
-                            <coord x="109632" y="-118633" flags="1"/>
-                            <coord x="109829" y="-119388"/>
-                            <coord x="109694" y="-119149"/>
+                            <coord x="109522" y="-118524"/>
+                            <coord x="109751" y="-119283"/>
                             <coord x="109729" y="-119736" flags="1"/>
-                            <coord x="109741" y="-119913"/>
-                            <coord x="110040" y="-120194"/>
-                            <coord x="110095" y="-120304" flags="1"/>
-                            <coord x="110191" y="-120523"/>
-                            <coord x="110192" y="-120320"/>
-                            <coord x="110139" y="-120660" flags="1"/>
-                            <coord x="110138" y="-120664"/>
-                            <coord x="110234" y="-121011"/>
-                            <coord x="110271" y="-121061" flags="1"/>
-                            <coord x="110548" y="-121423"/>
-                            <coord x="110442" y="-121883"/>
-                            <coord x="110635" y="-122031" flags="1"/>
-                            <coord x="110833" y="-122183"/>
-                            <coord x="110787" y="-122741"/>
+                            <coord x="109720" y="-119913"/>
+                            <coord x="110004" y="-120340"/>
+                            <coord x="110113" y="-120551" flags="1"/>
+                            <coord x="110359" y="-121027"/>
+                            <coord x="110348" y="-121377"/>
+                            <coord x="110540" y="-121999" flags="1"/>
+                            <coord x="110604" y="-122207"/>
+                            <coord x="110734" y="-122489"/>
                             <coord x="110787" y="-122812" flags="1"/>
-                            <coord x="110787" y="-122819"/>
-                            <coord x="110935" y="-123454"/>
-                            <coord x="110941" y="-123457" flags="1"/>
-                            <coord x="111062" y="-123517"/>
-                            <coord x="111184" y="-123114"/>
-                            <coord x="111067" y="-123600" flags="1"/>
-                            <coord x="111008" y="-123825"/>
-                            <coord x="111159" y="-123692"/>
-                            <coord x="111200" y="-123733" flags="1"/>
-                            <coord x="111292" y="-123825"/>
-                            <coord x="110907" y="-124374"/>
-                            <coord x="111733" y="-124067" flags="1"/>
-                            <coord x="111851" y="-124023"/>
-                            <coord x="112111" y="-124547"/>
-                            <coord x="112115" y="-124551" flags="1"/>
-                            <coord x="112150" y="-124588"/>
-                            <coord x="112205" y="-124522"/>
-                            <coord x="112245" y="-124553" flags="1"/>
-                            <coord x="112370" y="-124650"/>
-                            <coord x="112270" y="-124924"/>
-                            <coord x="112272" y="-124927" flags="1"/>
-                            <coord x="112295" y="-124972"/>
-                            <coord x="112366" y="-124896"/>
-                            <coord x="112400" y="-124933" flags="1"/>
-                            <coord x="112441" y="-124979"/>
-                            <coord x="112364" y="-125134"/>
-                            <coord x="112408" y="-125191" flags="1"/>
-                            <coord x="112512" y="-125327"/>
-                            <coord x="112435" y="-125427"/>
-                            <coord x="112436" y="-125429" flags="1"/>
-                            <coord x="112562" y="-125633"/>
-                            <coord x="112911" y="-125224"/>
-                            <coord x="113176" y="-125489" flags="1"/>
-                            <coord x="113191" y="-125504"/>
-                            <coord x="113440" y="-125750"/>
-                            <coord x="113443" y="-125756" flags="1"/>
-                            <coord x="113477" y="-125823"/>
-                            <coord x="113315" y="-125926"/>
-                            <coord x="113345" y="-125987" flags="1"/>
-                            <coord x="113367" y="-126030"/>
-                            <coord x="113436" y="-125963"/>
-                            <coord x="113467" y="-126000" flags="1"/>
-                            <coord x="113534" y="-126081"/>
-                            <coord x="113400" y="-126226"/>
+                            <coord x="110877" y="-123361"/>
+                            <coord x="110956" y="-123573"/>
+                            <coord x="111054" y="-123714" flags="1"/>
+                            <coord x="111187" y="-123905"/>
+                            <coord x="111381" y="-124048"/>
+                            <coord x="111525" y="-124109" flags="1"/>
+                            <coord x="111743" y="-124201"/>
+                            <coord x="111928" y="-124204"/>
+                            <coord x="112171" y="-124666" flags="1"/>
+                            <coord x="112289" y="-124890"/>
+                            <coord x="112410" y="-125162"/>
+                            <coord x="112761" y="-125385" flags="1"/>
+                            <coord x="113040" y="-125562"/>
+                            <coord x="113231" y="-125548"/>
+                            <coord x="113332" y="-125847" flags="1"/>
+                            <coord x="113459" y="-126223"/>
+                            <coord x="113488" y="-126370"/>
                             <coord x="113489" y="-126376" flags="1"/>
-                            <coord x="113679" y="-126706"/>
-                            <coord x="113396" y="-126829"/>
-                            <coord x="113473" y="-126925" flags="1"/>
-                            <coord x="113477" y="-126930"/>
-                            <coord x="113626" y="-127169"/>
-                            <coord x="113628" y="-127171" flags="1"/>
-                            <coord x="113735" y="-127317"/>
-                            <coord x="113874" y="-127099"/>
-                            <coord x="113800" y="-127333" flags="1"/>
-                            <coord x="113762" y="-127456"/>
-                            <coord x="114183" y="-127612"/>
-                            <coord x="114251" y="-127748" flags="1"/>
-                            <coord x="114258" y="-127761"/>
-                            <coord x="114398" y="-128662"/>
-                            <coord x="114400" y="-128665" flags="1"/>
-                            <coord x="114401" y="-128666"/>
-                            <coord x="114511" y="-128696"/>
-                            <coord x="114517" y="-128815" flags="1"/>
-                            <coord x="114537" y="-129074"/>
-                            <coord x="114685" y="-128997"/>
-                            <coord x="114924" y="-129475" flags="1"/>
-                            <coord x="114926" y="-129479"/>
-                            <coord x="114824" y="-129967"/>
-                            <coord x="114828" y="-129971" flags="1"/>
-                            <coord x="114894" y="-130037"/>
-                            <coord x="114959" y="-129837"/>
-                            <coord x="115061" y="-129871" flags="1"/>
-                            <coord x="115103" y="-129886"/>
-                            <coord x="115048" y="-129954"/>
-                            <coord x="115081" y="-129984" flags="1"/>
-                            <coord x="115165" y="-130064"/>
-                            <coord x="115283" y="-129965"/>
-                            <coord x="115325" y="-130007" flags="1"/>
-                            <coord x="115360" y="-130042"/>
-                            <coord x="115299" y="-130097"/>
-                            <coord x="115333" y="-130133" flags="1"/>
-                            <coord x="115381" y="-130184"/>
-                            <coord x="115510" y="-130107"/>
-                            <coord x="115567" y="-130165" flags="1"/>
-                            <coord x="115897" y="-130515"/>
-                            <coord x="115873" y="-130651"/>
+                            <coord x="113545" y="-126589"/>
+                            <coord x="113479" y="-126935"/>
+                            <coord x="113684" y="-127171" flags="1"/>
+                            <coord x="113831" y="-127341"/>
+                            <coord x="114039" y="-127625"/>
+                            <coord x="114070" y="-127687" flags="1"/>
+                            <coord x="114194" y="-127932"/>
+                            <coord x="114279" y="-128227"/>
+                            <coord x="114366" y="-128452" flags="1"/>
+                            <coord x="114457" y="-128687"/>
+                            <coord x="114523" y="-128955"/>
+                            <coord x="114604" y="-129108" flags="1"/>
+                            <coord x="114741" y="-129366"/>
+                            <coord x="114824" y="-129627"/>
+                            <coord x="115039" y="-129877" flags="1"/>
+                            <coord x="115144" y="-129999"/>
+                            <coord x="115249" y="-130065"/>
+                            <coord x="115345" y="-130159" flags="1"/>
+                            <coord x="115540" y="-130350"/>
+                            <coord x="115723" y="-130457"/>
                             <coord x="115877" y="-130655" flags="1"/>
-                            <coord x="115878" y="-130657"/>
-                            <coord x="116248" y="-131169"/>
-                            <coord x="116253" y="-131212" flags="1"/>
-                            <coord x="116284" y="-131472"/>
-                            <coord x="116531" y="-131464"/>
-                            <coord x="116533" y="-131467" flags="1"/>
-                            <coord x="116667" y="-131625"/>
-                            <coord x="116917" y="-132094"/>
-                            <coord x="116944" y="-132121" flags="1"/>
-                            <coord x="117269" y="-132399"/>
-                            <coord x="117375" y="-132125"/>
-                            <coord x="117433" y="-132165" flags="1"/>
-                            <coord x="117434" y="-132166"/>
-                            <coord x="117707" y="-132554"/>
+                            <coord x="115992" y="-130803"/>
+                            <coord x="116162" y="-131141"/>
+                            <coord x="116296" y="-131343" flags="1"/>
+                            <coord x="116476" y="-131614"/>
+                            <coord x="116832" y="-131947"/>
+                            <coord x="116955" y="-132073" flags="1"/>
+                            <coord x="117167" y="-132291"/>
+                            <coord x="117653" y="-132500"/>
                             <coord x="117709" y="-132556" flags="1"/>
                             <coord x="117750" y="-132597"/>
-                            <coord x="117960" y="-132714"/>
-                            <coord x="118087" y="-132845" flags="1"/>
-                            <coord x="118299" y="-133057"/>
-                            <coord x="118302" y="-133159"/>
-                            <coord x="118303" y="-133163" flags="1"/>
-                            <coord x="118304" y="-133167"/>
-                            <coord x="118620" y="-133376"/>
-                            <coord x="118621" y="-133377" flags="1"/>
-                            <coord x="118635" y="-133401"/>
-                            <coord x="118613" y="-133581"/>
-                            <coord x="118649" y="-133616" flags="1"/>
-                            <coord x="118754" y="-133721"/>
-                            <coord x="119122" y="-133881"/>
-                            <coord x="119165" y="-134033" flags="1"/>
-                            <coord x="119359" y="-134674"/>
-                            <coord x="119695" y="-134446"/>
-                            <coord x="119752" y="-134513" flags="1"/>
-                            <coord x="119796" y="-134564"/>
-                            <coord x="119681" y="-134738"/>
-                            <coord x="119759" y="-134773" flags="1"/>
-                            <coord x="119968" y="-134873"/>
-                            <coord x="119790" y="-134467"/>
-                            <coord x="119975" y="-134557" flags="1"/>
-                            <coord x="119977" y="-134558"/>
-                            <coord x="120266" y="-134794"/>
-                            <coord x="120269" y="-134796" flags="1"/>
-                            <coord x="120516" y="-134961"/>
-                            <coord x="120351" y="-134511"/>
-                            <coord x="121029" y="-135503" flags="1"/>
-                            <coord x="121073" y="-135612"/>
-                            <coord x="120988" y="-135687"/>
-                            <coord x="121180" y="-135885" flags="1"/>
-                            <coord x="121181" y="-135886"/>
-                            <coord x="121318" y="-136012"/>
-                            <coord x="121319" y="-136013" flags="1"/>
-                            <coord x="121476" y="-136176"/>
-                            <coord x="121871" y="-136781"/>
-                            <coord x="121876" y="-136789" flags="1"/>
-                            <coord x="122009" y="-137055"/>
-                            <coord x="122357" y="-136888"/>
-                            <coord x="122200" y="-137241" flags="1"/>
-                            <coord x="122082" y="-137513"/>
-                            <coord x="122181" y="-137394"/>
-                            <coord x="122227" y="-137505" flags="1"/>
-                            <coord x="122562" y="-138393"/>
-                            <coord x="122338" y="-138270"/>
-                            <coord x="122363" y="-138436" flags="1"/>
-                            <coord x="122367" y="-138466"/>
-                            <coord x="122510" y="-138553"/>
-                            <coord x="122511" y="-138555" flags="1"/>
-                            <coord x="122780" y="-138911"/>
-                            <coord x="122618" y="-139281"/>
-                            <coord x="122667" y="-139333" flags="1"/>
-                            <coord x="122700" y="-139369"/>
-                            <coord x="122768" y="-139296"/>
-                            <coord x="122793" y="-139339" flags="1"/>
-                            <coord x="122807" y="-139363"/>
-                            <coord x="122751" y="-139531"/>
+                            <coord x="117903" y="-132760"/>
+                            <coord x="118032" y="-132889" flags="1"/>
+                            <coord x="118208" y="-133065"/>
+                            <coord x="118282" y="-133171"/>
+                            <coord x="118641" y="-133548" flags="1"/>
+                            <coord x="118744" y="-133656"/>
+                            <coord x="118945" y="-133912"/>
+                            <coord x="119049" y="-134031" flags="1"/>
+                            <coord x="119356" y="-134381"/>
+                            <coord x="119628" y="-134552"/>
+                            <coord x="119853" y="-134632" flags="1"/>
+                            <coord x="120329" y="-134801"/>
+                            <coord x="120408" y="-134878"/>
+                            <coord x="120845" y="-135379" flags="1"/>
+                            <coord x="120922" y="-135468"/>
+                            <coord x="120984" y="-135637"/>
+                            <coord x="121226" y="-136009" flags="1"/>
+                            <coord x="121349" y="-136199"/>
+                            <coord x="121504" y="-136372"/>
+                            <coord x="121768" y="-136704" flags="1"/>
+                            <coord x="121953" y="-136937"/>
+                            <coord x="122135" y="-137096"/>
+                            <coord x="122188" y="-137326" flags="1"/>
+                            <coord x="122284" y="-137744"/>
+                            <coord x="122538" y="-138752"/>
+                            <coord x="122542" y="-138767" flags="1"/>
+                            <coord x="122606" y="-139032"/>
+                            <coord x="122680" y="-139437"/>
                             <coord x="122767" y="-139632" flags="1"/>
-                            <coord x="122768" y="-139641"/>
-                            <coord x="123200" y="-140395"/>
-                            <coord x="123200" y="-140400" flags="1"/>
-                            <coord x="123200" y="-140914"/>
-                            <coord x="123859" y="-141693"/>
+                            <coord x="122876" y="-139876"/>
+                            <coord x="123030" y="-140094"/>
+                            <coord x="123173" y="-140497" flags="1"/>
+                            <coord x="123345" y="-140981"/>
+                            <coord x="123720" y="-141524"/>
                             <coord x="123863" y="-141736" flags="1"/>
-                            <coord x="123874" y="-141879"/>
-                            <coord x="124509" y="-142147"/>
+                            <coord x="123943" y="-141855"/>
+                            <coord x="124270" y="-142054"/>
                             <coord x="124517" y="-142148" flags="1"/>
-                            <coord x="124890" y="-142216"/>
-                            <coord x="126072" y="-142654"/>
+                            <coord x="124720" y="-142225"/>
+                            <coord x="125160" y="-142327"/>
+                            <coord x="125426" y="-142631" flags="1"/>
+                            <coord x="125623" y="-142856"/>
+                            <coord x="125731" y="-143172"/>
                             <coord x="125595" y="-143604" flags="1"/>
-                            <coord x="125329" y="-144131"/>
-                            <coord x="125701" y="-143703"/>
-                            <coord x="125867" y="-143733" flags="1"/>
-                            <coord x="125875" y="-143735"/>
-                            <coord x="126562" y="-144093"/>
-                            <coord x="126567" y="-144099" flags="1"/>
-                            <coord x="126932" y="-144707"/>
-                            <coord x="127931" y="-145246"/>
-                            <coord x="128003" y="-145329" flags="1"/>
-                            <coord x="128005" y="-145332"/>
+                            <coord x="125545" y="-143763"/>
+                            <coord x="125735" y="-143885"/>
+                            <coord x="125902" y="-143910" flags="1"/>
+                            <coord x="126153" y="-143947"/>
+                            <coord x="126261" y="-143989"/>
+                            <coord x="126553" y="-144156" flags="1"/>
+                            <coord x="126813" y="-144305"/>
+                            <coord x="127135" y="-144704"/>
+                            <coord x="127468" y="-144946" flags="1"/>
+                            <coord x="127810" y="-145195"/>
                             <coord x="128086" y="-145500"/>
-                            <coord x="128232" y="-145633" flags="1"/>
-                            <coord x="128235" y="-145635"/>
-                            <coord x="128298" y="-145964"/>
                             <coord x="128299" y="-145967" flags="1"/>
-                            <coord x="128382" y="-146340"/>
-                            <coord x="128503" y="-146000"/>
-                            <coord x="128547" y="-146252" flags="1"/>
-                            <coord x="128547" y="-146254"/>
-                            <coord x="128574" y="-146620"/>
-                            <coord x="128576" y="-146623" flags="1"/>
-                            <coord x="128596" y="-146655"/>
-                            <coord x="128739" y="-146647"/>
-                            <coord x="128771" y="-146695" flags="1"/>
-                            <coord x="128815" y="-146759"/>
-                            <coord x="128746" y="-146830"/>
+                            <coord x="128392" y="-146217"/>
+                            <coord x="128461" y="-146338"/>
+                            <coord x="128632" y="-146620" flags="1"/>
+                            <coord x="128735" y="-146790"/>
+                            <coord x="128817" y="-146909"/>
                             <coord x="128820" y="-146912" flags="1"/>
-                            <coord x="129394" y="-147486"/>
-                            <coord x="129462" y="-147999"/>
-                            <coord x="129688" y="-148177" flags="1"/>
-                            <coord x="129780" y="-148253"/>
-                            <coord x="129885" y="-148642"/>
-                            <coord x="129885" y="-148647" flags="1"/>
-                            <coord x="129892" y="-149053"/>
-                            <coord x="130022" y="-149860"/>
-                            <coord x="130307" y="-150359" flags="1"/>
-                            <coord x="130309" y="-150363"/>
-                            <coord x="130641" y="-150668"/>
-                            <coord x="130649" y="-150683" flags="1"/>
-                            <coord x="130663" y="-150710"/>
-                            <coord x="130637" y="-150908"/>
-                            <coord x="130663" y="-150936" flags="1"/>
-                            <coord x="130695" y="-150970"/>
-                            <coord x="130761" y="-150907"/>
-                            <coord x="130783" y="-150949" flags="1"/>
-                            <coord x="130800" y="-150980"/>
-                            <coord x="130611" y="-151193"/>
-                            <coord x="130800" y="-151133" flags="1"/>
-                            <coord x="131062" y="-151051"/>
-                            <coord x="130949" y="-151522"/>
-                            <coord x="131333" y="-151400" flags="1"/>
-                            <coord x="131591" y="-151320"/>
-                            <coord x="131399" y="-151518"/>
-                            <coord x="131473" y="-151592" flags="1"/>
-                            <coord x="131508" y="-151627"/>
-                            <coord x="131581" y="-151554"/>
-                            <coord x="131600" y="-151600" flags="1"/>
-                            <coord x="131620" y="-151647"/>
-                            <coord x="131460" y="-151792"/>
-                            <coord x="131500" y="-151832" flags="1"/>
-                            <coord x="131560" y="-151892"/>
-                            <coord x="131629" y="-151731"/>
-                            <coord x="131703" y="-151763" flags="1"/>
-                            <coord x="131724" y="-151772"/>
-                            <coord x="131973" y="-151889"/>
-                            <coord x="131975" y="-151891" flags="1"/>
-                            <coord x="132084" y="-152007"/>
-                            <coord x="131865" y="-152201"/>
-                            <coord x="131887" y="-152245" flags="1"/>
-                            <coord x="131907" y="-152285"/>
-                            <coord x="131987" y="-152224"/>
-                            <coord x="132000" y="-152267" flags="1"/>
-                            <coord x="132035" y="-152385"/>
-                            <coord x="131715" y="-152465"/>
-                            <coord x="132008" y="-152524" flags="1"/>
-                            <coord x="132276" y="-152579"/>
-                            <coord x="132530" y="-153201"/>
-                            <coord x="132531" y="-153201" flags="1"/>
-                            <coord x="132573" y="-153233"/>
-                            <coord x="132632" y="-153160"/>
-                            <coord x="132667" y="-153200" flags="1"/>
-                            <coord x="132733" y="-153274"/>
-                            <coord x="132514" y="-153915"/>
+                            <coord x="129105" y="-147197"/>
+                            <coord x="129564" y="-148086"/>
+                            <coord x="129716" y="-148445" flags="1"/>
+                            <coord x="129874" y="-148817"/>
+                            <coord x="129881" y="-149238"/>
+                            <coord x="129961" y="-149564" flags="1"/>
+                            <coord x="130031" y="-149852"/>
+                            <coord x="130178" y="-150089"/>
+                            <coord x="130321" y="-150318" flags="1"/>
+                            <coord x="130515" y="-150628"/>
+                            <coord x="130656" y="-150863"/>
+                            <coord x="130868" y="-151098" flags="1"/>
+                            <coord x="131064" y="-151315"/>
+                            <coord x="131445" y="-151553"/>
+                            <coord x="131622" y="-151745" flags="1"/>
+                            <coord x="131761" y="-151896"/>
+                            <coord x="132076" y="-152489"/>
+                            <coord x="132081" y="-152497" flags="1"/>
+                            <coord x="132272" y="-152813"/>
+                            <coord x="132625" y="-153509"/>
                             <coord x="132797" y="-153800" flags="1"/>
-                            <coord x="133150" y="-153664"/>
-                            <coord x="133196" y="-154616"/>
-                            <coord x="133224" y="-154641" flags="1"/>
-                            <coord x="133235" y="-154651"/>
-                            <coord x="133428" y="-154689"/>
-                            <coord x="133436" y="-154696" flags="1"/>
-                            <coord x="133485" y="-154738"/>
-                            <coord x="133457" y="-154863"/>
+                            <coord x="133011" y="-154162"/>
+                            <coord x="133172" y="-154438"/>
+                            <coord x="133217" y="-154510" flags="1"/>
+                            <coord x="133294" y="-154633"/>
+                            <coord x="133394" y="-154786"/>
                             <coord x="133497" y="-154901" flags="1"/>
-                            <coord x="133816" y="-155192"/>
-                            <coord x="133721" y="-154965"/>
-                            <coord x="133844" y="-155088" flags="1"/>
-                            <coord x="133908" y="-155152"/>
-                            <coord x="133831" y="-155263"/>
-                            <coord x="133895" y="-155304" flags="1"/>
-                            <coord x="133933" y="-155328"/>
-                            <coord x="134056" y="-155211"/>
-                            <coord x="134089" y="-155243" flags="1"/>
-                            <coord x="134091" y="-155245"/>
-                            <coord x="134155" y="-155576"/>
+                            <coord x="133573" y="-154986"/>
+                            <coord x="133704" y="-155146"/>
+                            <coord x="133800" y="-155231" flags="1"/>
+                            <coord x="133931" y="-155346"/>
+                            <coord x="134083" y="-155489"/>
                             <coord x="134155" y="-155577" flags="1"/>
-                            <coord x="134156" y="-155578"/>
-                            <coord x="134490" y="-155897"/>
-                            <coord x="134496" y="-155903" flags="1"/>
-                            <coord x="134872" y="-156189"/>
-                            <coord x="134554" y="-156381"/>
-                            <coord x="134679" y="-156520" flags="1"/>
-                            <coord x="134741" y="-156588"/>
-                            <coord x="134999" y="-156470"/>
-                            <coord x="135064" y="-156535" flags="1"/>
-                            <coord x="135100" y="-156571"/>
-                            <coord x="135030" y="-156631"/>
-                            <coord x="135067" y="-156667" flags="1"/>
-                            <coord x="135104" y="-156703"/>
-                            <coord x="135161" y="-156632"/>
-                            <coord x="135200" y="-156667" flags="1"/>
-                            <coord x="135316" y="-156764"/>
-                            <coord x="135755" y="-157826"/>
-                            <coord x="135764" y="-157835" flags="1"/>
-                            <coord x="135778" y="-157849"/>
-                            <coord x="135971" y="-157882"/>
-                            <coord x="135977" y="-157888" flags="1"/>
-                            <coord x="136043" y="-157961"/>
-                            <coord x="135970" y="-158094"/>
-                            <coord x="136003" y="-158129" flags="1"/>
-                            <coord x="136005" y="-158131"/>
+                            <coord x="134238" y="-155679"/>
+                            <coord x="134304" y="-155832"/>
+                            <coord x="134375" y="-155911" flags="1"/>
+                            <coord x="134676" y="-156248"/>
+                            <coord x="134769" y="-156387"/>
+                            <coord x="135046" y="-156688" flags="1"/>
+                            <coord x="135233" y="-156891"/>
+                            <coord x="135752" y="-157795"/>
+                            <coord x="135847" y="-157888" flags="1"/>
+                            <coord x="136025" y="-158064"/>
                             <coord x="136238" y="-158265"/>
                             <coord x="136248" y="-158284" flags="1"/>
                             <coord x="136564" y="-158683"/>
-                            <coord x="136661" y="-158928"/>
+                            <coord x="136570" y="-158786"/>
                             <coord x="136667" y="-158933" flags="1"/>
-                            <coord x="136767" y="-159013"/>
-                            <coord x="136638" y="-158791"/>
-                            <coord x="136919" y="-159080" flags="1"/>
-                            <coord x="136934" y="-159096"/>
-                            <coord x="137057" y="-160657"/>
-                            <coord x="137067" y="-160667" flags="1"/>
-                            <coord x="137101" y="-160704"/>
-                            <coord x="137160" y="-160636"/>
-                            <coord x="137195" y="-160671" flags="1"/>
-                            <coord x="137292" y="-160768"/>
-                            <coord x="137063" y="-160754"/>
-                            <coord x="137315" y="-161084" flags="1"/>
-                            <coord x="137340" y="-161118"/>
-                            <coord x="137322" y="-161290"/>
+                            <coord x="136772" y="-159092"/>
+                            <coord x="136901" y="-159354"/>
+                            <coord x="136951" y="-159653" flags="1"/>
+                            <coord x="137007" y="-159983"/>
+                            <coord x="136982" y="-160356"/>
+                            <coord x="137071" y="-160632" flags="1"/>
+                            <coord x="137165" y="-160923"/>
+                            <coord x="137308" y="-161213"/>
                             <coord x="137344" y="-161321" flags="1"/>
-                            <coord x="137626" y="-161731"/>
-                            <coord x="137600" y="-161973"/>
+                            <coord x="137489" y="-161750"/>
+                            <coord x="137535" y="-161978"/>
                             <coord x="137600" y="-162399" flags="1"/>
-                            <coord x="137611" y="-162904"/>
-                            <coord x="138333" y="-162807"/>
-                            <coord x="138385" y="-163080" flags="1"/>
-                            <coord x="138386" y="-163084"/>
-                            <coord x="138400" y="-163295"/>
-                            <coord x="138552" y="-163447" flags="1"/>
-                            <coord x="138553" y="-163448"/>
-                            <coord x="138687" y="-163576"/>
-                            <coord x="138688" y="-163577" flags="1"/>
-                            <coord x="138955" y="-163836"/>
-                            <coord x="139560" y="-163892"/>
-                            <coord x="139568" y="-163897" flags="1"/>
-                            <coord x="139742" y="-164007"/>
-                            <coord x="139909" y="-164743"/>
-                            <coord x="139916" y="-164749" flags="1"/>
-                            <coord x="139986" y="-164815"/>
-                            <coord x="140308" y="-164515"/>
-                            <coord x="140380" y="-164552" flags="1"/>
-                            <coord x="140421" y="-164573"/>
-                            <coord x="140365" y="-164637"/>
-                            <coord x="140400" y="-164667" flags="1"/>
-                            <coord x="140429" y="-164692"/>
-                            <coord x="140592" y="-164657"/>
-                            <coord x="140632" y="-164700" flags="1"/>
-                            <coord x="140893" y="-164970"/>
-                            <coord x="140736" y="-164906"/>
-                            <coord x="140793" y="-164939" flags="1"/>
-                            <coord x="140895" y="-164997"/>
-                            <coord x="141259" y="-164747"/>
-                            <coord x="141564" y="-165101" flags="1"/>
-                            <coord x="141756" y="-165324"/>
-                            <coord x="142023" y="-165755"/>
-                            <coord x="142087" y="-165779" flags="1"/>
-                            <coord x="142091" y="-165781"/>
-                            <coord x="142427" y="-165834"/>
-                            <coord x="142489" y="-165909" flags="1"/>
-                            <coord x="142492" y="-165913"/>
-                            <coord x="142117" y="-166129"/>
-                            <coord x="142067" y="-166172" flags="1"/>
-                            <coord x="141877" y="-166344"/>
-                            <coord x="142110" y="-166453"/>
-                            <coord x="142103" y="-166467" flags="1"/>
-                            <coord x="142070" y="-166535"/>
-                            <coord x="141982" y="-166530"/>
+                            <coord x="137667" y="-162833"/>
+                            <coord x="137924" y="-162798"/>
+                            <coord x="138142" y="-162970" flags="1"/>
+                            <coord x="138273" y="-163073"/>
+                            <coord x="138342" y="-163244"/>
+                            <coord x="138722" y="-163550" flags="1"/>
+                            <coord x="139021" y="-163791"/>
+                            <coord x="139230" y="-163867"/>
+                            <coord x="139446" y="-163976" flags="1"/>
+                            <coord x="139630" y="-164069"/>
+                            <coord x="139762" y="-164485"/>
+                            <coord x="139969" y="-164573" flags="1"/>
+                            <coord x="140065" y="-164614"/>
+                            <coord x="140438" y="-164715"/>
+                            <coord x="140572" y="-164766" flags="1"/>
+                            <coord x="141070" y="-164957"/>
+                            <coord x="141251" y="-165009"/>
+                            <coord x="141498" y="-165232" flags="1"/>
+                            <coord x="141716" y="-165429"/>
+                            <coord x="142045" y="-165807"/>
+                            <coord x="142172" y="-165829" flags="1"/>
+                            <coord x="142444" y="-165877"/>
+                            <coord x="142404" y="-165957"/>
+                            <coord x="142327" y="-166019" flags="1"/>
+                            <coord x="142247" y="-166083"/>
+                            <coord x="142133" y="-166143"/>
+                            <coord x="142108" y="-166172" flags="1"/>
+                            <coord x="142046" y="-166245"/>
+                            <coord x="142000" y="-166727"/>
                             <coord x="142001" y="-166733" flags="16"/>
                         </coords>
                         <pattern rotation="0">
@@ -20646,7 +20387,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="11">
                             <coord x="84873" y="-73107" flags="32"/>
                             <coord x="88967" y="-72881" flags="32"/>
@@ -21607,7 +21348,7 @@
                             <coord x="91287" y="-54125"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="28">
                             <coord x="85379" y="-50763"/>
                             <coord x="84020" y="-52787" flags="32"/>
@@ -21751,7 +21492,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="31">
                             <coord x="71011" y="-17776"/>
                             <coord x="73475" y="-23195"/>
@@ -21789,7 +21530,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="31">
                             <coord x="74699" y="-25208" flags="32"/>
                             <coord x="74358" y="-25625" flags="32"/>
@@ -24435,7 +24176,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="4">
                             <coord x="74492" y="-72815"/>
                             <coord x="75528" y="-74490"/>
@@ -25781,7 +25522,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="31">
                             <coord x="133794" y="-158485"/>
                             <coord x="124108" y="-144655" flags="32"/>
@@ -26217,7 +25958,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="24">
                             <coord x="153610" y="-131778" flags="32"/>
                             <coord x="157485" y="-128558" flags="32"/>
@@ -26387,7 +26128,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="31">
                             <coord x="157509" y="-133887"/>
                             <coord x="156797" y="-134472"/>
@@ -26638,7 +26379,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="6">
                             <coord x="207948" y="-115352"/>
                             <coord x="210418" y="-115328" flags="32"/>
@@ -26934,7 +26675,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="15">
                             <coord x="206765" y="-66960"/>
                             <coord x="206573" y="-65316" flags="1"/>
@@ -27133,7 +26874,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="7">
                             <coord x="148303" y="-148866"/>
                             <coord x="148303" y="-148866"/>
@@ -27247,7 +26988,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="117">
                         <coords count="6">
                             <coord x="145432" y="-141670"/>
                             <coord x="147594" y="-141346"/>
@@ -28467,7 +28208,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="56">
+                    <object type="1" symbol="58">
                         <coords count="65">
                             <coord x="58183" y="-42584" flags="1"/>
                             <coord x="58211" y="-41938"/>
@@ -29224,7 +28965,7 @@
                 <dimensions width="210" height="297"/>
                 <page_rect left="0" top="0" width="210" height="297"/>
             </page_format>
-            <print_area left="40.345" top="-107.621" width="56" height="79.2" single_page="true"/>
+            <print_area left="50.237" top="-134.809" width="56" height="79.2" single_page="true"/>
         </print>
     </barrier>
 </map>
