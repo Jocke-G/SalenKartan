@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://openorienteering.org/apps/mapper/xml/v2" version="9">
+    <notes></notes>
+    <georeferencing scale="15000" auxiliary_scale_factor="1.000369" declination="-0.73">
+        <projected_crs id="EPSG">
+            <spec language="PROJ.4">+init=epsg:3006</spec>
+            <parameter>3006</parameter>
+            <ref_point x="450000" y="6467500"/>
+        </projected_crs>
+        <geographic_crs id="Geographic coordinates">
+            <spec language="PROJ.4">+proj=latlong +datum=WGS84</spec>
+            <ref_point_deg lat="58.34555344" lon="14.14584996"/>
+        </geographic_crs>
+    </georeferencing>
+    <colors count="1">
+        <color priority="0" name="Red" c="0" m="1" y="1" k="0" opacity="0.75">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0" b="0"/>
+        </color>
+    </colors>
+    <barrier version="6" required="0.6.0">
+        <symbols count="2" id="OCD">
+            <symbol type="2" id="0" code="901" name="Traktgräns" is_helper_symbol="true">
+                <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+            </symbol>
+            <symbol type="8" id="1" code="902" name="Traktnamn" is_helper_symbol="true">
+                <text_symbol icon_text="T">
+                    <font family="Arial" size="3528" bold="true"/>
+                    <text color="0" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                    <tabs count="1">
+                        <tab>8000</tab>
+                    </tabs>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAIAAAC1eHXNAAAACXBIWXMAABJ0AAASdAHeZh94AAAAwklEQVRYhe3YsQmFMBSF4ZtHFERwHlewsHIHd3AEtxEsXMFtrCxESV7zmvMgKULAW5y/TEj8ILFQ45wTBX3eBvyiA9PisLHJbZP7zvaoopCuC02ayPti+l7OM5ujrv26hia1nAsdmBZH7J7KvsvzBFfO8/8trio/TcHdrJW2TXJEM8MgxwFDTeOXJW03LedCB0YHRgdGB0YHRgdGB0YHRgdGB0YHRgemxRH9HxTNj6NcFwyVZfJu6d+3edNyLnRgWhxfjSMqBaLoL8kAAAAASUVORK5CYII="/>
+            </symbol>
+        </symbols>
+        <parts count="1" current="0">
+            <part name="förvald del">
+                <objects count="4">
+                    <object type="1" symbol="0">
+                        <coords count="55">
+                            <coord x="46485" y="-70563" flags="32"/>
+                            <coord x="46644" y="-70558" flags="32"/>
+                            <coord x="46529" y="-69355" flags="32"/>
+                            <coord x="46181" y="-67639" flags="32"/>
+                            <coord x="46127" y="-65467" flags="32"/>
+                            <coord x="46122" y="-63220" flags="32"/>
+                            <coord x="45582" y="-61477" flags="32"/>
+                            <coord x="44745" y="-59530" flags="32"/>
+                            <coord x="44304" y="-57857" flags="32"/>
+                            <coord x="44187" y="-56722" flags="32"/>
+                            <coord x="44475" y="-55679" flags="32"/>
+                            <coord x="45039" y="-53202" flags="32"/>
+                            <coord x="45469" y="-51544" flags="32"/>
+                            <coord x="45607" y="-49676" flags="32"/>
+                            <coord x="45438" y="-48382" flags="32"/>
+                            <coord x="45038" y="-46970" flags="32"/>
+                            <coord x="44908" y="-46511" flags="32"/>
+                            <coord x="44636" y="-45741" flags="32"/>
+                            <coord x="43903" y="-44147" flags="32"/>
+                            <coord x="44401" y="-44065" flags="32"/>
+                            <coord x="71935" y="-42280" flags="32"/>
+                            <coord x="72184" y="-43484" flags="32"/>
+                            <coord x="71013" y="-45932" flags="32"/>
+                            <coord x="64885" y="-54438" flags="32"/>
+                            <coord x="63935" y="-55557" flags="32"/>
+                            <coord x="65901" y="-66328" flags="32"/>
+                            <coord x="66404" y="-68527" flags="32"/>
+                            <coord x="70179" y="-73435" flags="32"/>
+                            <coord x="72377" y="-72833" flags="32"/>
+                            <coord x="72607" y="-76755" flags="32"/>
+                            <coord x="74764" y="-81664" flags="32"/>
+                            <coord x="74244" y="-83234" flags="32"/>
+                            <coord x="74012" y="-83848" flags="32"/>
+                            <coord x="78470" y="-90732" flags="32"/>
+                            <coord x="84519" y="-91469" flags="32"/>
+                            <coord x="87100" y="-92641" flags="32"/>
+                            <coord x="93013" y="-98665" flags="32"/>
+                            <coord x="91955" y="-102516" flags="32"/>
+                            <coord x="92783" y="-105132" flags="32"/>
+                            <coord x="94209" y="-112084" flags="32"/>
+                            <coord x="94300" y="-114687" flags="32"/>
+                            <coord x="92813" y="-116261" flags="32"/>
+                            <coord x="91138" y="-121170" flags="32"/>
+                            <coord x="90800" y="-121431" flags="32"/>
+                            <coord x="90323" y="-121761" flags="32"/>
+                            <coord x="89587" y="-122345" flags="32"/>
+                            <coord x="88973" y="-123400" flags="32"/>
+                            <coord x="88493" y="-124063" flags="32"/>
+                            <coord x="88223" y="-124391" flags="32"/>
+                            <coord x="87954" y="-124586" flags="32"/>
+                            <coord x="87420" y="-124645" flags="32"/>
+                            <coord x="87413" y="-125107" flags="32"/>
+                            <coord x="87466" y="-125979" flags="32"/>
+                            <coord x="87130" y="-126174" flags="32"/>
+                            <coord x="86647" y="-126738" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="53702" y="-94634"/>
+                        </coords>
+                        <text>Salen</text>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="83">
+                            <coord x="144649" y="-69269" flags="32"/>
+                            <coord x="185812" y="-95136" flags="32"/>
+                            <coord x="190039" y="-97728" flags="32"/>
+                            <coord x="210638" y="-115825" flags="32"/>
+                            <coord x="210511" y="-115356" flags="32"/>
+                            <coord x="210522" y="-114624" flags="32"/>
+                            <coord x="210472" y="-113487" flags="32"/>
+                            <coord x="210414" y="-112888" flags="32"/>
+                            <coord x="210160" y="-112087" flags="32"/>
+                            <coord x="209904" y="-111419" flags="32"/>
+                            <coord x="209448" y="-110541" flags="32"/>
+                            <coord x="209063" y="-109540"/>
+                            <coord x="208161" y="-107668"/>
+                            <coord x="207728" y="-106641"/>
+                            <coord x="207442" y="-106108"/>
+                            <coord x="207125" y="-105313"/>
+                            <coord x="206863" y="-104562"/>
+                            <coord x="206742" y="-104178"/>
+                            <coord x="206617" y="-103510"/>
+                            <coord x="206557" y="-102811"/>
+                            <coord x="206505" y="-101967" flags="32"/>
+                            <coord x="206960" y="-98175" flags="32"/>
+                            <coord x="207313" y="-97037"/>
+                            <coord x="208002" y="-94456"/>
+                            <coord x="208231" y="-93449"/>
+                            <coord x="208514" y="-92071"/>
+                            <coord x="208595" y="-91138"/>
+                            <coord x="208671" y="-90536"/>
+                            <coord x="208609" y="-90203"/>
+                            <coord x="208425" y="-89066"/>
+                            <coord x="207792" y="-86651"/>
+                            <coord x="207652" y="-86193"/>
+                            <coord x="207271" y="-84937"/>
+                            <coord x="206896" y="-83689"/>
+                            <coord x="206454" y="-82016"/>
+                            <coord x="205888" y="-80025"/>
+                            <coord x="205707" y="-78971"/>
+                            <coord x="205518" y="-78096"/>
+                            <coord x="205604" y="-76761"/>
+                            <coord x="206151" y="-72834"/>
+                            <coord x="206718" y="-68849"/>
+                            <coord x="206739" y="-67449" flags="32"/>
+                            <coord x="202050" y="-68979" flags="32"/>
+                            <coord x="199520" y="-68742" flags="32"/>
+                            <coord x="199036" y="-65336" flags="32"/>
+                            <coord x="196448" y="-64699"/>
+                            <coord x="194854" y="-64208" flags="32"/>
+                            <coord x="194050" y="-64397" flags="32"/>
+                            <coord x="193777" y="-64793" flags="32"/>
+                            <coord x="193286" y="-66518" flags="32"/>
+                            <coord x="192608" y="-67504"/>
+                            <coord x="191851" y="-68767"/>
+                            <coord x="191511" y="-69490" flags="32"/>
+                            <coord x="190837" y="-69814"/>
+                            <coord x="190101" y="-70070" flags="32"/>
+                            <coord x="189493" y="-70594" flags="32"/>
+                            <coord x="188233" y="-70176"/>
+                            <coord x="187371" y="-69830" flags="32"/>
+                            <coord x="186257" y="-68547" flags="32"/>
+                            <coord x="185214" y="-68270"/>
+                            <coord x="183999" y="-67981" flags="32"/>
+                            <coord x="183943" y="-67247"/>
+                            <coord x="183951" y="-66584" flags="32"/>
+                            <coord x="184294" y="-65986"/>
+                            <coord x="184508" y="-65056"/>
+                            <coord x="184518" y="-64322"/>
+                            <coord x="184461" y="-63656" flags="32"/>
+                            <coord x="183149" y="-62440"/>
+                            <coord x="179802" y="-58589" flags="32"/>
+                            <coord x="177042" y="-46619" flags="32"/>
+                            <coord x="178326" y="-45767"/>
+                            <coord x="179264" y="-44920" flags="32"/>
+                            <coord x="181816" y="-43756" flags="32"/>
+                            <coord x="179979" y="-41798" flags="32"/>
+                            <coord x="174664" y="-39916"/>
+                            <coord x="168971" y="-37703" flags="32"/>
+                            <coord x="168486" y="-38962" flags="32"/>
+                            <coord x="162158" y="-38603" flags="32"/>
+                            <coord x="157300" y="-47262" flags="32"/>
+                            <coord x="153328" y="-54471" flags="32"/>
+                            <coord x="149294" y="-61799" flags="32"/>
+                            <coord x="147235" y="-65510" flags="32"/>
+                            <coord x="144649" y="-69269" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="189424" y="-80824"/>
+                        </coords>
+                        <text>Salen</text>
+                    </object>
+                </objects>
+            </part>
+        </parts>
+        <templates count="2" first_front_template="2">
+            <template type="TemplateMap" open="true" name="SalenKartan.xmap" path="C:/Users/joaki/projects/SalenKartan/SalenKartan.xmap" relpath="SalenKartan.xmap">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" shear="-1.13687e-12" rotation="1.13687e-12"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="2.27374e-12"/>
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="-2.27374e-12"/>
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="OgrTemplate" open="true" name="al_riks.shp" path="C:/Users/joaki/projects/SalenKartan/fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" relpath="fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" georef="true"/>
+            <defaults meters_per_pixel="0" dpi="0" scale="0"/>
+        </templates>
+        <view>
+            <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
+            <map_view zoom="1.28789" position_x="127271" position_y="-82204">
+                <map opacity="0.5" visible="true"/>
+                <templates hidden="true" count="2">
+                    <ref template="1" visible="true" opacity="1"/>
+                    <ref template="0" visible="true" opacity="1"/>
+                </templates>
+            </map_view>
+        </view>
+        <print scale="4000" resolution="300" mode="raster">
+            <page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5">
+                <dimensions width="210" height="297"/>
+                <page_rect left="0" top="0" width="210" height="297"/>
+            </page_format>
+            <print_area left="50.237" top="-134.809" width="56" height="79.2" single_page="true"/>
+        </print>
+    </barrier>
+</map>
