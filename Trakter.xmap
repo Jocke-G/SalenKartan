@@ -20,10 +20,31 @@
     </colors>
     <barrier version="6" required="0.6.0">
         <symbols count="2" id="OCD">
-            <symbol type="2" id="0" code="901" name="Traktgräns" is_helper_symbol="true">
-                <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+            <symbol type="2" id="0" code="1" name="Traktgräns">
+                <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <start_symbol>
+                        <symbol type="1" code="" name="Startsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </start_symbol>
+                    <mid_symbol>
+                        <symbol type="1" code="" name="Mittsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                    <end_symbol>
+                        <symbol type="1" code="" name="Slutsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </end_symbol>
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Strecksymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </dash_symbol>
+                </line_symbol>
             </symbol>
-            <symbol type="8" id="1" code="902" name="Traktnamn" is_helper_symbol="true">
+            <symbol type="8" id="1" code="2" name="Traktnamn">
                 <text_symbol icon_text="T">
                     <font family="Arial" size="3528" bold="true"/>
                     <text color="0" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
@@ -39,7 +60,7 @@
                 <objects count="4">
                     <object type="1" symbol="0">
                         <coords count="55">
-                            <coord x="46485" y="-70563" flags="32"/>
+                            <coord x="28068" y="-71158" flags="32"/>
                             <coord x="46644" y="-70558" flags="32"/>
                             <coord x="46529" y="-69355" flags="32"/>
                             <coord x="46181" y="-67639" flags="32"/>
@@ -93,7 +114,7 @@
                             <coord x="87413" y="-125107" flags="32"/>
                             <coord x="87466" y="-125979" flags="32"/>
                             <coord x="87130" y="-126174" flags="32"/>
-                            <coord x="86647" y="-126738" flags="48"/>
+                            <coord x="85619" y="-127954" flags="48"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -239,11 +260,11 @@
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="1.28789" position_x="127271" position_y="-82204">
+            <map_view zoom="0.363098" position_x="121381" position_y="-172465">
                 <map opacity="0.5" visible="true"/>
                 <templates hidden="true" count="2">
-                    <ref template="1" visible="true" opacity="1"/>
-                    <ref template="0" visible="true" opacity="1"/>
+                    <ref template="1" opacity="1"/>
+                    <ref template="0" opacity="1"/>
                 </templates>
             </map_view>
         </view>
