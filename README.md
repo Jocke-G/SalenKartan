@@ -1,6 +1,7 @@
 # SalenKartan
 
 Karta över Tibro - Salen, och lite däromkring.
+![SalenKartan](samples/2021-05-26.png)
 
 ## Begränsning
 
@@ -16,15 +17,32 @@ Kartan kan komma att utökas vid senare tillfälle, t.ex. ån Tidan i väster is
 
 ## Status
 
-<img src="definitions/samples/Trakter.jpg" alt="Trakter" style="width: 150px; float:right" />
+Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakterna och delarna finns i en separat kartfil, som kan läggas som bakgrundsbild.
 
-Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt). Trakterna finns i en separat kartfil, som kan läggas som bakgrundsbild.
+<img src="definitions/samples/trakter.png" alt="Trakter och delar" width="300" align="right"/>
 
-| Trakt | Status |
-| ------------- | ------------- |
-| Salen (byn) | Färdig förutom teknisk verifiering av kartnorm. |
-| Salen (skogen) | Hyggeskant klar. Mycket återstår. |
-| Laggarebolet/Bjärg | Påbörjat |
+| Trakt | Del | Status |
+| ------------- | ------------- | ------------- |
+| Salen | Byn | Färdig förutom teknisk verifiering av kartnorm. |
+| Laggarebolet/Bjärg | Laggarebolets hagar | Jobbar aktivt på. |
+| Laggarebolet/Bjärg | Dammen | Grovt ritad, detaljer återstår. |
+| Laggarebolet/Bjärg | Norra skogen | Sporadiskt ritad, mycket återstår. |
+| Laggarebolet/Bjärg | Norra hagarna | Grovt ritad, detaljer återstår. |
+| Laggarebolet/Bjärg | Skogshagarna | Sporadiskt ritad, mycket återstår. |
+| Laggarebolet/Bjärg | Vindkraftverket | Sporadiskt ritad, mycket återstår. |
+| Laggarebolet/Bjärg | Södra hagarna | Saknar delvis fastighetskarta. Grovt ritad, detaljer återstår. |
+| Laggarebolet/Bjärg | Tråkeboskogen | Ej påbörjad. |
+| Laggarebolet/Bjärg | Östra skogen | Ej påbörjad. |
+| Laggarebolet/Bjärg | Södra skogen | Saknar delvis fastighetskarta. Ej påbörjad. |
+| Salen | Skogen | Hyggeskant klar. Mycket återstår. |
+| Svekhult | - | Sporadiskt ritad, mycket återstår. |
+| Spännefalla | - | Sporadiskt ritad, mycket återstår. |
+| Bosgården | - | Sporadiskt ritad, mycket återstår. |
+| Sandruder | - | Sporadiskt ritad, mycket återstår. |
+| Ebbetorp | - | Sporadiskt ritad, mycket återstår. |
+| Svebråta | - | Sporadiskt ritad, mycket återstår. |
+| Olofsby | - | Ej påbörjad. |
+| Backen | - | Ej påbörjad. |
 
 ## Kartnorm
 
