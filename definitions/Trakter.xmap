@@ -12,16 +12,32 @@
             <ref_point_deg lat="58.34555344" lon="14.14584996"/>
         </geographic_crs>
     </georeferencing>
-    <colors count="1">
+    <colors count="5">
         <color priority="0" name="Red" c="0" m="1" y="1" k="0" opacity="0.75">
             <cmyk method="custom"/>
             <rgb method="cmyk" r="1" g="0" b="0"/>
+        </color>
+        <color priority="1" name="Brun 50% Vägfyllning" c="0" m="0.28" y="0.5" k="0.09" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.91" g="0.655" b="0.455"/>
+        </color>
+        <color priority="2" name="Svart 100% Väg sidlinje" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="3" name="Svart" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="4" name="Svart 30% ytsymboler" c="0" m="0" y="0" k="0.3" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.7" g="0.7" b="0.7"/>
         </color>
     </colors>
     <barrier version="6" required="0.6.0">
         <symbols count="2" id="OCD">
             <symbol type="2" id="0" code="1" name="Traktgräns">
-                <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                <line_symbol color="0" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
                         <symbol type="1" code="" name="Startsymbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
@@ -46,7 +62,7 @@
             </symbol>
             <symbol type="8" id="1" code="2" name="Traktnamn">
                 <text_symbol icon_text="T">
-                    <font family="Arial" size="3528" bold="true"/>
+                    <font family="Arial" size="7056" bold="true"/>
                     <text color="0" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
                     <tabs count="1">
                         <tab>8000</tab>
@@ -57,7 +73,7 @@
         </symbols>
         <parts count="1" current="0">
             <part name="förvald del">
-                <objects count="4">
+                <objects count="8">
                     <object type="1" symbol="0">
                         <coords count="55">
                             <coord x="28068" y="-71158" flags="32"/>
@@ -122,9 +138,10 @@
                     </object>
                     <object type="4" symbol="1" h_align="1" v_align="2">
                         <coords count="1">
-                            <coord x="53702" y="-94634"/>
+                            <coord x="83243" y="-105756"/>
                         </coords>
-                        <text>Salen</text>
+                        <text>Salen
+(byn)</text>
                     </object>
                     <object type="1" symbol="0">
                         <coords count="83">
@@ -218,15 +235,136 @@
                     </object>
                     <object type="4" symbol="1" h_align="1" v_align="2">
                         <coords count="1">
-                            <coord x="189424" y="-80824"/>
+                            <coord x="189772" y="-80824"/>
                         </coords>
-                        <text>Salen</text>
+                        <text>Salen
+(skogen)</text>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="9">
+                            <coord x="87101" y="-92643"/>
+                            <coord x="92996" y="-91044"/>
+                            <coord x="98081" y="-89739"/>
+                            <coord x="126186" y="-82240"/>
+                            <coord x="135086" y="-79910"/>
+                            <coord x="135607" y="-80582"/>
+                            <coord x="136002" y="-81057"/>
+                            <coord x="143674" y="-70490"/>
+                            <coord x="144662" y="-69252"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="118147" y="-48492"/>
+                        </coords>
+                        <text>Laggarebolet
+Bjärg</text>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="33">
+                            <coord x="162137" y="-38615"/>
+                            <coord x="155479" y="-37760"/>
+                            <coord x="155065" y="-37118"/>
+                            <coord x="152388" y="-32328"/>
+                            <coord x="149598" y="-27088"/>
+                            <coord x="160634" y="-24518"/>
+                            <coord x="159780" y="-23503"/>
+                            <coord x="158081" y="-21144"/>
+                            <coord x="156973" y="-19464"/>
+                            <coord x="156584" y="-18794"/>
+                            <coord x="156140" y="-17252"/>
+                            <coord x="155575" y="-14848"/>
+                            <coord x="155187" y="-13836"/>
+                            <coord x="154871" y="-12770"/>
+                            <coord x="154826" y="-11313"/>
+                            <coord x="154842" y="-10170"/>
+                            <coord x="154320" y="-9430"/>
+                            <coord x="153261" y="-8611"/>
+                            <coord x="151945" y="-7796"/>
+                            <coord x="150353" y="-7038"/>
+                            <coord x="148720" y="-6092"/>
+                            <coord x="146993" y="-4995"/>
+                            <coord x="146258" y="-4580"/>
+                            <coord x="145737" y="-3775"/>
+                            <coord x="145213" y="-3099"/>
+                            <coord x="144886" y="-2492"/>
+                            <coord x="144542" y="-1179"/>
+                            <coord x="143402" y="2158"/>
+                            <coord x="142591" y="1371"/>
+                            <coord x="139043" y="292"/>
+                            <coord x="135440" y="147"/>
+                            <coord x="133636" y="4241"/>
+                            <coord x="133201" y="6800"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="21">
+                            <coord x="71935" y="-42280"/>
+                            <coord x="72224" y="-41151"/>
+                            <coord x="72202" y="-38219"/>
+                            <coord x="71633" y="-36142"/>
+                            <coord x="72379" y="-35287"/>
+                            <coord x="76124" y="-34478"/>
+                            <coord x="74709" y="-26723"/>
+                            <coord x="74267" y="-25117"/>
+                            <coord x="73290" y="-23635"/>
+                            <coord x="72126" y="-21424"/>
+                            <coord x="70961" y="-18865"/>
+                            <coord x="70013" y="-15518"/>
+                            <coord x="71309" y="-13671"/>
+                            <coord x="73057" y="-12567"/>
+                            <coord x="74473" y="-11521"/>
+                            <coord x="74710" y="-4721"/>
+                            <coord x="74861" y="-3527"/>
+                            <coord x="75049" y="70"/>
+                            <coord x="75244" y="2075"/>
+                            <coord x="84441" y="4679"/>
+                            <coord x="91975" y="6800"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
                     </object>
                 </objects>
             </part>
         </parts>
-        <templates count="2" first_front_template="2">
+        <templates count="3" first_front_template="3">
             <template type="TemplateMap" open="true" name="SalenKartan.xmap" path="C:/Users/joaki/projects/SalenKartan/SalenKartan.xmap" relpath="SalenKartan.xmap">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" shear="-1.13687e-12" rotation="1.13687e-12"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="2.27374e-12"/>
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="-2.27374e-12"/>
+                        <element value="1"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateMap" open="true" name="Begränsningar.xmap" path="C:/Users/joaki/projects/SalenKartan/Begränsningar.xmap" relpath="Begränsningar.xmap">
                 <transformations adjustment_dirty="true" passpoints="0">
                     <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" shear="-1.13687e-12" rotation="1.13687e-12"/>
                     <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
@@ -258,22 +396,23 @@
             <template type="OgrTemplate" open="true" name="al_riks.shp" path="C:/Users/joaki/projects/SalenKartan/fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" relpath="fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" georef="true"/>
             <defaults meters_per_pixel="0" dpi="0" scale="0"/>
         </templates>
-        <view>
+        <view area_hatching_enabled="true">
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.363098" position_x="121381" position_y="-172465">
+            <map_view zoom="0.365015" position_x="131758" position_y="-173524">
                 <map opacity="0.5" visible="true"/>
-                <templates hidden="true" count="2">
-                    <ref template="1" opacity="1"/>
+                <templates count="3">
+                    <ref template="2" opacity="1"/>
                     <ref template="0" opacity="1"/>
+                    <ref template="1" visible="true" opacity="1"/>
                 </templates>
             </map_view>
         </view>
-        <print scale="4000" resolution="300" mode="raster">
+        <print scale="30000" resolution="150" templates_visible="true" mode="raster">
             <page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5">
                 <dimensions width="210" height="297"/>
                 <page_rect left="0" top="0" width="210" height="297"/>
             </page_format>
-            <print_area left="50.237" top="-134.809" width="56" height="79.2" single_page="true"/>
+            <print_area left="29.66" top="-387.258" width="208.656" height="422.959" single_page="true"/>
         </print>
     </barrier>
 </map>

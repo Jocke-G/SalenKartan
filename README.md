@@ -1,12 +1,40 @@
 # SalenKartan
 
-Karta över Tibro - Salen, och lite däromkring
+Karta över Tibro - Salen, och lite däromkring.
 
-[Open Orienteering Mapper](https://www.openorienteering.org/apps/mapper/)
+## Begränsning
+
+Kartan är i nuläget begränsad i väster till väg 2908 - Spännefallavägen,
+i söder väg 194 - Hjo till Skövdevägen.
+I öster väg 201 Tibro-Hjovägen och sedan väg 2910 - Mofallavägen.
+
+Kartan är inte begränsad till kommun, utan både delar i Tibro och Hjo täcks in.
+
+Kartan är i första skedet begränsad till Backen-vägen i norr.
+
+Kartan kan komma att utökas vid senare tillfälle, t.ex. ån Tidan i väster istället för spännefallavägen, väg 201 hela östsidan istället för 2910 - Mofallavägen.
+
+## Status
+
+<img src="definitions/samples/Trakter.jpg" alt="Trakter" style="width: 150px; float:right" />
+
+Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt). Trakterna finns i en separat kartfil, som kan läggas som bakgrundsbild.
+
+| Trakt | Status |
+| ------------- | ------------- |
+| Salen (byn) | Färdig förutom teknisk verifiering av kartnorm. |
+| Salen (skogen) | Hyggeskant klar. Mycket återstår. |
+| Laggarebolet/Bjärg | Påbörjat |
 
 ## Kartnorm
 
+Kartan är ritad enligt nu gällande kartnorm ISOM 2017-2
+
 https://www.svenskorientering.se/Arrangera/kartfragor/stoddokumentochfiler/
+
+## Kartritnngsprogram
+
+[Open Orienteering Mapper](https://www.openorienteering.org/apps/mapper/)
 
 ## Grundmaterial
 
@@ -74,5 +102,9 @@ Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/
 ### Skicka till handhållen Garmin-GPS
 
 [Dakota 20](https://buy.garmin.com/sv-SE/SE/p/30926)
+
+
 [KMZ/KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)
+
+
 [Garmin Support Center>General Guidelines for Creating Garmin Custom Maps](https://support.garmin.com/en-GB/?faq=FtEncUXbaE0xE04yZ7gTq5)
