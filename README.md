@@ -126,3 +126,13 @@ Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/
 
 
 [Garmin Support Center>General Guidelines for Creating Garmin Custom Maps](https://support.garmin.com/en-GB/?faq=FtEncUXbaE0xE04yZ7gTq5)
+
+### ocad2tiles
+
+`npm install -g ocad2tiles`
+
+`ocad2tiles -f #ffffff samples\2021-05-26.ocd ocad2tiles`
+
+`docker build -t salen-kartan ocad2tiles`
+
+`docker run -it --rm -p 8080:80 --name salen-kartan salen-kartan`

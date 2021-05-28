@@ -27013,115 +27013,22 @@
                 </objects>
             </part>
         </parts>
-        <templates count="4" first_front_template="3">
-            <template type="TemplateMap" open="true" name="Trakter.xmap" path="C:/Users/joaki/projects/SalenKartan/definitions/Trakter.xmap" relpath="definitions/Trakter.xmap">
-                <transformations adjustment_dirty="true" passpoints="0">
-                    <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" shear="-1.13687e-12" rotation="1.13687e-12"/>
-                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
-                    <matrix role="map_to_template" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="2.27374e-12"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="-2.27374e-12"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map_other" n="0" m="0"/>
-                </transformations>
-            </template>
-            <template type="TemplateMap" open="true" name="2021-05-26_error.ocd" path="C:/Users/joaki/projects/SalenKartan/checkomap/2021-05-26_error.ocd" relpath="checkomap/2021-05-26_error.ocd">
-                <transformations adjustment_dirty="true" passpoints="0">
-                    <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
-                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
-                    <matrix role="map_to_template" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map_other" n="0" m="0"/>
-                </transformations>
-            </template>
-            <template type="TemplateMap" open="true" name="SalenGenereradBakgrund.ocd" path="C:/Users/joaki/projects/SalenKartan/SalenGenereradBakgrund.ocd" relpath="SalenGenereradBakgrund.ocd">
-                <transformations adjustment_dirty="true" passpoints="0">
-                    <transformation role="active" x="0" y="0" scale_x="1" scale_y="1" shear="-1.13687e-12" rotation="1.13687e-12"/>
-                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
-                    <matrix role="map_to_template" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="2.27374e-12"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map" n="3" m="3">
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="-2.27374e-12"/>
-                        <element value="1"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="0"/>
-                        <element value="1"/>
-                    </matrix>
-                    <matrix role="template_to_map_other" n="0" m="0"/>
-                </transformations>
-            </template>
-            <template type="OgrTemplate" open="true" name="al_riks.shp" path="C:/Users/joaki/projects/SalenKartan/fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" relpath="fastighetskartan/Fastighetsindelning/AL - Line layer with boundaries/al_riks.shp" georef="true"/>
+        <templates count="0" first_front_template="0">
             <defaults meters_per_pixel="0" dpi="0" scale="0"/>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="5.65685" position_x="80037" position_y="-56811">
+            <map_view zoom="0.363126" position_x="131758" position_y="-172449">
                 <map opacity="0.5" visible="true"/>
-                <templates hidden="true" count="4">
-                    <ref template="0" opacity="1"/>
-                    <ref template="3" opacity="1"/>
-                    <ref template="1" visible="true" opacity="1"/>
-                    <ref template="2" visible="true" opacity="1"/>
-                </templates>
+                <templates hidden="true" count="0"/>
             </map_view>
         </view>
-        <print scale="4000" resolution="300" templates_visible="true" mode="raster">
+        <print scale="15000" resolution="300" mode="raster">
             <page_format paper_size="Custom" orientation="portrait" h_overlap="5" v_overlap="5">
                 <dimensions width="196.737" height="263.493"/>
                 <page_rect left="0" top="0" width="196.737" height="263.493"/>
             </page_format>
-            <print_area left="119.298" top="-95.206" width="52.463" height="70.265" single_page="true"/>
+            <print_area left="26.905" top="-221.957" width="196.737" height="263.493" single_page="true"/>
         </print>
     </barrier>
 </map>
