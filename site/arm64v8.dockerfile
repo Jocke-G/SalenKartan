@@ -1,5 +1,7 @@
 FROM node:alpine as build-deps
 
+ARG RCH=arm64v8
+
 WORKDIR /usr/src/app
 
 COPY ./latest.ocd ./
@@ -15,5 +17,7 @@ RUN npm install --global --unsafe-perm ocad2tiles
 RUN ocad2tiles -f "#ffffff" ./latest.ocd .
 
 FROM nginx:alpine
+
+ARG RCH=arm64v8
 
 COPY --from=build-deps /usr/src/app/ /usr/share/nginx/html
