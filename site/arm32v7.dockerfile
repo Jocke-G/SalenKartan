@@ -1,4 +1,4 @@
-FROM node:alpine as build-deps
+FROM arm32v7/node:alpine as build-deps
 
 ARG ARCH=arm32v7
 
@@ -16,7 +16,7 @@ RUN npm install --global --unsafe-perm ocad2tiles
 
 RUN ocad2tiles -f "#ffffff" ./latest.ocd .
 
-FROM nginx:alpine
+FROM arm32v7/nginx:alpine
 
 ARG ARCH=arm32v7
 
