@@ -1,4 +1,4 @@
-FROM arm32v7/node:alpine as build-deps
+FROM arm32v7/node:buster-slim as build-deps
 
 ARG ARCH=arm32v7
 
@@ -6,9 +6,9 @@ WORKDIR /usr/src/app
 
 COPY ./latest.ocd ./
 
-RUN apk add g++ make python3
+RUN apt-get update
 
-RUN apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community --repository http://dl-3.alpinelinux.org/alpine/edge/main vips-dev
+RUN apt-get install -y g++ make python3
 
 RUN npm install --global --unsafe-perm sharp
 
