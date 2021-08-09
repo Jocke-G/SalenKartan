@@ -63,7 +63,7 @@
         </symbols>
         <parts count="1" current="0">
             <part name="förvald del">
-                <objects count="35">
+                <objects count="41">
                     <object type="1" symbol="0">
                         <coords count="55">
                             <coord x="28068" y="-71158" flags="32"/>
@@ -749,6 +749,117 @@ skogen</text>
                         </coords>
                         <text>Ebbetorp</text>
                     </object>
+                    <object type="1" symbol="0">
+                        <coords count="9">
+                            <coord x="164957" y="-310229"/>
+                            <coord x="169298" y="-310560"/>
+                            <coord x="174217" y="-310964"/>
+                            <coord x="175607" y="-312730"/>
+                            <coord x="176694" y="-317027" flags="32"/>
+                            <coord x="176933" y="-319495" flags="32"/>
+                            <coord x="177178" y="-321431"/>
+                            <coord x="179526" y="-326056"/>
+                            <coord x="225495" y="-323027"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="197005" y="-341100"/>
+                        </coords>
+                        <text>Ruder</text>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="20">
+                            <coord x="131053" y="-246536" flags="32"/>
+                            <coord x="135017" y="-247165" flags="32"/>
+                            <coord x="141564" y="-247551" flags="32"/>
+                            <coord x="144207" y="-247810" flags="32"/>
+                            <coord x="146928" y="-248116" flags="32"/>
+                            <coord x="150594" y="-248170" flags="32"/>
+                            <coord x="151730" y="-247918" flags="32"/>
+                            <coord x="152518" y="-247629" flags="32"/>
+                            <coord x="152620" y="-247590" flags="32"/>
+                            <coord x="153876" y="-247082" flags="32"/>
+                            <coord x="155129" y="-246511" flags="32"/>
+                            <coord x="155942" y="-246120" flags="32"/>
+                            <coord x="156557" y="-245857" flags="32"/>
+                            <coord x="157886" y="-245811" flags="32"/>
+                            <coord x="158895" y="-245624" flags="32"/>
+                            <coord x="159562" y="-245435" flags="32"/>
+                            <coord x="160208" y="-244877" flags="32"/>
+                            <coord x="160851" y="-244315" flags="32"/>
+                            <coord x="162406" y="-242706" flags="32"/>
+                            <coord x="220312" y="-241865" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="188835" y="-283003"/>
+                        </coords>
+                        <text>Kårtorp</text>
+                    </object>
+                    <object type="4" symbol="1" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="200631" y="-235574"/>
+                        </coords>
+                        <text>Graven</text>
+                    </object>
+                    <object type="1" symbol="2">
+                        <tags>
+                            <t k="name">Bastavägen</t>
+                        </tags>
+                        <coords count="40">
+                            <coord x="150675" y="-279597" flags="1"/>
+                            <coord x="151634" y="-279108"/>
+                            <coord x="153191" y="-278732"/>
+                            <coord x="153861" y="-278711" flags="1"/>
+                            <coord x="156928" y="-278615"/>
+                            <coord x="160511" y="-278335"/>
+                            <coord x="162575" y="-278735" flags="1"/>
+                            <coord x="164248" y="-279059"/>
+                            <coord x="165450" y="-279427"/>
+                            <coord x="167269" y="-279638" flags="1"/>
+                            <coord x="169482" y="-279895"/>
+                            <coord x="169895" y="-279661"/>
+                            <coord x="172638" y="-279022" flags="1"/>
+                            <coord x="175454" y="-278366"/>
+                            <coord x="178146" y="-277765"/>
+                            <coord x="178764" y="-277557" flags="1"/>
+                            <coord x="184716" y="-275553"/>
+                            <coord x="186384" y="-274201"/>
+                            <coord x="190788" y="-274158" flags="1"/>
+                            <coord x="192939" y="-274137"/>
+                            <coord x="196853" y="-273375"/>
+                            <coord x="200011" y="-272628" flags="1"/>
+                            <coord x="202198" y="-272111"/>
+                            <coord x="204446" y="-271130"/>
+                            <coord x="206888" y="-269698" flags="1"/>
+                            <coord x="207857" y="-269130"/>
+                            <coord x="209023" y="-268761"/>
+                            <coord x="209572" y="-267624" flags="1"/>
+                            <coord x="210014" y="-266710"/>
+                            <coord x="209913" y="-265070"/>
+                            <coord x="209944" y="-263934" flags="1"/>
+                            <coord x="210027" y="-260869"/>
+                            <coord x="210326" y="-258487"/>
+                            <coord x="211107" y="-257161" flags="1"/>
+                            <coord x="211650" y="-256239"/>
+                            <coord x="212267" y="-255130"/>
+                            <coord x="213211" y="-254576" flags="1"/>
+                            <coord x="214152" y="-254024"/>
+                            <coord x="217195" y="-253709"/>
+                            <coord x="220725" y="-253101"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
                 </objects>
             </part>
         </parts>
@@ -816,7 +927,7 @@ skogen</text>
         </templates>
         <view area_hatching_enabled="true">
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.363126" position_x="121344" position_y="-172449">
+            <map_view zoom="0.365015" position_x="127855" position_y="-173524">
                 <map opacity="1" visible="true"/>
                 <templates count="3">
                     <ref template="2" opacity="1"/>
@@ -830,7 +941,7 @@ skogen</text>
                 <dimensions width="210" height="297"/>
                 <page_rect left="0" top="0" width="210" height="297"/>
             </page_format>
-            <print_area left="35.364" top="-220.518" width="189.132" height="255.122" single_page="true"/>
+            <print_area left="34.268" top="-376.619" width="195.255" height="410.536" single_page="true"/>
         </print>
     </barrier>
 </map>

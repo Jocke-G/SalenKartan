@@ -1,7 +1,7 @@
 # SalenKartan
 
 Karta över Tibro - Salen, och lite däromkring.
-![SalenKartan](samples/2021-05-26.png)
+![SalenKartan](samples/latest.png)
 
 ## Begränsning
 
@@ -10,8 +10,6 @@ i söder väg 194 - Hjo till Skövdevägen.
 I öster väg 201 Tibro-Hjovägen och sedan väg 2910 - Mofallavägen.
 
 Kartan är inte begränsad till kommun, utan både delar i Tibro och Hjo täcks in.
-
-Kartan är i första skedet begränsad till Backen-vägen i norr.
 
 Kartan kan komma att utökas vid senare tillfälle, t.ex. ån Tidan i väster istället för spännefallavägen, väg 201 hela östsidan istället för 2910 - Mofallavägen.
 
@@ -41,6 +39,9 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 | Sandruder | - | Sporadiskt ritad, mycket återstår. |
 | Ebbetorp | - | Sporadiskt ritad, mycket återstår. |
 | Svebråta | - | Sporadiskt ritad, mycket återstår. |
+| Ruder | - | Material från gammal karta ritad. Höjdkurvor och fältarbete återstår. |
+| Kårtorp | Norr Bastavägen | Material från gammal karta ritad. Höjdkurvor och fältarbete återstår. |
+| Kårtorp | Söder Bastavägen | Sporadiskt ritad från gammal karta, mycket återstår. |
 | Olofsby | - | Ej påbörjad. |
 | Backen | - | Ej påbörjad. |
 
@@ -86,6 +87,16 @@ https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukte
 - VL (Kommunikation) - Linjeskikt med vägar
 
 Lägg till som bakgrundsbilder.
+
+### Gammal karta över Kårtorp
+
+Första version från 1998.
+
+<img src="gamlaOlKartor/Kartorp1998.png" alt="Kartorp 1998" width="100"/>
+
+Andra version renritad 2000.
+
+<img src="gamlaOlKartor/Kartorp2000.png" alt="Kartorp 1998" width="100"/>
 
 ### Karttjänster
 
