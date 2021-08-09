@@ -3065,7 +3065,7 @@
         </symbols>
         <parts count="1" current="0">
             <part name="förvald del">
-                <objects count="892">
+                <objects count="925">
                     <object type="1" symbol="93">
                         <tags>
                             <t k="road_number">2908</t>
@@ -27463,10 +27463,552 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
+                    <object type="1" symbol="96">
+                        <coords count="11">
+                            <coord x="201535" y="-374516"/>
+                            <coord x="202897" y="-372139" flags="1"/>
+                            <coord x="203816" y="-369841"/>
+                            <coord x="204249" y="-368497"/>
+                            <coord x="205032" y="-366149" flags="1"/>
+                            <coord x="205810" y="-363815"/>
+                            <coord x="206155" y="-362405"/>
+                            <coord x="206865" y="-360050" flags="1"/>
+                            <coord x="207110" y="-359238"/>
+                            <coord x="207612" y="-358350"/>
+                            <coord x="208900" y="-357361"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="10">
+                            <coord x="195965" y="-357718" flags="1"/>
+                            <coord x="196756" y="-357882"/>
+                            <coord x="197143" y="-358355"/>
+                            <coord x="197949" y="-358305" flags="1"/>
+                            <coord x="198951" y="-358243"/>
+                            <coord x="199434" y="-357806"/>
+                            <coord x="200388" y="-357494" flags="1"/>
+                            <coord x="201836" y="-357020"/>
+                            <coord x="202754" y="-356962"/>
+                            <coord x="204271" y="-357108"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="28">
+                            <coord x="186984" y="-355587" flags="1"/>
+                            <coord x="187627" y="-354556"/>
+                            <coord x="188380" y="-352943"/>
+                            <coord x="189024" y="-351683" flags="1"/>
+                            <coord x="189576" y="-350603"/>
+                            <coord x="190009" y="-350161"/>
+                            <coord x="190090" y="-349058" flags="1"/>
+                            <coord x="190263" y="-346690"/>
+                            <coord x="190331" y="-345058"/>
+                            <coord x="191939" y="-343310" flags="1"/>
+                            <coord x="193534" y="-341577"/>
+                            <coord x="194273" y="-340459"/>
+                            <coord x="195985" y="-338948" flags="1"/>
+                            <coord x="198088" y="-337091"/>
+                            <coord x="199289" y="-336068"/>
+                            <coord x="201851" y="-334898" flags="1"/>
+                            <coord x="204084" y="-333878"/>
+                            <coord x="205647" y="-333178"/>
+                            <coord x="208101" y="-333266" flags="1"/>
+                            <coord x="209724" y="-333324"/>
+                            <coord x="210019" y="-334354"/>
+                            <coord x="211856" y="-334497" flags="1"/>
+                            <coord x="213394" y="-334617"/>
+                            <coord x="215621" y="-334685"/>
+                            <coord x="216726" y="-335783" flags="1"/>
+                            <coord x="218588" y="-337633"/>
+                            <coord x="219626" y="-337919"/>
+                            <coord x="222315" y="-339955" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="20">
+                            <coord x="208288" y="-333277"/>
+                            <coord x="208265" y="-329532" flags="1"/>
+                            <coord x="207860" y="-328317"/>
+                            <coord x="207497" y="-327669"/>
+                            <coord x="206781" y="-326607" flags="1"/>
+                            <coord x="206227" y="-325784"/>
+                            <coord x="205372" y="-325354"/>
+                            <coord x="205558" y="-324379" flags="1"/>
+                            <coord x="205644" y="-323928"/>
+                            <coord x="206101" y="-323892"/>
+                            <coord x="206518" y="-323702" flags="1"/>
+                            <coord x="207208" y="-323387"/>
+                            <coord x="207027" y="-322827"/>
+                            <coord x="206999" y="-322169" flags="1"/>
+                            <coord x="206983" y="-321794"/>
+                            <coord x="206993" y="-321405"/>
+                            <coord x="206932" y="-321048" flags="1"/>
+                            <coord x="206820" y="-320394"/>
+                            <coord x="206348" y="-320342"/>
+                            <coord x="206234" y="-319554"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="7">
+                            <coord x="206234" y="-319554" flags="1"/>
+                            <coord x="205984" y="-318969"/>
+                            <coord x="205530" y="-318506"/>
+                            <coord x="204903" y="-318615" flags="1"/>
+                            <coord x="203985" y="-318775"/>
+                            <coord x="203141" y="-318570"/>
+                            <coord x="202675" y="-317763"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="210623" y="-321863" flags="1"/>
+                            <coord x="209205" y="-321936"/>
+                            <coord x="208411" y="-322019"/>
+                            <coord x="206999" y="-322169"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="101">
+                        <coords count="2">
+                            <coord x="215881" y="-323667"/>
+                            <coord x="219648" y="-323482" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="10">
+                            <coord x="225933" y="-316628" flags="1"/>
+                            <coord x="224646" y="-316556"/>
+                            <coord x="224092" y="-316613"/>
+                            <coord x="222894" y="-316523" flags="1"/>
+                            <coord x="222385" y="-316485"/>
+                            <coord x="221671" y="-316167"/>
+                            <coord x="221274" y="-316268" flags="1"/>
+                            <coord x="220842" y="-316377"/>
+                            <coord x="220914" y="-316951"/>
+                            <coord x="220066" y="-316785"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="19">
+                            <coord x="165336" y="-324370" flags="1"/>
+                            <coord x="171878" y="-327276"/>
+                            <coord x="178227" y="-330310"/>
+                            <coord x="181634" y="-331801" flags="1"/>
+                            <coord x="182175" y="-332038"/>
+                            <coord x="182775" y="-332329"/>
+                            <coord x="183390" y="-332479" flags="1"/>
+                            <coord x="184426" y="-332732"/>
+                            <coord x="185449" y="-332928"/>
+                            <coord x="186394" y="-333264" flags="1"/>
+                            <coord x="188281" y="-333935"/>
+                            <coord x="188965" y="-333836"/>
+                            <coord x="190655" y="-334910" flags="1"/>
+                            <coord x="191977" y="-335750"/>
+                            <coord x="192791" y="-336266"/>
+                            <coord x="194160" y="-337135" flags="1"/>
+                            <coord x="195136" y="-337755"/>
+                            <coord x="195605" y="-338123"/>
+                            <coord x="196961" y="-338094" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="4">
+                            <coord x="182137" y="-331996" flags="1"/>
+                            <coord x="182848" y="-330945"/>
+                            <coord x="183372" y="-330422"/>
+                            <coord x="183734" y="-328913" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="7">
+                            <coord x="184268" y="-332685" flags="1"/>
+                            <coord x="181625" y="-334497"/>
+                            <coord x="179341" y="-335784"/>
+                            <coord x="178600" y="-336495" flags="1"/>
+                            <coord x="176839" y="-338185"/>
+                            <coord x="176050" y="-340582"/>
+                            <coord x="174072" y="-343891" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="4">
+                            <coord x="186179" y="-354784" flags="1"/>
+                            <coord x="186701" y="-354532"/>
+                            <coord x="187029" y="-354465"/>
+                            <coord x="187562" y="-354573"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="2">
+                            <coord x="187573" y="-354552"/>
+                            <coord x="189393" y="-355167"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="2">
+                            <coord x="190780" y="-355746"/>
+                            <coord x="191642" y="-356674"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="7">
+                            <coord x="185661" y="-333032" flags="1"/>
+                            <coord x="184766" y="-333704"/>
+                            <coord x="184376" y="-334289"/>
+                            <coord x="183514" y="-335003" flags="1"/>
+                            <coord x="182560" y="-335793"/>
+                            <coord x="181397" y="-336632"/>
+                            <coord x="181965" y="-337733"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="101">
+                        <coords count="7">
+                            <coord x="202041" y="-334815" flags="1"/>
+                            <coord x="201911" y="-333121"/>
+                            <coord x="202016" y="-332842"/>
+                            <coord x="201531" y="-332854" flags="1"/>
+                            <coord x="199781" y="-332896"/>
+                            <coord x="197154" y="-333015"/>
+                            <coord x="195124" y="-331388"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="16">
+                            <coord x="168350" y="-325723" flags="1"/>
+                            <coord x="168702" y="-325338"/>
+                            <coord x="169033" y="-325044"/>
+                            <coord x="169435" y="-325206" flags="1"/>
+                            <coord x="170087" y="-325469"/>
+                            <coord x="170835" y="-325582"/>
+                            <coord x="171228" y="-324999" flags="1"/>
+                            <coord x="171525" y="-324559"/>
+                            <coord x="172351" y="-324658"/>
+                            <coord x="173222" y="-324688" flags="1"/>
+                            <coord x="175730" y="-324775"/>
+                            <coord x="178240" y="-324708"/>
+                            <coord x="180268" y="-324094" flags="1"/>
+                            <coord x="181461" y="-323733"/>
+                            <coord x="182243" y="-322865"/>
+                            <coord x="182623" y="-321214"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="168997" y="-279736" flags="1"/>
+                            <coord x="167755" y="-283265"/>
+                            <coord x="167236" y="-285336"/>
+                            <coord x="166322" y="-289455" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="25">
+                            <coord x="169922" y="-279640" flags="1"/>
+                            <coord x="171008" y="-280319"/>
+                            <coord x="171792" y="-280740"/>
+                            <coord x="172646" y="-281129" flags="1"/>
+                            <coord x="173493" y="-281515"/>
+                            <coord x="174296" y="-281259"/>
+                            <coord x="175158" y="-281609" flags="1"/>
+                            <coord x="176167" y="-282019"/>
+                            <coord x="176484" y="-282917"/>
+                            <coord x="177155" y="-283716" flags="1"/>
+                            <coord x="177928" y="-284636"/>
+                            <coord x="179140" y="-285107"/>
+                            <coord x="180518" y="-285690" flags="1"/>
+                            <coord x="181388" y="-286058"/>
+                            <coord x="182293" y="-286462"/>
+                            <coord x="183090" y="-287056" flags="1"/>
+                            <coord x="184481" y="-288093"/>
+                            <coord x="185666" y="-288900"/>
+                            <coord x="187019" y="-290259" flags="1"/>
+                            <coord x="187527" y="-290769"/>
+                            <coord x="188076" y="-291501"/>
+                            <coord x="188658" y="-291595" flags="1"/>
+                            <coord x="189398" y="-291715"/>
+                            <coord x="190306" y="-292183"/>
+                            <coord x="191048" y="-292684"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="188761" y="-291614" flags="1"/>
+                            <coord x="189073" y="-292329"/>
+                            <coord x="189215" y="-292806"/>
+                            <coord x="189803" y="-293319"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="2">
+                            <coord x="191833" y="-285115"/>
+                            <coord x="191724" y="-286862"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="101">
+                        <coords count="7">
+                            <coord x="185530" y="-304239" flags="1"/>
+                            <coord x="181907" y="-304762"/>
+                            <coord x="176412" y="-305002"/>
+                            <coord x="171068" y="-305224" flags="1"/>
+                            <coord x="170023" y="-306127"/>
+                            <coord x="168676" y="-307518"/>
+                            <coord x="168062" y="-308103"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="13">
+                            <coord x="164479" y="-308457" flags="1"/>
+                            <coord x="167556" y="-308111"/>
+                            <coord x="168534" y="-307995"/>
+                            <coord x="169941" y="-308156" flags="1"/>
+                            <coord x="170743" y="-308248"/>
+                            <coord x="171437" y="-307922"/>
+                            <coord x="172436" y="-307828" flags="1"/>
+                            <coord x="173738" y="-307706"/>
+                            <coord x="175102" y="-307722"/>
+                            <coord x="176783" y="-307512" flags="1"/>
+                            <coord x="179209" y="-307209"/>
+                            <coord x="182080" y="-307407"/>
+                            <coord x="185395" y="-307443"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="7">
+                            <coord x="210831" y="-246881" flags="1"/>
+                            <coord x="210958" y="-248570"/>
+                            <coord x="210939" y="-252001"/>
+                            <coord x="211295" y="-252402" flags="1"/>
+                            <coord x="211646" y="-252797"/>
+                            <coord x="212464" y="-253434"/>
+                            <coord x="213262" y="-254548"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="11">
+                            <coord x="212891" y="-254034"/>
+                            <coord x="209268" y="-253949" flags="1"/>
+                            <coord x="208728" y="-253922"/>
+                            <coord x="208367" y="-254055"/>
+                            <coord x="207893" y="-253796" flags="1"/>
+                            <coord x="207092" y="-253359"/>
+                            <coord x="206556" y="-253123"/>
+                            <coord x="205644" y="-253163" flags="1"/>
+                            <coord x="197056" y="-253541"/>
+                            <coord x="192296" y="-253771"/>
+                            <coord x="183205" y="-253838"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="16">
+                            <coord x="226386" y="-276967" flags="1"/>
+                            <coord x="224608" y="-277262"/>
+                            <coord x="223820" y="-277317"/>
+                            <coord x="222474" y="-278314" flags="1"/>
+                            <coord x="221003" y="-279404"/>
+                            <coord x="220159" y="-281563"/>
+                            <coord x="218391" y="-281086" flags="1"/>
+                            <coord x="216448" y="-280562"/>
+                            <coord x="215150" y="-280013"/>
+                            <coord x="214133" y="-278292" flags="1"/>
+                            <coord x="213138" y="-276609"/>
+                            <coord x="212223" y="-274695"/>
+                            <coord x="211317" y="-274012" flags="1"/>
+                            <coord x="209206" y="-272421"/>
+                            <coord x="208335" y="-271761"/>
+                            <coord x="205927" y="-270244"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="16">
+                            <coord x="200956" y="-272377" flags="1"/>
+                            <coord x="200903" y="-271474"/>
+                            <coord x="201037" y="-270896"/>
+                            <coord x="200644" y="-270081" flags="1"/>
+                            <coord x="200088" y="-268926"/>
+                            <coord x="199878" y="-268148"/>
+                            <coord x="199664" y="-266884" flags="1"/>
+                            <coord x="199475" y="-265768"/>
+                            <coord x="199355" y="-264997"/>
+                            <coord x="199124" y="-264185" flags="1"/>
+                            <coord x="198922" y="-263476"/>
+                            <coord x="198466" y="-262890"/>
+                            <coord x="197882" y="-262156" flags="1"/>
+                            <coord x="197165" y="-261255"/>
+                            <coord x="196373" y="-259296"/>
+                            <coord x="195303" y="-257637"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="182133" y="-276341" flags="1"/>
+                            <coord x="182748" y="-271469"/>
+                            <coord x="182961" y="-269507"/>
+                            <coord x="183707" y="-264985"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="96">
+                        <coords count="7">
+                            <coord x="189441" y="-274218" flags="1"/>
+                            <coord x="189485" y="-273228"/>
+                            <coord x="189479" y="-272629"/>
+                            <coord x="189136" y="-271699" flags="1"/>
+                            <coord x="188858" y="-270946"/>
+                            <coord x="188825" y="-269981"/>
+                            <coord x="189573" y="-269690"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="96">
+                        <coords count="19">
+                            <coord x="219172" y="-281128" flags="1"/>
+                            <coord x="219064" y="-282216"/>
+                            <coord x="218928" y="-282818"/>
+                            <coord x="218705" y="-283888" flags="1"/>
+                            <coord x="218545" y="-284657"/>
+                            <coord x="217854" y="-284923"/>
+                            <coord x="217084" y="-285077" flags="1"/>
+                            <coord x="215551" y="-285384"/>
+                            <coord x="214556" y="-285463"/>
+                            <coord x="212992" y="-285463" flags="1"/>
+                            <coord x="212200" y="-285463"/>
+                            <coord x="211517" y="-285923"/>
+                            <coord x="211464" y="-286498" flags="1"/>
+                            <coord x="211146" y="-289946"/>
+                            <coord x="211171" y="-291704"/>
+                            <coord x="211754" y="-295359" flags="1"/>
+                            <coord x="212068" y="-297329"/>
+                            <coord x="212352" y="-298490"/>
+                            <coord x="213522" y="-300274"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="2">
+                            <coord x="227078" y="-284272"/>
+                            <coord x="221530" y="-284665"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="7">
+                            <coord x="221530" y="-284665" flags="1"/>
+                            <coord x="221116" y="-283979"/>
+                            <coord x="220683" y="-283860"/>
+                            <coord x="220070" y="-283435" flags="1"/>
+                            <coord x="219753" y="-283215"/>
+                            <coord x="219630" y="-282745"/>
+                            <coord x="219128" y="-281529" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="187225" y="-264837" flags="1"/>
+                            <coord x="187225" y="-265665"/>
+                            <coord x="188187" y="-265545"/>
+                            <coord x="189212" y="-265579"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
                 </objects>
             </part>
         </parts>
-        <templates count="2" first_front_template="2">
+        <templates count="4" first_front_template="0">
+            <template type="TemplateImage" open="true" name="kartorp_zoom18_2021-08-09 115615.png" path="C:/Users/joaki/projects/SalenKartan/eniro.satellite/kartorp_zoom18_2021-08-09 115615.png" relpath="eniro.satellite/kartorp_zoom18_2021-08-09 115615.png" georef="true">
+                <crs_spec>+proj=latlong +datum=WGS84</crs_spec>
+            </template>
             <template type="TemplateImage" open="true" name="Kartorp1998.png" path="C:/Users/joaki/projects/SalenKartan/gamlaOlKartor/Kartorp1998.png" relpath="gamlaOlKartor/Kartorp1998.png">
                 <transformations adjusted="true" passpoints="2">
                     <transformation role="active" x="181642" y="-312496" scale_x="0.0572384" scale_y="0.0572384" rotation="0.0198087"/>
@@ -27589,15 +28131,18 @@
                     </matrix>
                 </transformations>
             </template>
+            <template type="OgrTemplate" open="true" name="vl_riks.shp" path="C:/Users/joaki/projects/SalenKartan/fastighetskartan/Kommunikation/VL - Line layer with roads/vl_riks.shp" relpath="fastighetskartan/Kommunikation/VL - Line layer with roads/vl_riks.shp" georef="true"/>
             <defaults meters_per_pixel="0" dpi="300" scale="10000"/>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.363126" position_x="131758" position_y="-172449">
+            <map_view zoom="0.363126" position_x="131758" position_y="-172449" grid="true">
                 <map opacity="1" visible="true"/>
-                <templates hidden="true" count="2">
-                    <ref template="1" visible="true" opacity="0.5"/>
-                    <ref template="0" visible="true" opacity="0.5"/>
+                <templates hidden="true" count="4">
+                    <ref template="2" visible="true" opacity="0.5"/>
+                    <ref template="1" opacity="0.5"/>
+                    <ref template="3" visible="true" opacity="1"/>
+                    <ref template="0" opacity="0.5"/>
                 </templates>
             </map_view>
         </view>
