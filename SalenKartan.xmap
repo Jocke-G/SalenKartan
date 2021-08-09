@@ -27466,14 +27466,139 @@
                 </objects>
             </part>
         </parts>
-        <templates count="0" first_front_template="0">
-            <defaults meters_per_pixel="0" dpi="0" scale="0"/>
+        <templates count="2" first_front_template="2">
+            <template type="TemplateImage" open="true" name="Kartorp1998.png" path="C:/Users/joaki/projects/SalenKartan/gamlaOlKartor/Kartorp1998.png" relpath="gamlaOlKartor/Kartorp1998.png">
+                <transformations adjusted="true" passpoints="2">
+                    <transformation role="active" x="181642" y="-312496" scale_x="0.0572384" scale_y="0.0572384" rotation="0.0198087"/>
+                    <transformation role="other" x="168316" y="-332392" scale_x="0.0564444" scale_y="0.0564444" rotation="0"/>
+                    <passpoint error="1.53582e-12">
+                        <source>
+                            <coord x="190467" y="-394009"/>
+                        </source>
+                        <destination>
+                            <coord x="202863" y="-375412"/>
+                        </destination>
+                        <calculated>
+                            <coord x="202863" y="-375412"/>
+                        </calculated>
+                    </passpoint>
+                    <passpoint error="1.22741e-12">
+                        <source>
+                            <coord x="136967" y="-300684"/>
+                        </source>
+                        <destination>
+                            <coord x="150496" y="-279719"/>
+                        </destination>
+                        <calculated>
+                            <coord x="150496" y="-279719"/>
+                        </calculated>
+                    </passpoint>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="17.4674"/>
+                        <element value="-0.346051"/>
+                        <element value="-3280.95"/>
+                        <element value="0.346051"/>
+                        <element value="17.4674"/>
+                        <element value="5395.62"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0572272"/>
+                        <element value="0.00113374"/>
+                        <element value="181.642"/>
+                        <element value="-0.00113374"/>
+                        <element value="0.0572272"/>
+                        <element value="-312.496"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="3" m="3">
+                        <element value="0.0564444"/>
+                        <element value="0"/>
+                        <element value="168.316"/>
+                        <element value="0"/>
+                        <element value="0.0564444"/>
+                        <element value="-332.392"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Kartorp2000.png" path="C:/Users/joaki/projects/SalenKartan/gamlaOlKartor/Kartorp2000.png" relpath="gamlaOlKartor/Kartorp2000.png">
+                <transformations adjusted="true" passpoints="2">
+                    <transformation role="active" x="214195" y="-330737" scale_x="0.0565474" scale_y="0.0565474" rotation="0.0130426"/>
+                    <transformation role="other" x="213021" y="-319666" scale_x="0.0564444" scale_y="0.0564444" rotation="0"/>
+                    <passpoint error="3.21806e-12">
+                        <source>
+                            <coord x="202295" y="-364351"/>
+                        </source>
+                        <destination>
+                            <coord x="202866" y="-375359"/>
+                        </destination>
+                        <calculated>
+                            <coord x="202866" y="-375359"/>
+                        </calculated>
+                    </passpoint>
+                    <passpoint error="1.54631e-12">
+                        <source>
+                            <coord x="148914" y="-269715"/>
+                        </source>
+                        <destination>
+                            <coord x="150629" y="-279861"/>
+                        </destination>
+                        <calculated>
+                            <coord x="150629" y="-279861"/>
+                        </calculated>
+                    </passpoint>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="17.6828"/>
+                        <element value="-0.230643"/>
+                        <element value="-3863.85"/>
+                        <element value="0.230643"/>
+                        <element value="17.6828"/>
+                        <element value="5798.95"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0565426"/>
+                        <element value="0.000737504"/>
+                        <element value="214.195"/>
+                        <element value="-0.000737504"/>
+                        <element value="0.0565426"/>
+                        <element value="-330.737"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="3" m="3">
+                        <element value="0.0564444"/>
+                        <element value="0"/>
+                        <element value="213.021"/>
+                        <element value="0"/>
+                        <element value="0.0564444"/>
+                        <element value="-319.666"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                </transformations>
+            </template>
+            <defaults meters_per_pixel="0" dpi="300" scale="10000"/>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
             <map_view zoom="0.363126" position_x="131758" position_y="-172449">
                 <map opacity="1" visible="true"/>
-                <templates count="0"/>
+                <templates hidden="true" count="2">
+                    <ref template="1" visible="true" opacity="0.5"/>
+                    <ref template="0" visible="true" opacity="0.5"/>
+                </templates>
             </map_view>
         </view>
         <print scale="15000" resolution="300" mode="raster">
