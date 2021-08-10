@@ -75,18 +75,30 @@ För närvarande är det [Laserdata NH](https://www.lantmateriet.se/sv/Kartor-oc
 [Laserscan tool](https://www.openorienteering.org/apps/laserscan-tool/)
 Inte testat ännu
 
-### Fastighetskartan
+### Fastighetskartan (inkl topografiska kartan)
 
 Hämtas från lantmäteriet
 
 https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/fastighetskartan/
 
-- AL (Fastighetsindelning) - Linjeskikt med gränser
-- BY (Bebyggelse) - Ytskikt med byggnader
-- MV (Hydrografi) - Ytskikt med vatten
-- VL (Kommunikation) - Linjeskikt med vägar
-
 Lägg till som bakgrundsbilder.
+
+#### Fastighetsindelning
+
+- AL - Linjeskikt med gränser
+
+#### Bebyggelse
+
+- BY - Ytskikt med byggnader
+
+#### Hydrografi
+
+- HL - Linjeskikt med hydrografi
+- MV - Ytskikt med vatten
+
+#### Kommunikation
+
+- VL - Linjeskikt med vägar
 
 ### Gammal karta över Kårtorp
 
