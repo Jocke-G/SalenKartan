@@ -100,6 +100,13 @@ Lägg till som bakgrundsbilder.
 
 - VL - Linjeskikt med vägar
 
+### Skogsstyrelsen
+
+[Skogliga grunddata](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/skogliga-grunddata/)
+
+[Ladda ner geodata via klickbara länkar](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/nerladdning-av-geodata/)
+
+
 ### Gammal karta över Kårtorp
 
 Första version från 1998.
