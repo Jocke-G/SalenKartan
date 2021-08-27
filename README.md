@@ -1,6 +1,7 @@
 # SalenKartan
 
-Karta över Tibro - Salen, och lite däromkring.
+Karta över Tibro - Salen, och lite däromkring. Ett område på ca 10 km2.
+
 ![SalenKartan](samples/latest.png)
 
 ## Begränsning
@@ -51,6 +52,12 @@ Kartan är ritad enligt nu gällande kartnorm ISOM 2017-2
 
 https://www.svenskorientering.se/Arrangera/kartfragor/stoddokumentochfiler/
 
+## Fredriksberg MicroSprint
+
+ISSprOM 2019 (1:4000)
+Skalad om till 1:750, även symboler omskalade. Passar då på ett liggande A4.
+Vissa symboler är sedan omskalade till 50% (1:2000).
+
 ## Kartritnngsprogram
 
 [Open Orienteering Mapper](https://www.openorienteering.org/apps/mapper/)
@@ -65,6 +72,9 @@ För närvarande är det [Laserdata NH](https://www.lantmateriet.se/sv/Kartor-oc
 
 [Laserdata Nedladdning, skog](https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/laserdata-nedladdning-skog/) ca 2023
 
+Indexrutor
+
+https://webgisportal.lantmateriet.se/portal/apps/webappviewer/index.html?id=7e615bb3b343490d8e2c6d1d2793cf8b
 
 #### Program
 
