@@ -23,8 +23,8 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 | Trakt | Del | Status |
 | ------------- | ------------- | ------------- |
 | Salen | Byn | Färdig förutom teknisk verifiering av kartnorm. |
-| Laggarebolet/Bjärg | Laggarebolets hagar | Jobbar aktivt på. |
-| Laggarebolet/Bjärg | Dammen | Grovt ritad, detaljer återstår. |
+| Laggarebolet/Bjärg | Laggarebolets hagar | Färdig |
+| Laggarebolet/Bjärg | Dammen | Färdig |
 | Laggarebolet/Bjärg | Norra skogen | Sporadiskt ritad, mycket återstår. |
 | Laggarebolet/Bjärg | Norra hagarna | Grovt ritad, detaljer återstår. |
 | Laggarebolet/Bjärg | Skogshagarna | Sporadiskt ritad, mycket återstår. |

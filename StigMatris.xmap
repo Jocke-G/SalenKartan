@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://openorienteering.org/apps/mapper/xml/v2" version="9">
+    <notes></notes>
+    <georeferencing scale="15000" auxiliary_scale_factor="1.00017" declination="-1.92">
+        <projected_crs id="EPSG">
+            <spec language="PROJ.4">+init=epsg:3006</spec>
+            <parameter>3006</parameter>
+            <ref_point x="363000" y="6370000"/>
+        </projected_crs>
+        <geographic_crs id="Geographic coordinates">
+            <spec language="PROJ.4">+proj=latlong +datum=WGS84</spec>
+            <ref_point_deg lat="57.45196639" lon="12.71677554"/>
+        </geographic_crs>
+    </georeferencing>
+    <colors count="30">
+        <color priority="0" name="Violett övertryck" c="0.05" m="0.95" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="28"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.95" g="0.05" b="1"/>
+        </color>
+        <color priority="1" name="Mask för vattendrag" c="0" m="0" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="24"/>
+            </spotcolors>
+            <cmyk method="spotcolor"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="2" name="Svart 100% - text" c="0" m="0" y="0" k="1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="23"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="3" name="Brun 50% -  vägfyllning" c="0" m="0.25" y="0.5" k="0.1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="23"/>
+                <component factor="0.5" spotcolor="25"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.9" g="0.675" b="0.45"/>
+        </color>
+        <color priority="4" name="Svart 100% - väg sidlinje o linjeobjekt" c="0" m="0" y="0" k="1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="23"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="5" name="Svart 70% - linje o ytobjekt" c="0" m="0" y="0" k="0.7" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="23"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.3" g="0.3" b="0.3"/>
+        </color>
+        <color priority="6" name="Grön 100% - punktobjekt" c="0.75" m="0" y="0.8" k="0.15" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="26"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.212" g="0.85" b="0.17"/>
+        </color>
+        <color priority="7" name="Blå 100% - kantlije vattenyta.vattendrag. liten vattenyta" c="1" m="0" y="0" k="0.1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="1" spotcolor="24"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0.9" b="0.9"/>
+        </color>
+        <color priority="8" name="Mask för vattendrag" c="0" m="0" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="24"/>
+            </spotcolors>
+            <cmyk method="spotcolor"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="9" name="Brun 100% - linjeobjekt" c="0" m="0.4" y="0.95" k="0.15" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="25"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.85" g="0.51" b="0.042"/>
+        </color>
+        <color priority="10" name="Violett - banbåtryck" c="0.05" m="0.95" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="28"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.95" g="0.05" b="1"/>
+        </color>
+        <color priority="11" name="Svart 30% - ytobjekt" c="0" m="0" y="0" k="0.3" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="23"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.7" g="0.7" b="0.7"/>
+        </color>
+        <color priority="12" name="Blå 100% - ytobjekt. sankmark " c="1" m="0" y="0" k="0.1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="24"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0.9" b="0.9"/>
+        </color>
+        <color priority="13" name="Blå 50% - ytobjekt. stor vattenyta" c="0.4" m="0" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="24"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.6" g="1" b="1"/>
+        </color>
+        <color priority="14" name="Brun 50% - ytobjekt. hårdjord yta" c="0" m="0.25" y="0.5" k="0.1" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="25"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.9" g="0.675" b="0.45"/>
+        </color>
+        <color priority="15" name="Grön 50%/Gul 100%" c="0.25" m="0.1" y="0.8" k="0.15" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="26"/>
+                <component factor="0" spotcolor="27"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.638" g="0.765" b="0.17"/>
+        </color>
+        <color priority="16" name="Vit för grön" c="0" m="0" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="26"/>
+            </spotcolors>
+            <cmyk method="spotcolor"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="17" name="Grön 30% - ytobjekt" c="0.15" m="0" y="0.18" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="26"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.85" g="1" b="0.82"/>
+        </color>
+        <color priority="18" name="Vit för gul" c="0" m="0" y="0" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="27"/>
+            </spotcolors>
+            <cmyk method="spotcolor"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="19" name="Gul 100% - ytobjekt" c="0" m="0.2" y="0.7" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="27"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0.8" b="0.3"/>
+        </color>
+        <color priority="20" name="Gul 70% - ytobjekt" c="0.04" m="0.17" y="0.6" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="27"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.96" g="0.83" b="0.4"/>
+        </color>
+        <color priority="21" name="Gul 50% - ytobjekt" c="0.02" m="0.14" y="0.47" k="0" opacity="1">
+            <spotcolors knockout="true">
+                <component factor="0" spotcolor="27"/>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.98" g="0.86" b="0.53"/>
+        </color>
+        <color priority="22" name="Orange - ytobjekt" c="0" m="0.67" y="1" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0.33" b="0"/>
+        </color>
+        <color priority="23" name="Svart" c="0" m="0" y="0" k="1" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Svart</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="24" name="Blaa" c="0.87" m="0.185" y="0" k="0" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Blaa</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.13" g="0.815" b="1"/>
+        </color>
+        <color priority="25" name="Brun" c="0" m="0.56" y="0.815" k="0.185" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Brun</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.815" g="0.359" b="0.151"/>
+        </color>
+        <color priority="26" name="Groen" c="0.76" m="0" y="0.91" k="0" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Groen</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.24" g="1" b="0.09"/>
+        </color>
+        <color priority="27" name="Gul" c="0" m="0.275" y="0.79" k="0" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="30" screen_frequency="150">Gul</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0.725" b="0.21"/>
+        </color>
+        <color priority="28" name="Violett" c="0" m="1" y="0" k="0" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Violett</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0" b="1"/>
+        </color>
+        <color priority="29" name="Graa" c="0" m="0" y="0" k="0.3" opacity="1">
+            <spotcolors>
+                <namedcolor screen_angle="45" screen_frequency="150">Graa</namedcolor>
+            </spotcolors>
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.7" g="0.7" b="0.7"/>
+        </color>
+    </colors>
+    <barrier version="6" required="0.6.0">
+        <symbols count="104" id="OCD">
+            <symbol type="2" id="0" code="101.0" name="Höjdkurva">
+                <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAsklEQVQ4jbVU0Q7EIAiDxf++7cu7hx07Y4CCyfVJEUttEAUA+QOGLS7VNPHTrK8AYKTRZXbu4agosjP2KpeYoWvF4CkPIrVRvETseTwTeq+hxBEps6akOFKaxQRfnL/lu19jnbyRVV6fu1qQWfISM8+qPWx5pT5mXeHlpVYYPEu8QvN+sH7cVa/VsRkJiAZU+YN4l7Opp6dIqnh3lJat6JCKNMZmh1SkOd0Mle4JiXfIZtzb/LvwVECwzAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="1" code="102.0" name="Stödkurva">
+                <line_symbol color="9" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAApklEQVQ4jZ2UQQ7EMAgDoR9P+nL2tFWEDNhB6gXTCXEQHhFhYrzuML9OVIixm19OTQJ30FzzKNdfgmseMVcjaPb51F/3GcxAEby1QoFmrQSz1698920GFcXTrK8I/vE6KKoZx42Bovz4eAwU6aXHU0fjHDNgBJ1yIzh3gg6C8JsFtM2+r6qjwBlaaWdO8rjacDDPdFx11umyFWzd1bh18beF2hU38QN3gluxe70ftwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="2" code="104.0" name="Lutningsstreck">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="-510"/>
+                                <coord x="0" y="0"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4je3TsREAMQwCwcONv105buADOVDAjChgAyRk2zRkdaADD/wfbWj5Y1UHciQAvuKe8jrOg8vHe01eFQMHwxdbfxCc8vdIqwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="3" code="106.0" name="Skärning">
+                <line_symbol color="9" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="500" end_length="380" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="0" y="500"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYsYGBYWhlEIb/UNCAYFKFP/Qij3apYrTYHDWYfgYDAP4JVNb6c4P8AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="4" code="106.1" name="Skärning: baslinje">
+                <line_symbol color="9" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAYklEQVQ4je2U0QrAIAhFr6P/rn356WFjEAxXAwcD74tIeoxrZAAK0BYBTfDPwWW5w6LAkuS9/HOwNb9sUAXJpP3h2lXEeSyAdoRLbj4e3UvwzuOJBa6DJzcS5rHlt5ng78AdhkteWSYWGcYAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="5" code="106.2" name="Tagg till skärning">
+                <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4je2VwQ6AIAxDW8N/K19eL0Q9TDCDHZbY0zjwgK0NlCQEaIuAhoILAFRyGXBvnQ27MdR03OWn9Uj5hhcGZrqAFPfON+trFvyAWIdNt6KSZnLz2e0HX/Inj7DttsTHnf/BDx688wQtd2VdWqmOfQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="6" code="107.0" name="Jordvall">
+                <line_symbol color="9" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2500" end_length="1250" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="200" inner_color="9" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4je3UIQ4AMAgDwHYf33h5p5ZMYBAEU2zJoQolCQ2zOlDDhifhIBFkuljNeICW5vGv9Lu6k5ZXM/pXGDY8AF9oNRmuRMMFSQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="7" code="109.0" name="Erosionsfåra">
+                <line_symbol color="9" line_width="250" minimum_length="0" join_style="2" cap_style="3" pointed_cap_length="750" start_offset="750" end_offset="750" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAgElEQVQ4jd2UwQ7AIAhDZT/u/PJ6IsFFR9WxJevJAzyaFBEASAE6IqDvgosI1ejVLTlmhjdg1i2jH4T3GVhzyM6/asBa3AuxiEyFO3RsIfadAddtF2ybrg4ZoEpGR2gHegvuDZiBu1sx65QGW/gjW7ELD7tuCQs6iTZ3K1YVdoQqSgOI0UCcVdYAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="8" code="201.0" name="Brant, korta taggar">
+                <line_symbol color="5" line_width="350" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="600" end_length="60" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="120" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="0" y="500"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPklEQVQ4je3UIQ4AMAgEQWj6cHj51tbU9QTJrcNMCIIECEFLgRoeDu/ulsDzTiGDA6CquPsxyzZOPyHDht8d7tRYYFLz8qQAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="9" code="201.1" name="Opasserbar brant: baslinje">
+                <line_symbol color="5" line_width="350" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQUlEQVQ4jWP8////fwYaACZaGDpq8BA3mKWxsZEiA+rr67GKD72goJnBjKNZGgZYSNVATPKsr68fgkExmtyGsMEArd0SIgvxtHgAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="10" code="202.0" name="Stenformationer">
+                <area_symbol inner_color="5" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAcElEQVQ4jd2T4Q6AIAiEz9Z7M56c/jlKVGjRyvvlJn7e4CgiIkjQlgFNBe93HzJzPRNRc18iPdYwS/oDdytm0GvN/4a3KNgzOOCciprjWS5HEEvmgkTy2lNaj5vN67n1uNR6zzEQH6Qb/IQW3bxPgQ/7ti2dlo+t4wAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="11" code="206.0" name="Sten">
+                <point_symbol inner_radius="200" inner_color="5" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AELMYoaGxvh7Pr6eqIMJuhiZEOx8ck2mFwwcAajhymxYcw4WgiNGjxqMG4AALWTESVTS4PqAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="12" code="210.0" name="Stenig mark">
+                <point_symbol inner_radius="90" inner_color="5" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAeElEQVQ4jeWTUQrAIAxDdezeJSfvvgoy7Wx0ymDvV4xpGrOqalrAsUL0G8IAEoD3hVny6PLMvYg0z/c7bjnquSyZduwt9fQutFxFnBqh5TERGFUUbF893ChK7k4jE1TCzLhPDH+QHm7dZrOmesw8RvWYYX/G/xO+ACVSPaYXikMqAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="13" code="211.0" name="Öppet sandområde">
+                <area_symbol inner_color="21" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="450" line_offset="0" offset_along_line="0" point_distance="450">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="90" inner_color="5" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOElEQVQ4jWP8/5/hPwMNABMtDKWfwYyM+BWTIs84GsZEGUxJmI+GMXaDR9Mx/Q0eTcfUN3hkp2MApM4SL+Lh2DAAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="14" code="212.0" name="Berg i dagen">
+                <area_symbol inner_color="11" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAgUlEQVQ4je2USw7AIAhE0fRenJ2T0VUTw0fA1sRFZ6fCA0diY2aGDeo7oAAAVyaIiNQeIk5zmmeFBfNkFTGtqEA9KfAK1MrpUcCqtk3FZ2B52xIYEcMxM8GzpPHMixu7Ps/jqGsFznoYyexYwivFntjQiuyDyrX7Cb3VeVPxg9O6AbaLK44v6lryAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="15" code="301.0" name="Sjö">
+                <area_symbol inner_color="13" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAlklEQVQ4jc2VSw7AIAhEx6b3vzJd1fhhALEmZcNCfBkHlSIiggNxnYACwB0pKoWvsfO6ii2otW6C6yaxswan4A5anKzAVfASlMAncArqWZGGKjdD93gVGm7e3xS3j+UbxUrsK361DHbsKyaRVwxQGwD2uyUbRhXXomTDKLiLgLfW7LH/49HLJnsDbQJHJmCkRm3eF+P1AcO/aTE3Rya3AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="16" code="301.3" name="Konturlinje">
+                <line_symbol color="12" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAYklEQVQ4je3TQQ7AIAhE0T9ND9ajezNcWhOgunDTwFLJc4IqMzMO1HUCLXiqe6VJyve9608TS99odPBSYgBasP4M/J1c3jueEkSgg8PA5U9oA3VwyGa8gzr9otWXLrjg/8AdWTUXZ1pA5+cAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="17" code="304.0" name="Opasserbart vattendrag 0,30">
+                <line_symbol color="13" line_width="300" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <borders>
+                        <border color="12" width="250" shift="125"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAANUlEQVQ4jWP8////fwYaACZaGDpq8BA3mIWxkTYG08zFjAyjGWTIGszCMOSS22h5PGowBgAA9OQMJqZ0xc0AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="18" code="305.0" name="Passerbart vattendrag">
+                <line_symbol color="7" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAb0lEQVQ4je3VwQrAIAwD0FT8/1/uToIOq021h8Fy91EiVlFVRUJKBvrDQ+oNROQyPANbwlWsUCA48RudvQQa7tHV06Kq8KIUzKBumEWBTceeS7JiTnyCAoB4jkQW67bj6LY2Oz5d/zXn//jiPk6DH1pcHDFn7TylAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="19" code="305.1" name="Mask för passerbart vattendrag">
+                <line_symbol color="8" line_width="300" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAjUlEQVQ4jd3USxaAIAgF0EfH/W+ZBn5OkQj4mcQ0u6IgxMyMA5G2SXQCJgDi3OtwQUlkfJ1A1+ABCsxeRQeVvbWvK+qG07CWregMP1whB+qHHz9qxZKR5IvphlJ9LdsMG5OCCJ/naqHIn2JDqK0eoECgeC8QY9QFR8EGmxcRBBvs7YpomF0xG2tj81fwDRLmLEQc3s44AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="20" code="306.0" name="Passerbart litet vattendrag">
+                <line_symbol color="7" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAjElEQVQ4jdWUwQ7AIAhDYeH/f5mdTDqHWoYe1iMxz1oBdXeXA7pOQEVELCqq8oDRe1/gBmUCUh2bCB2zqc/OhRlnoqDBzUUVHjpG+NcLdNXHCM50/LKP3XNAGozKxEKDs66PjfT/wNZ/yK4lagjCgahe8IgCe7Z/SXYCpyPN1iOFa7OpsoiG4K0Z79QNx7IsLcr6gvwAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="21" code="306.1" name="Mask för litet vattendrag">
+                <line_symbol color="8" line_width="200" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAu0lEQVQ4jbWVwQ7DIAxDnYn//2Xv1DZkYJNKy62ieTYpuEGS6FSItUQabaiykUTPwFcDgRCO2XIcCRi/gPu1mEU1OEMzcOG6ih3PmMQ0kqWJN+CI4rjCy/PHEx/gPcfsflMazAdCzgIO7h1fAuJEvAcXOOBdn4MT/MR1D9yov4GHOzYydCTYNbpE24FVWgHpKjfhQ33hSdSNrIJdQyyOl9slAMTy13QQ7G5E63S7mtRlMHPfx6YI9Wl9U19FXkI/uah3BQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="22" code="307.0" name="Mindre dike">
+                <line_symbol color="7" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1250" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAASklEQVQ4jWP8////fwYaACZaGMrAwMDAQqoGRkYEG+ZXZDGyDUY2EBefgYGGQTFq8BA2mBF7YsGfRolRwzjksvSowaMGjxqMBwAAjSoUIlq9V/oAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="23" code="309.0" name="Opasserbar sankmark">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="0" line_spacing="500" line_offset="0" offset_along_line="0" color="12" line_width="250"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAANUlEQVQ4je2RsQ0AAAjC0Pj/y7jxQTd6QEPo2LYARmLES0hR8TFHgIsbLzReaLzQeLy48cIDLuwWGWQRucgAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="24" code="310.0" name="Sankmark">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="0" line_spacing="300" line_offset="0" offset_along_line="0" color="12" line_width="100"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAM0lEQVQ4je3QsREAMAyDQJzL/is7VbSBOn4ACgZ2KbidLJxOFsYVnyvCFeGKcEW4ImorHnIPHhUfOpJxAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="25" code="310.1" name="Liten sankmark">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="12" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-290" y="-150"/>
+                                <coord x="290" y="-150"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="12" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-290" y="140"/>
+                                <coord x="290" y="140"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOElEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYBZcEIyNxBuDKXjgNpjQ/joYxYYNHXhiPGjyEDQYA+xQMLMZJi0wAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="26" code="314.0" name="Speciellt vattenföremål">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="7" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="350" y="-350"/>
+                                <coord x="-350" y="350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="7" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-350" y="-370"/>
+                                <coord x="350" y="350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="7" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-350" y="360"/>
+                                <coord x="350" y="-350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="7" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-360" y="-370"/>
+                                <coord x="360" y="370"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAZUlEQVQ4je3UOw7AIAwD0Lji/ld2h4qBtthhQCzJnDwJ8gFJxoa4dqAFH4YBX6xypjCpC4EnZxlWuEMt/Idn0IiI5lNGPLunZ8etP981dAl+/2kWl/CsURlcLohqlJ3zuscFf+IGcgkoJwjIpsIAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="27" code="401.0" name="Öppen lättlöpt mark">
+                <area_symbol inner_color="19" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPklEQVQ4jWP8/5/hPwMNABMDAwMDAyOaKBX4jLR1MQkuIZZPYxePhjHDaBgjgdEwhvNHwxgORsMYwRxyYQwARbQhPu3XdRQAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="28" code="402.0" name="Öppen lättlöpt mark m spridd v">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="500" line_offset="0" offset_along_line="0" point_distance="500">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="200" inner_color="19" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAgElEQVQ4je2UwQ7AIAhDwez/f7k7bdMGcBi52YvRPAuaBgUAKdAlot3Wq6G0n3NtvMMG3VmSa25xVpL7Oraa6M+TnALcC7fmOcUc/XHw3iSnhXFzSr5ai2Az4Q0RJGOzuK+AG40Xo2VxozGclfWDs79iQwQr43am22N8plv1dLsB0A40NYrxzYUAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="29" code="403.0" name="Öppen mark">
+                <area_symbol inner_color="21" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAJElEQVQ4jWP8/5/hPwMNABMtDB01eNTgUYNHDR41eNTgkWQwAIVYAykEbTYZAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="30" code="404.0" name="Öppen mark m spridd vegetation">
+                <area_symbol inner_color="20" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="700" line_offset="0" offset_along_line="0" point_distance="700">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="275" inner_color="18" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAUElEQVQ4jWP8////fwYUwIjKZUCTJlIdEw5dFINRg2lvMOP//zijnSJAMxezoHLJS7PY1A29yBs1GA7QUgV67OMChNXR0sXoaXK0PB7xBgMA8mUOK4r/EmEAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="31" code="406.0" name="Skog: löphindrande">
+                <area_symbol inner_color="17" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAL0lEQVQ4jWNk+M/w/z/DfwZGBkYGatJMtDCUEcYadfGoi0ddPOriURePungEuBgAqGP6BWmDEPwAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="32" code="410.5" name="Vit för grönt 0.20 HS">
+                <line_symbol color="16" line_width="200" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAANklEQVQ4je3TwQkAQAwCwc2R/ls2TZyEgBYwD9FCiM8RohwwwHOggY/DbVrbwSpscC4dOPAGPJVSCiKtII9NAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="33" code="410.7" name="Vit för grönt 0.30 HS">
+                <line_symbol color="16" line_width="300" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAN0lEQVQ4je3UsQkAMBBC0X8h+69sNkh1FoIO8AoRByGWI8Q4YIDjQAuHw9e0tsAq8uB+ReHCnzzkTgoir77xSgAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="34" code="410.8" name="Vit för grönt 0.40 HS">
+                <line_symbol color="16" line_width="400" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAALklEQVQ4jWNk+M/wn4EGgIkWho4aPMQNZqFRahuCQTFqMBwwjhZCowaPGowbAACFKwYndynO+AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="35" code="412.0" name="Fruktodling">
+                <area_symbol inner_color="19" min_area="0" patterns="1">
+                    <pattern type="2" angle="0" line_spacing="800" line_offset="0" offset_along_line="0" point_distance="800">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="225" inner_color="6" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAW0lEQVQ4je2SwQoAIAhDt+i/oy+3SxkUIVTefKdUbCtGEQgcyADAOhtS+oHAkLyZp6Ok9Q5jfr74EXr98XTMVfKtdnT82emo3RxHjpXIsRI5jhzv7KlQSWPT2Guu3DYn9Xku5gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="36" code="413.0" name="Vingård">
+                <area_symbol inner_color="19" min_area="0" patterns="2">
+                    <pattern type="2" angle="1.5708" rotatable="true" line_spacing="1700" line_offset="0" offset_along_line="0" point_distance="1900">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="6" line_width="200" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="650"/>
+                                            <coord x="0" y="-640"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </pattern>
+                    <pattern type="2" angle="1.5708" rotatable="true" line_spacing="1700" line_offset="850" offset_along_line="950" point_distance="1900">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="6" line_width="200" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="650"/>
+                                            <coord x="0" y="-640"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAWElEQVQ4jWP8f4DhPwMUMB6A0P8dGBgoFWNioBFgIaQA2VWkqKOZiwkazHgAEX6kqKNPGJMbntgAfcKY3PAkaDA1wWg6Jt5gcsFoOsZuMDXBaDom3mByAQDj7SZ+Ne/zvwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="37" code="418.0" name="Special vegetation feature">
+                <point_symbol inner_radius="220" inner_color="-1" outer_width="180" outer_color="6" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4je2UwQrAIAxDrfjf0y+PJw8Vq2GjG4XlppZXiakCAMlB2QP6g5UKUyRN1BrX+b234AGcQda+7m4oVfOIqnHzeNmSue2pNl7c3vWY9fmTVAhgf5tPBmQLnkFDzEhT4DuKF7d44A4JQRowj7x+GgAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="38" code="419.0" name="Speciellt vegetationsföremål">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="6" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="390" y="-390"/>
+                                <coord x="-390" y="390"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="6" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-390" y="-390"/>
+                                <coord x="390" y="390"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAYUlEQVQ4je2UMQ6AMAwDGz4OvPw6sSDVNYNVCfDq9BSlTgqgBbQloD94MbjOmj6WNQi1Y2wrD0C7A8AMaoHvIAcKUOBt3jVPdm9RY6mIjWLN50XiZnUlauxUPNWLjtD3wB2VZVL2ksyFawAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="39" code="420.0" name="Speciellt vegetationsföremål">
+                <point_symbol inner_radius="250" inner_color="6" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPklEQVQ4jWP8////fwYaACZaGDpq8KjBg9VgxkZGBsZGRuoajGwgsYYPbFD8r/+PlY0PMI4WQqMGjxqMGwAAiv8PKfNMH6cAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="40" code="502.0" name="Större väg 11 - 14m.">
+                <line_symbol color="3" line_width="700" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <borders>
+                        <border color="4" width="180" shift="90"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4je2UMQoAMAwCL6UPz8+vc/dmEOridgiipcqA1gT0gy8VEFaeSgOvnQZVXzsT0AZ/4uDEecvbzvx84G3mgQ+BQ9WCv4hGpwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="41" code="502.1" name="Större väg 5 - 11m.">
+                <line_symbol color="3" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <borders>
+                        <border color="4" width="180" shift="90"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARUlEQVQ4je2UMQoAIAzEUvHh/jwOgi+wQqG3ZAs3HBeqJGRkSFv8RxxAsVUsQOU1UV0HT0mGVLUbX9bb8TTnjgueUItvNhkdXPTjgGWdAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="42" code="503.0" name="Mindre väg upp till 5 m.">
+                <line_symbol color="3" line_width="300" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <borders>
+                        <border color="4" width="180" shift="90"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4je3UsQ0AMAgDwSfK4Gz+WQIXSKFxd6IwlCqBOQn0w8vhApbVTaWB6aRB1ekkgTYY23hfK27oay486Q/n4Qew6ORX0ypwaAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="43" code="503.1" name="Gata HS upp till 5m.">
+                <line_symbol color="3" line_width="250" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <borders>
+                        <border color="4" width="180" shift="90"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4je3UKxIAIAwD0YXh4Nx8EVgkEZ1pTNwz/QxVApkJtOGG3xlAsT3egMrvRnXf+tokUNV6w1uhr1nw8hrOwwfGkKgQJbHrzwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="44" code="503.2" name="Sidolinje väg">
+                <line_symbol color="4" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAU0lEQVQ4je2TwQoAIAhDt+j/f9lOghDUCjwI7jyfMibNzJCgkQFtcHHwVI0kJZ+3VwKThFL3uPwahQrd5gAcp16g8WL2S7uuGf9qJkVcMOMG54MXn5IZJRWicLQAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="45" code="509.0" name="Ej cykelbart gata i skog">
+                <line_symbol color="19" line_width="600" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAg0lEQVQ4je2UURKAIAhEpeleXj1PRj81OQi5EfTVfjmO8wR2lZiZS4KWDOgP/ga8QqcaXeuKhYhu49YDewFwG2xVee5P4OOMG2GtW90cIt6KfTUCNc6M5iHmVAYq9v4Vk6r9OX5sngeujCXu5Qn4e7CW8RCwhIeCFcWBhZH+HE+UNoodp0E0E80zL1MAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="16" id="46" code="515.0" name="Järnväg trafikerad HS">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="2" code="515.0" name="Järnväg trafikerad HS - huvudlinje">
+                            <line_symbol color="5" line_width="350" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3000" end_length="1500" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                                <mid_symbol>
+                                    <symbol type="1" code="">
+                                        <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                            <element>
+                                                <symbol type="2" code="">
+                                                    <line_symbol color="5" line_width="350" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                                </symbol>
+                                                <object type="1">
+                                                    <coords count="2">
+                                                        <coord x="0" y="-530"/>
+                                                        <coord x="0" y="530"/>
+                                                    </coords>
+                                                    <pattern rotation="0">
+                                                        <coord x="0" y="0"/>
+                                                    </pattern>
+                                                </object>
+                                            </element>
+                                        </point_symbol>
+                                    </symbol>
+                                </mid_symbol>
+                            </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAS0lEQVQ4je2UMQ4AIAgDix+HvhwnN4OLxGDo3N5QQsXdHQkaGdAGPwSTBMljOPLVq0LMrB8EACC7rViXVtUwHPk+qeKG6lXR4HzwBDYnGqhemiA3AAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                    <part private="true">
+                        <symbol type="2" code="515.0" name="Järnväg trafikerad HS - dubbel linje">
+                            <line_symbol color="-1" line_width="350" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                                <borders>
+                                    <border color="-1" width="0" shift="0"/>
+                                </borders>
+                            </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAS0lEQVQ4je2UMQ4AIAgDix+HvhwnN4OLxGDo3N5QQsXdHQkaGdAGPwSTBMljOPLVq0LMrB8EACC7rViXVtUwHPk+qeKG6lXR4HzwBDYnGqhemiA3AAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAS0lEQVQ4je2UMQ4AIAgDix+HvhwnN4OLxGDo3N5QQsXdHQkaGdAGPwSTBMljOPLVq0LMrB8EACC7rViXVtUwHPk+qeKG6lXR4HzwBDYnGqhemiA3AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="47" code="516.0" name="Kraftledning">
+                <line_symbol color="5" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Strecksymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="-320"/>
+                                            <coord x="10" y="310"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </dash_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQElEQVQ4je3UMQ4AMAgCQO3L8eX0CzrQ1ARmcwNGkyRDkKNADX8IV5UGnmQfnAAklxccBEB7dl/HuuX5bRp+B1/jdWJN6FPODAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="48" code="517.0" name="Större kraftledning  9 m">
+                <line_symbol color="-1" line_width="460" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Strecksymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="-610"/>
+                                            <coord x="0" y="620"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </dash_symbol>
+                    <borders>
+                        <border color="5" width="140" shift="70"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQklEQVQ4je3UIQ4AMAhDUdjJy8k7h5gaogmiX5NnICRJhqCjQA0vhKtKA09KAJI7Dg4C8D27Y3krYC+vS9L/2PDTBaWHuvSVpdruAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="49" code="517.1" name="Större kraftledning  15 m">
+                <line_symbol color="-1" line_width="860" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Strecksymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="-10" y="-820"/>
+                                            <coord x="0" y="820"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </dash_symbol>
+                    <borders>
+                        <border color="5" width="140" shift="70"/>
+                    </borders>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQklEQVQ4je3VMQ4AIAgEQfHlx8vXzlqKS0xgazINGANgGdoOtAGcmR64UkiyXMWikKTn2T+WN3ATeB7ILWB+EDN8AO35uvTffiSYAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="50" code="518.0" name="Tunnel, större">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="3">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-590" y="70"/>
+                                <coord x="590" y="70"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="130" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-700" y="-310"/>
+                                <coord x="-540" y="150"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="130" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="680" y="-310"/>
+                                <coord x="520" y="170"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAVUlEQVQ4je2UwQoAIAhDsx+XfbldQzKEWJC0o2zvMqaYmTWCOgNaBAygAUgDIr+sypuNqhoCd54l2Id9MLrPKlDeB38wD3xv0pm5ZvzbX3Gi98qjgQetCTYbM1JACwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="51" code="518.1" name="Tunnel, mindre">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="3">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="310" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-370" y="100"/>
+                                <coord x="380" y="100"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="150" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-330" y="220"/>
+                                <coord x="-570" y="-320"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="150" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="320" y="220"/>
+                                <coord x="550" y="-350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAYklEQVQ4je2SwQoAIQhEa39c/fLZUxeZslgkqJ1jjQ+RVwGgJOTJgP7gTWAzW4awmcp0a0URmQKyHgX7Lfzg6K+le+No26hzgBXp4BntRp003QpcVNU/hWEzXY+/5iAr7gO/BVuDxiMwInwAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="52" code="518.2" name="Liten tunnel">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="3">
+                                <coord x="300" y="-520"/>
+                                <coord x="0" y="0" flags="32"/>
+                                <coord x="-300" y="-520"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAWklEQVQ4je2TwQoAIQhEp35c5svtFFQQDbaxEL2TKDwG0eTujgPkE9InvlVMEiTlvizeZSo2MwDo0tW6zkLiXdLqpcd9KmmBP8+tTaimlcRRljuOctFLP/FnFJTwHiSSEyP8AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="53" code="521.0" name="Hög stenmur">
+                <line_symbol color="5" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3200" end_length="800" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="2" mid_symbol_distance="800" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="250" inner_color="5" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAASUlEQVQ4je2UMQ4AMAgCtR9XXm4nl8a2k3GBjYScLqAREdKg1QElmOApMAABIDd/6pdXd29pnmal85qZSeWrj1955VYQTPAAeAPUDSa03ZitowAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="54" code="524.0" name="Högt stängsel">
+                <line_symbol color="5" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3000" end_length="1500" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="2" mid_symbol_distance="600" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="-250" y="430"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAS0lEQVQ4je3UOQ4AIAgFUTUeHE4+VjbGJS5YMSXFy6+IAMGgZIE67PBnOKuqCWy2OLBIRLbutSl8ik7hG3QI36Jd+AUKEMH/scNNBTbusRMJVbRRAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="55" code="525.0" name="Genomgång i stängsel">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="300" y="500"/>
+                                <coord x="290" y="-480"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-280" y="510"/>
+                                <coord x="-290" y="-470"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAdElEQVQ4je2V2wqAMAxDs+F/b/ny+CATL51TZ0HBvLS05EDDYEGS4KDoAf3BLwCTBMnm7DK4R98DD2fystT0yVDOea6lX+62M8u7i4IkUkq3ryjeWFv0QFfgJ6EApoyPMmup5oUHVJLMV9ELlaQg/T+IM3gEGINxf053MuwAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="56" code="526.0" name="Byggnad">
+                <area_symbol inner_color="5" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4jWP8////fwYaACZaGDpqMH0MZkEXaGxsJMug+vp6FP7QC4pRg+EAI1XgAuixTggMvaCgmcGMo+XxqMEYAACNSAykVAlZ1AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="57" code="526.1" name="Liten byggnad">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="4" code="">
+                            <area_symbol inner_color="5" min_area="0" patterns="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="5">
+                                <coord x="-260" y="-260"/>
+                                <coord x="260" y="-260"/>
+                                <coord x="260" y="240"/>
+                                <coord x="-260" y="240"/>
+                                <coord x="-260" y="-260" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAN0lEQVQ4jWP8////fwYaACZaGDpq8KjB2AELIQWNjY1Yxevr6/HqG3pBMWowHDCOlm6jBg8DgwFEygsl66wWIgAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="58" code="527.0" name="Tomtmark">
+                <area_symbol inner_color="15" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAARklEQVQ4jWP4/5/hP0MDw39q0wy0MPT/f4b/DKMuHgkuZkBgqroY2WCKXYxiGBZMvosJGDyCXExR6iA9fQ41F4+WFSPAxQCvqwOja+cyeQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="59" code="529.0" name="Hårdjord yta">
+                <area_symbol inner_color="14" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAKklEQVQ4je3OsREAMAiAQEZ3c7JErKSi454BVX+XjemAJE6cOHHixEfED3JzLpL4ZWV5AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="60" code="529.1" name="Kantlinje hårdgjord yta">
+                <line_symbol color="5" line_width="120" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAVUlEQVQ4je2UMQrAMAwDpdJ/C79c3ULxEDLUgRJrMRh0HB5M20ZBrgooANx5ERHTgqQlcJnxvlO8IwlBQvaYq5kaZ2iQ34AztI3b+DRj/u4fN7ge/AAn2l2kXoPePwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="61" code="531.2" name="Skjutbana: pil">
+                <line_symbol color="5" line_width="420" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="1700" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <end_symbol>
+                        <symbol type="1" code="" name="Slutsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                                <element>
+                                    <symbol type="4" code="">
+                                        <area_symbol inner_color="5" min_area="0" patterns="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="5">
+                                            <coord x="0" y="0"/>
+                                            <coord x="-2000" y="-600"/>
+                                            <coord x="-1700" y="0"/>
+                                            <coord x="-2000" y="600"/>
+                                            <coord x="0" y="0" flags="2"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="300" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="140" y="-850"/>
+                                            <coord x="140" y="850"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </end_symbol>
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Strecksymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="300" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="-850"/>
+                                            <coord x="0" y="850"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </dash_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAZElEQVQ4je2UQQrAMAgE19J/qy+3p4Cn1i0GKnTOYRLWNRIRgQ0cO6QzxWe30N0BfCGK9ZIqVBRZrqp9YuYSMbN/QQAAUv0r7lqRM17nXg+vtRVPskw5Y0ZKiVnKw2OZ1+N54gtiBCCmsAm/6gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="62" code="532.0" name="Grav">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="190" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="-510"/>
+                                <coord x="0" y="490"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="190" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-350" y="-210"/>
+                                <coord x="350" y="-210"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAASklEQVQ4jWP8////fwYaACZaGDpq8CAzmJGRkTYGkwpoZjALPkl07yPzCeUrvAYja2ZkZCRoGDIYemE8avAgMpjU+mDgXTz8DQYA/6oQLB/e4QgAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="63" code="534.0" name="Opasserbar rörledning">
+                <line_symbol color="5" line_width="210" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="3100" end_length="1550" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="2" mid_symbol_distance="600" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="5" line_width="170" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="3">
+                                            <coord x="-350" y="-350"/>
+                                            <coord x="0" y="0"/>
+                                            <coord x="-350" y="350"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAZUlEQVQ4je2UMQ7AIAwDz1H//2V36VAQbUMFTHgzsW+IFGTbTFDMgG7wIrCk4qH2LWU6YbsY1L6lTCeywV54ZIO9cAFTLu+4X7Qk3nxLT534CvyBwrXj0VC4djwaCqD9bW7wOvAJ4aJhJ9sk078AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="64" code="535.0" name="Högt torn">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="3">
+                    <element>
+                        <symbol type="4" code="">
+                            <area_symbol inner_color="5" min_area="0" patterns="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="380" y="-80" flags="1"/>
+                                <coord x="350" y="-290"/>
+                                <coord x="140" y="-440"/>
+                                <coord x="-70" y="-380" flags="1"/>
+                                <coord x="-280" y="-350"/>
+                                <coord x="-440" y="-140"/>
+                                <coord x="-380" y="70" flags="1"/>
+                                <coord x="-350" y="280"/>
+                                <coord x="-140" y="420"/>
+                                <coord x="70" y="380" flags="1"/>
+                                <coord x="280" y="350"/>
+                                <coord x="440" y="140"/>
+                                <coord x="380" y="-80" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="160" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="700" y="10"/>
+                                <coord x="-700" y="10"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="160" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="700"/>
+                                <coord x="0" y="-700"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jeXTUQrAIAwD0LiLtz159yUM0aUdFJHlW58Q2+bujoJcFegPYDOrgTPZD/caonWE4BGL4BReIQxvs83L/H6PiHA4+siIPUOrWF1+Q0PwDGEoAMATUdXw2f0Lkg2diq85r4rz4BurV3zL/RyoFAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="65" code="536.0" name="Litet torn">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="160" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="720"/>
+                                <coord x="0" y="-290"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="160" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="510" y="-220"/>
+                                <coord x="-480" y="-210"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQElEQVQ4jWP8////fwYaACZaGDpqMApgwSXR2NhItCH19fWYgv9JAA0NDUSrHXphPGrwqMGYgHG02Bw1mH4GAwBm+WFOjH+06AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="66" code="539.0" name="Speciellt föremål (kolbotten)">
+                <point_symbol inner_radius="380" inner_color="-1" outer_width="190" outer_color="5" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaUlEQVQ4je2UwQqAMAxDnfjfbb88nnbosC44qhTMbVt4lJCuAcCWoD0D+oOdDsZkZu4sImvgDhxB0b0TAqlq9ER50jK+nJiZduatV7d3M2Zz/qQVDYi/zZUFuQWPoC5mpSnwE9WrWz3wCfypIDAlYuiwAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="67" code="540.0" name="Speciellt föremål">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="190" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="350" y="-350"/>
+                                <coord x="-350" y="350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="5" line_width="190" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-350" y="-370"/>
+                                <coord x="350" y="350"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAYUlEQVQ4je2UwQrAIAxD53687Ze/nbwMVjOhCJu5mj4kjTaAo0BnBXSDF4MjYjicekjk7lNnACn4CTCCSuA7SIECNNBeXs/TzBR7XSvKolizvJK6KbfKPHIr3upDn9D/wBfY+GL28SRtBwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="68" code="601.0" name="Meridian">
+                <line_symbol color="12" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4jWP4TyRgaCBWJQQwMdAIjBpMPYMZG2lgMC5DKTKYsZGB4X89DQzGZyhFBhMCowaPGjxqMAPuHDh4XUx3gwH8i1xVdLBatgAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="69" code="701.0" name="Start">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="600" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="4">
+                                <coord x="-30" y="-3930"/>
+                                <coord x="3430" y="1970"/>
+                                <coord x="-3420" y="1970"/>
+                                <coord x="-30" y="-3930" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAZklEQVQ4jd3VQQrAIAxE0Unp/a88XQVqETsBY8S/kW6G56YaSSKhK2P09GHLGg6mDRsAIqQuFLsWCKmLxG+tJ6oLxD2tJ6gXi0da70e9UKxovYE6TXw3X/Y51Tq3bIcnPlIb/OiDPdKMES86eBxrAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="70" code="702.0" name="Kontroll">
+                <point_symbol inner_radius="2520" inner_color="-1" outer_width="600" outer_color="10" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaUlEQVQ4je3USwoAIQwD0Fa8/5UzB9AkBXXhYJd+HlqDCQBxoNoJ9E642xVJxs3LaDgFoOZCtcJsDAS/DYUdWsBHuIoa/L64PVjAJp9DkRTNT1zFRTR5Kxxu8q7/CoUvfUIFgNUf4rapPvLrFi436iLnAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="71" code="702.1" name="Kontroll">
+                <point_symbol inner_radius="2520" inner_color="-1" outer_width="600" outer_color="10" elements="2">
+                    <element>
+                        <symbol type="1" code="">
+                            <point_symbol inner_radius="2520" inner_color="-1" outer_width="600" outer_color="10" elements="0"/>
+                        </symbol>
+                        <object type="0">
+                            <coords count="1">
+                                <coord x="0" y="0"/>
+                            </coords>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="1" code="">
+                            <point_symbol inner_radius="300" inner_color="10" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                        <object type="0">
+                            <coords count="1">
+                                <coord x="-10" y="-10"/>
+                            </coords>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAdklEQVQ4jdXUOw6AMAwDUAdx/yuHianYTqmKgkc+TzQ1jcxMbMixA/0nfNonglw3O6PhEIC6BzUK8yISfDUUdmgBH+EqavAGdQvImb6HJ+N7fGfyRPlwxqafQ0iLnr+4iotq8lE43PRdb57Clw6hAsDS4M/rAl9OyxcxQyeGqQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="72" code="703.0" name="Kontrollsiffra">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="5574"/>
+                    <text color="0" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                    <framing color="-1" mode="1" line_half_width="200" shadow_x_offset="200" shadow_y_offset="200"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAbElEQVQ4jWP8////fwYaACZaGDpqMApgwSnDiEcXEdE9AC6GATIT4wC6GD2sifQB6S7GF6kkGfwfCZNgOG6D0Q1jwMIny2AKwQAYzMiAGZZERhwDAznJjYGBwiyNSzOREYjfxRTULcMpVVAIALgHES18/muKAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="73" code="704.0" name="Sammanbindningslinje">
+                <line_symbol color="10" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAMUlEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgFgZG2hhMQxfTpKQYipE3avCowXQ0GACpWAUsEAVhUgAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="74" code="705.0" name="Snitslad del av banan">
+                <line_symbol color="0" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPElEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgFgZGLKKwvIhNjki1NHQxvpKClFIETe3Qi7xRg0cNpqPBAC+dCSpdKrfNAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="75" code="706.0" name="Mål">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="500" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="-3290" y="20" flags="1"/>
+                                <coord x="-3290" y="1850"/>
+                                <coord x="-1830" y="3330"/>
+                                <coord x="0" y="3330" flags="1"/>
+                                <coord x="1830" y="3330"/>
+                                <coord x="3330" y="1830"/>
+                                <coord x="3330" y="0" flags="1"/>
+                                <coord x="3330" y="-1830"/>
+                                <coord x="1870" y="-3310"/>
+                                <coord x="40" y="-3310" flags="1"/>
+                                <coord x="-1790" y="-3310"/>
+                                <coord x="-3290" y="-1810"/>
+                                <coord x="-3290" y="20" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="500" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="-2310" y="0" flags="1"/>
+                                <coord x="-2310" y="1270"/>
+                                <coord x="-1270" y="2310"/>
+                                <coord x="0" y="2310" flags="1"/>
+                                <coord x="1270" y="2310"/>
+                                <coord x="2310" y="1270"/>
+                                <coord x="2310" y="0" flags="1"/>
+                                <coord x="2310" y="-1270"/>
+                                <coord x="1270" y="-2310"/>
+                                <coord x="0" y="-2310" flags="1"/>
+                                <coord x="-1270" y="-2310"/>
+                                <coord x="-2310" y="-1270"/>
+                                <coord x="-2310" y="0" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAf0lEQVQ4jd2UwQrAIAxD27H//+XsKl2TDIqHmYtQ7aPGYAJAbNC1A/pP8G1PJKmbl9HgFAC1F8oK0xgIfptgE1doBWBZyQBvcAetjWuNwHUqmB3GBg8e6DQw89JFMbpU1Ffu4C41LZjBO4nJuRUuUsYO/Vco+OgT+gBgOi3HAz3/NSQw9HEp5wAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="76" code="707.0" name="Opasserbar gränslinje">
+                <line_symbol color="0" line_width="800" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAM0lEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYhYGRNgYPvaCgYRjTpAgaikExavCowZgAAFEKBSwMikftAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="77" code="708.0" name="Viktig passage">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="7">
+                                <coord x="-690" y="1500" flags="1"/>
+                                <coord x="-530" y="1050"/>
+                                <coord x="-460" y="530"/>
+                                <coord x="-460" y="10" flags="1"/>
+                                <coord x="-460" y="-510"/>
+                                <coord x="-550" y="-1030"/>
+                                <coord x="-710" y="-1500"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="7">
+                                <coord x="690" y="-1490" flags="1"/>
+                                <coord x="530" y="-1020"/>
+                                <coord x="440" y="-510"/>
+                                <coord x="440" y="0" flags="1"/>
+                                <coord x="440" y="520"/>
+                                <coord x="540" y="1010"/>
+                                <coord x="700" y="1480"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAUUlEQVQ4jWP8////fwYaACZaGDpq8KjBpBjMCMWEAB51LFhFYVmGkOF4shZ2g4nQSAjQLIzxu5jqQQEzkFBQ4FGHP/IIATzqhksGGTV4SBgMAGZJDDK4lR+sAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="78" code="709.0" name="Förbjudet område">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="1.5708" line_spacing="750" line_offset="0" offset_along_line="0" color="0" line_width="250"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAK0lEQVQ4jWP8z/D/P8N/BghgZGCgFpuJgUZg1OBRg0cNHjV41OBRg0eKwQDrLQopSXQ+QQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="79" code="709.1" name="Gränslinje förbjudet område">
+                <line_symbol color="0" line_width="250" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAWElEQVQ4je2VQQoAIAgEM/z/l7drmShiHgK9tBIMgwclABgFNSugpWA+OkrStqGy9RkqIaWPghLZBCORTXAbh8za2M0muI1DZo7xvd1IvEGgDn54pP47TQsucCU5WQcw1gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="80" code="711.0" name="Förbjuden väg automatisk">
+                <line_symbol color="-1" line_width="0" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="6400" end_length="1600" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2" suppress_dash_symbol_at_ends="true">
+                    <start_symbol>
+                        <symbol type="1" code="" name="Startsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="0" line_width="600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="-1620"/>
+                                            <coord x="-10" y="1560"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </start_symbol>
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="0" line_width="600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="-1400" y="1400"/>
+                                            <coord x="1400" y="-1420"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                    <end_symbol>
+                        <symbol type="1" code="" name="Slutsymbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="0" line_width="600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="-1590"/>
+                                            <coord x="0" y="1560"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </end_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAd0lEQVQ4je2UwQrAMAhD5+j//7K7rDBCoo7VQ2E5lVafwaLm7n406OyA7g62LvCELyrAW7EArnv8xb1VPu8t/I7nYByZinuI0Y7ZPCo4uY9boeBGzpA3QvATjgABnKpPXraq4D13zJKN3IFGFhAWCLTzdvvBXeALMl8QODOBM/AAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="81" code="711.1" name="Förbjuden väg manuell">
+                <line_symbol color="0" line_width="600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAcklEQVQ4je3U0QrAIAgF0HtH///L7jWcN43hYJBPkXAwlWhmhoa4OtADfwMPAACnG7UjTPIuahVTnF/BEZThzGDfIhO5IDSs+p7hXMHZMBU+DfgJVzYkwl31uhWVtVq8JoZ3/jvR/7ENFQv5319x4H74BjE0Fyt8WbhZAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="82" code="712.0" name="Sjukvårdsplats">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="4" code="">
+                            <area_symbol inner_color="0" min_area="0" patterns="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="-1480" y="-470"/>
+                                <coord x="-470" y="-470"/>
+                                <coord x="-470" y="-1480"/>
+                                <coord x="510" y="-1480"/>
+                                <coord x="510" y="-470"/>
+                                <coord x="1510" y="-470"/>
+                                <coord x="1510" y="510"/>
+                                <coord x="510" y="510"/>
+                                <coord x="510" y="1510"/>
+                                <coord x="-470" y="1510"/>
+                                <coord x="-470" y="510"/>
+                                <coord x="-1480" y="510"/>
+                                <coord x="-1480" y="-470" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAQ0lEQVQ4jWP8////fwYaACZaGDpqMH0MZiFKFSMan4h0NJyCAt37uORwBMvQC4oBCGPksBvhyQ0ZkFFiD72gGDUYDgC/ZAkvoLnZngAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="83" code="713.0" name="Vätska">
+                <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="350" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-1430" y="-1440"/>
+                                <coord x="-880" y="1650"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="350" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="1510" y="-1440"/>
+                                <coord x="1020" y="1580"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="350" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="-1480" y="-1420" flags="1"/>
+                                <coord x="-1480" y="-1180"/>
+                                <coord x="-810" y="-980"/>
+                                <coord x="10" y="-980" flags="1"/>
+                                <coord x="840" y="-980"/>
+                                <coord x="1530" y="-1190"/>
+                                <coord x="1530" y="-1440" flags="1"/>
+                                <coord x="1530" y="-1690"/>
+                                <coord x="840" y="-1900"/>
+                                <coord x="10" y="-1900" flags="1"/>
+                                <coord x="-810" y="-1900"/>
+                                <coord x="-1490" y="-1690"/>
+                                <coord x="-1490" y="-1440"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="350" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="7">
+                                <coord x="-890" y="1620" flags="1"/>
+                                <coord x="-890" y="1780"/>
+                                <coord x="-490" y="1900"/>
+                                <coord x="30" y="1900" flags="1"/>
+                                <coord x="560" y="1900"/>
+                                <coord x="1000" y="1780"/>
+                                <coord x="1000" y="1620"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAbUlEQVQ4je2TSw6AMAgFofH+V8ZNl75PbNGYyLYwSQdeVlVFQ40OaCv4oK8ppolEDE4+qHquVTjQmD3gVy8sT/kVPdgx+abTw69iIToPO3Y0RNw4tw31gw2wWqCI/fdU6OQhHSKVHGwAULWpOAGO6BMz1WeyTAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="84" code="801.4" name="Svart 8 by">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="2822"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jd2UwQrAMAhDzej//3J2EjwopGzWsRxLCI8aApK0Bl0doT8PBmAA3g/elRQcSVXqOWInJGleeYV6hjjSulTqNmJUW6Fev5qaNuKVPWZ/W/kApL5zrVBpoye7x/lWPNX8Hn8m+AaZ5ScvtHLCZwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="85" code="801.5" name="Svart 6 gård">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="2117"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jd2UwQrAMAhDzej//3J2EjwopGzWsRxLCI8aApK0Bl0doT8PBmAA3g/elRQcSVXqOWInJGleeYV6hjjSulTqNmJUW6Fev5qaNuKVPWZ/W/kApL5zrVBpoye7x/lWPNX8Hn8m+AaZ5ScvtHLCZwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="86" code="801.6" name="Svart 5 torp">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="1764"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jd2UwQrAMAhDzej//3J2EjwopGzWsRxLCI8aApK0Bl0doT8PBmAA3g/elRQcSVXqOWInJGleeYV6hjjSulTqNmJUW6Fev5qaNuKVPWZ/W/kApL5zrVBpoye7x/lWPNX8Hn8m+AaZ5ScvtHLCZwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="87" code="801.7" name="Svart 4">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="1411"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jd2UwQrAMAhDzej//3J2EjwopGzWsRxLCI8aApK0Bl0doT8PBmAA3g/elRQcSVXqOWInJGleeYV6hjjSulTqNmJUW6Fev5qaNuKVPWZ/W/kApL5zrVBpoye7x/lWPNX8Hn8m+AaZ5ScvtHLCZwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="88" code="801.8" name="Svart 4">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="1411"/>
+                    <text color="9" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAaklEQVQ4jd2UwQrAMAhDzej//3J2EjwopGzWsRxLCI8aApK0Bl0doT8PBmAA3g/elRQcSVXqOWInJGleeYV6hjjSulTqNmJUW6Fev5qaNuKVPWZ/W/kApL5zrVBpoye7x/lWPNX8Hn8m+AaZ5ScvtHLCZwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="89" code="811.4" name="Svart K6  S vattendrag L Sjö">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="2117" italic="true"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAZElEQVQ4je3VMQpAMQgD0OTf/8526libKC6fuooPUUFGRGAgvgn0RzDJYwHJNJ/CGQoAyr5l2EFl2EUluIJe4Sqawh00hbtxhHenys1acBe/jqKKSzOu4PLyXNy6Cgfn+yDj8ALrIiwsa6UksAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="90" code="811.5" name="Svart K5">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="1764" italic="true"/>
+                    <text color="2" line_spacing="1.04357" paragraph_spacing="0" character_spacing="0"/>
+                    <tabs count="1">
+                        <tab>8000</tab>
+                    </tabs>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAY0lEQVQ4je3VMQ4AIAgDQOv//4yTI9BCWIxdCRcDJMLMbA1kT6CPwAAWALchq7twlAsy+6ZhBaVhFaXgCprCVTSEO2gId+PC96XMzUpwF09HUcWpGVdwenkqLl2FguP/IOPwAf2yLC/XzRmjAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="91" code="831.0" name="75-100% över 1,5m">
+                <line_symbol color="4" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAMklEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYkYGBYTSD0NZgFhqVQUMwKEYNHjUYEwAA888IJUq3HuEAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="92" code="832.0" name="75-100% under 1,5m">
+                <line_symbol color="4" line_width="400" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAMUlEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgRgYGhqGV81hoVFQMwcgbNXjUYDoaDACmNwglSfmmuwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="93" code="833.0" name="50-75% över 1,5m">
+                <line_symbol color="4" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="800" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYkYGBgWAGQc5DjIyMRBk89IKCdmE8WgiNGjxqMG4AACIqDCG5FnQ/AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="94" code="834.0" name="50-75% under 1,5m">
+                <line_symbol color="4" line_width="400" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="700" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAN0lEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgRgYGBoI5DzlzMjIyEmUw7Vw8WlaMGjxq8AAYDAAhHwwheKvmdwAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="95" code="835.0" name="25-50% över 1,5m">
+                <line_symbol color="4" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1500" break_length="600" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAO0lEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYkYGBASWDIOcXRkZGvJrxqR16QUG7MB4thEYNHjUYNwAAM8kPIUtMYZMAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="96" code="836.0" name="25-50% under 1,5m">
+                <line_symbol color="4" line_width="400" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1500" break_length="600" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgRgYGBpSch5wRGRkZ8WrGp5Z2Lh4tK0YNHjV4AAwGACevDyFOCih/AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="97" code="837.0" name="under 25% över 1,5m">
+                <line_symbol color="4" line_width="600" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="600" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDRjpGTtqMjIwYmtCTPjY1Qy8oRg2GA8bR0m3U4GFgMABL1w8hxwzxvQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="98" code="838.0" name="Under 25% under 1,5m">
+                <line_symbol color="4" line_width="400" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="400" break_length="400" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAOklEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYhYGBgYGRkRFFED3PkCM/9IKCZgYzjhZCowaPGowbAABfKREl2ep2eAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="99" code="839.1" name="TEST Cykelbar yta svata punkter">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="450" line_offset="0" offset_along_line="0" point_distance="450">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="150" inner_color="2" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAPUlEQVQ4je2RMQoAMAgDvf7/z+ksjm0GIRkNHJJDksqQ44A2MFBAK19uto/Zu7ENHHmRN8G/E3kTHHn75F2tOBR04vZQ0gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="100" code="839.2" name="TEST Cykelbar yta - svart rutnät">
+                <area_symbol inner_color="-1" min_area="0" patterns="2">
+                    <pattern type="1" angle="0.785398" line_spacing="750" line_offset="0" offset_along_line="0" color="2" line_width="200"/>
+                    <pattern type="1" angle="5.49779" line_spacing="750" line_offset="0" offset_along_line="0" color="2" line_width="200"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAdElEQVQ4je3TwQrAMAgD0Jj//+fsMOxhaLWD3vRWeAkF0QBIEqoxM+DFLUtJK7SDknBi6b/IAg59upa7wLf0xDILZKVda9HmqtKOZQarJVWWEQT2S+pYRtAnK+9YZjALdK3h1uWV6ufMSa/3nHRcPCd95aQffc/dKXnDqCIAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="101" code="839.3" name="TEST Cykelbar yta - Orange">
+                <area_symbol inner_color="22" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAJElEQVQ4jWP838Dwn4EGgIkWho4aPGrwqMGjBo8aPGrwSDIYALrAAqphSBaYAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="102" code="843.0" name="Farligt hinder / träd, trappa, vägbom">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="800" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="1140"/>
+                                <coord x="0" y="-1160"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAASklEQVQ4jWP8////fwYaACZaGDo0DWYhShUjGp+IWBl6QTH0DGZkICIq/qMpYcSITUwwBIOCqLJiNB0PSoOJK4TIqAqGXlAMPYMBG3AOJB85KVMAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="103" code="844.0" name="Förbjuden väg">
+                <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="520" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-1240" y="-1260"/>
+                                <coord x="1250" y="1240"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="0" line_width="520" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="1220" y="-1270"/>
+                                <coord x="-1250" y="1250"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAABJ0AAASdAHeZh94AAAAeklEQVQ4je2USwqAMAxEjXj/K8eNQoX5UehGDXTTpi/TIU11d28LYl8B/cEBuK7lQuRpxQpuCmPw2IAIMO6RZuWKGTyA3mnygzQ5LuOF7QoEcNAIjBSzVzyKy1mB/Aw95ooZwHWMBDtVAVx7rKw0Nh8zl5K8t0y3T4JPcb4dJQQXKHcAAAAASUVORK5CYII="/>
+            </symbol>
+        </symbols>
+        <parts count="1" current="0">
+            <part name="förvald del">
+                <objects count="32">
+                    <object type="1" symbol="44">
+                        <coords count="5">
+                            <coord x="-15604" y="-336732" flags="32"/>
+                            <coord x="66332" y="-336732" flags="32"/>
+                            <coord x="66332" y="-218035" flags="32"/>
+                            <coord x="-15604" y="-218035" flags="32"/>
+                            <coord x="-15604" y="-336732" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="91">
+                        <coords count="10">
+                            <coord x="8317" y="-279299" flags="1"/>
+                            <coord x="10548" y="-276937"/>
+                            <coord x="12854" y="-276218"/>
+                            <coord x="16100" y="-276359" flags="1"/>
+                            <coord x="19308" y="-276498"/>
+                            <coord x="20980" y="-281162"/>
+                            <coord x="23710" y="-279472" flags="1"/>
+                            <coord x="25494" y="-278368"/>
+                            <coord x="27478" y="-277761"/>
+                            <coord x="29071" y="-279126" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-5670" y="-281039"/>
+                        </coords>
+                        <text>75-100%</text>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="17913" y="-324890"/>
+                        </coords>
+                        <text>&gt;1,5m</text>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="18054" y="-284707"/>
+                        </coords>
+                        <text>831</text>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="48383" y="-285197"/>
+                        </coords>
+                        <text>832</text>
+                    </object>
+                    <object type="1" symbol="92">
+                        <coords count="10">
+                            <coord x="39729" y="-279249" flags="1"/>
+                            <coord x="41960" y="-276887"/>
+                            <coord x="44266" y="-276168"/>
+                            <coord x="47512" y="-276309" flags="1"/>
+                            <coord x="50720" y="-276448"/>
+                            <coord x="52392" y="-281112"/>
+                            <coord x="55122" y="-279422" flags="1"/>
+                            <coord x="56906" y="-278318"/>
+                            <coord x="58890" y="-277711"/>
+                            <coord x="60483" y="-279076" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="48725" y="-325922"/>
+                        </coords>
+                        <text>&lt;1,5m</text>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-5161" y="-269158"/>
+                        </coords>
+                        <text>50-75%</text>
+                    </object>
+                    <object type="1" symbol="94">
+                        <coords count="10">
+                            <coord x="39359" y="-267509" flags="1"/>
+                            <coord x="41590" y="-265147"/>
+                            <coord x="43896" y="-264428"/>
+                            <coord x="47142" y="-264569" flags="1"/>
+                            <coord x="50350" y="-264708"/>
+                            <coord x="52022" y="-269372"/>
+                            <coord x="54752" y="-267682" flags="1"/>
+                            <coord x="56536" y="-266578"/>
+                            <coord x="58520" y="-265971"/>
+                            <coord x="60113" y="-267336" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="47527" y="-271622"/>
+                        </coords>
+                        <text>834</text>
+                    </object>
+                    <object type="1" symbol="93">
+                        <coords count="10">
+                            <coord x="7808" y="-267754" flags="1"/>
+                            <coord x="10039" y="-265392"/>
+                            <coord x="12345" y="-264673"/>
+                            <coord x="15591" y="-264814" flags="1"/>
+                            <coord x="18799" y="-264953"/>
+                            <coord x="20471" y="-269617"/>
+                            <coord x="23201" y="-267927" flags="1"/>
+                            <coord x="24985" y="-266823"/>
+                            <coord x="26969" y="-266216"/>
+                            <coord x="28562" y="-267581" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="18788" y="-272233"/>
+                        </coords>
+                        <text>833</text>
+                    </object>
+                    <object type="1" symbol="96">
+                        <coords count="10">
+                            <coord x="38503" y="-257360" flags="1"/>
+                            <coord x="40734" y="-254998"/>
+                            <coord x="43040" y="-254279"/>
+                            <coord x="46286" y="-254420" flags="1"/>
+                            <coord x="49494" y="-254559"/>
+                            <coord x="51166" y="-259223"/>
+                            <coord x="53896" y="-257533" flags="1"/>
+                            <coord x="55680" y="-256429"/>
+                            <coord x="57664" y="-255822"/>
+                            <coord x="59257" y="-257187" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="48260" y="-260983"/>
+                        </coords>
+                        <text>836</text>
+                    </object>
+                    <object type="1" symbol="95">
+                        <coords count="10">
+                            <coord x="8789" y="-256870" flags="1"/>
+                            <coord x="11020" y="-254508"/>
+                            <coord x="13326" y="-253789"/>
+                            <coord x="16572" y="-253930" flags="1"/>
+                            <coord x="19780" y="-254069"/>
+                            <coord x="21452" y="-258733"/>
+                            <coord x="24182" y="-257043" flags="1"/>
+                            <coord x="25966" y="-255939"/>
+                            <coord x="27950" y="-255332"/>
+                            <coord x="29543" y="-256697" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="18299" y="-259882"/>
+                        </coords>
+                        <text>835</text>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-5153" y="-257051"/>
+                        </coords>
+                        <text>25-50%</text>
+                    </object>
+                    <object type="1" symbol="97">
+                        <coords count="10">
+                            <coord x="9155" y="-243661" flags="1"/>
+                            <coord x="11386" y="-241299"/>
+                            <coord x="13692" y="-240580"/>
+                            <coord x="16938" y="-240721" flags="1"/>
+                            <coord x="20146" y="-240860"/>
+                            <coord x="21818" y="-245524"/>
+                            <coord x="24548" y="-243834" flags="1"/>
+                            <coord x="26332" y="-242730"/>
+                            <coord x="28316" y="-242123"/>
+                            <coord x="29909" y="-243488" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="18298" y="-247286"/>
+                        </coords>
+                        <text>837</text>
+                    </object>
+                    <object type="4" symbol="85" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="47893" y="-248387"/>
+                        </coords>
+                        <text>838</text>
+                    </object>
+                    <object type="1" symbol="98">
+                        <coords count="10">
+                            <coord x="37524" y="-243295" flags="1"/>
+                            <coord x="39755" y="-240933"/>
+                            <coord x="42061" y="-240214"/>
+                            <coord x="45307" y="-240355" flags="1"/>
+                            <coord x="48515" y="-240494"/>
+                            <coord x="50187" y="-245158"/>
+                            <coord x="52917" y="-243468" flags="1"/>
+                            <coord x="54701" y="-242364"/>
+                            <coord x="56685" y="-241757"/>
+                            <coord x="58278" y="-243122" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-4036" y="-243232"/>
+                        </coords>
+                        <text>0-25%</text>
+                    </object>
+                    <object type="1" symbol="45">
+                        <coords count="10">
+                            <coord x="38750" y="-230457" flags="1"/>
+                            <coord x="40981" y="-228095"/>
+                            <coord x="43287" y="-227376"/>
+                            <coord x="46533" y="-227517" flags="1"/>
+                            <coord x="49741" y="-227656"/>
+                            <coord x="51413" y="-232320"/>
+                            <coord x="54143" y="-230630" flags="1"/>
+                            <coord x="55927" y="-229526"/>
+                            <coord x="57911" y="-228919"/>
+                            <coord x="59504" y="-230284" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-3319" y="-228801"/>
+                        </coords>
+                        <text>0%</text>
+                    </object>
+                    <object type="1" symbol="40">
+                        <coords count="10">
+                            <coord x="9054" y="-301099" flags="1"/>
+                            <coord x="11285" y="-298737"/>
+                            <coord x="13591" y="-298018"/>
+                            <coord x="16837" y="-298159" flags="1"/>
+                            <coord x="20045" y="-298298"/>
+                            <coord x="21717" y="-302962"/>
+                            <coord x="24447" y="-301272" flags="1"/>
+                            <coord x="26231" y="-300168"/>
+                            <coord x="28215" y="-299561"/>
+                            <coord x="29808" y="-300926" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="41">
+                        <coords count="10">
+                            <coord x="9153" y="-298072" flags="1"/>
+                            <coord x="11384" y="-295710"/>
+                            <coord x="13690" y="-294991"/>
+                            <coord x="16936" y="-295132" flags="1"/>
+                            <coord x="20144" y="-295271"/>
+                            <coord x="21816" y="-299935"/>
+                            <coord x="24546" y="-298245" flags="1"/>
+                            <coord x="26330" y="-297141"/>
+                            <coord x="28314" y="-296534"/>
+                            <coord x="29907" y="-297899" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="4" symbol="84" h_align="1" v_align="2">
+                        <coords count="1">
+                            <coord x="-7104" y="-316956"/>
+                        </coords>
+                        <text>100%</text>
+                    </object>
+                    <object type="1" symbol="42">
+                        <coords count="10">
+                            <coord x="8826" y="-295460" flags="1"/>
+                            <coord x="11057" y="-293098"/>
+                            <coord x="13363" y="-292379"/>
+                            <coord x="16609" y="-292520" flags="1"/>
+                            <coord x="19817" y="-292659"/>
+                            <coord x="21489" y="-297323"/>
+                            <coord x="24219" y="-295633" flags="1"/>
+                            <coord x="26003" y="-294529"/>
+                            <coord x="27987" y="-293922"/>
+                            <coord x="29580" y="-295287" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="43">
+                        <coords count="10">
+                            <coord x="8563" y="-292694" flags="1"/>
+                            <coord x="10794" y="-290332"/>
+                            <coord x="13100" y="-289613"/>
+                            <coord x="16346" y="-289754" flags="1"/>
+                            <coord x="19554" y="-289893"/>
+                            <coord x="21226" y="-294557"/>
+                            <coord x="23956" y="-292867" flags="1"/>
+                            <coord x="25740" y="-291763"/>
+                            <coord x="27724" y="-291156"/>
+                            <coord x="29317" y="-292521" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="59">
+                        <coords count="16">
+                            <coord x="11577" y="-311419" flags="1"/>
+                            <coord x="14037" y="-315067"/>
+                            <coord x="18057" y="-316583"/>
+                            <coord x="22213" y="-315137" flags="1"/>
+                            <coord x="24085" y="-314486"/>
+                            <coord x="25617" y="-313482"/>
+                            <coord x="25758" y="-311505" flags="1"/>
+                            <coord x="25968" y="-308565"/>
+                            <coord x="20974" y="-310891"/>
+                            <coord x="18581" y="-309171" flags="1"/>
+                            <coord x="16403" y="-307605"/>
+                            <coord x="12260" y="-305225"/>
+                            <coord x="11836" y="-307874" flags="1"/>
+                            <coord x="11617" y="-309245"/>
+                            <coord x="10801" y="-310268"/>
+                            <coord x="11577" y="-311419" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="60">
+                        <coords count="16">
+                            <coord x="11577" y="-311419" flags="1"/>
+                            <coord x="14037" y="-315067"/>
+                            <coord x="18057" y="-316583"/>
+                            <coord x="22213" y="-315137" flags="1"/>
+                            <coord x="24085" y="-314486"/>
+                            <coord x="25617" y="-313482"/>
+                            <coord x="25758" y="-311505" flags="1"/>
+                            <coord x="25968" y="-308565"/>
+                            <coord x="20974" y="-310891"/>
+                            <coord x="18581" y="-309171" flags="1"/>
+                            <coord x="16403" y="-307605"/>
+                            <coord x="12260" y="-305225"/>
+                            <coord x="11836" y="-307874" flags="1"/>
+                            <coord x="11617" y="-309245"/>
+                            <coord x="10801" y="-310268"/>
+                            <coord x="11577" y="-311419" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </objects>
+            </part>
+        </parts>
+        <templates count="0" first_front_template="0">
+            <defaults use_meters_per_pixel="true" meters_per_pixel="0" dpi="0" scale="0"/>
+        </templates>
+        <view>
+            <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
+            <map_view zoom="1.03734" position_x="3794" position_y="-285718">
+                <map opacity="1" visible="true"/>
+                <templates count="0"/>
+            </map_view>
+        </view>
+        <print scale="15000" resolution="600" mode="raster">
+            <page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5">
+                <dimensions width="210" height="297"/>
+                <page_rect left="0" top="0" width="210" height="297"/>
+            </page_format>
+            <print_area left="-15.694" top="-336.822" width="82.116" height="118.877"/>
+        </print>
+    </barrier>
+</map>
