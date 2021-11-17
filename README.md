@@ -40,8 +40,8 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 | Sandruder | - | Sporadiskt ritad, mycket återstår. |
 | Ebbetorp | - | Sporadiskt ritad, mycket återstår. |
 | Svebråta | - | Sporadiskt ritad, mycket återstår. |
-| Ruder | - | Material från gammal karta ritad. Höjdkurvor och fältarbete återstår. |
-| Kårtorp | Norr Bastavägen | Material från gammal karta ritad. Höjdkurvor och fältarbete återstår. |
+| Ruder | - | Material från gammal karta ritad. Fältarbete söder om scoutstuge-vägen återstår. |
+| Kårtorp | Norr Bastavägen | Material från gammal karta ritad. Fältarbete återstår. |
 | Kårtorp | Söder Bastavägen | Sporadiskt ritad från gammal karta, mycket återstår. |
 | Olofsby | - | Ej påbörjad. |
 | Backen | - | Ej påbörjad. |
@@ -86,7 +86,7 @@ Hämtas gratis från [oapp.se](https://oapp.se/Applikationer/OL_Laser.html).
 
 OL-Laser används för att generera höjdkurvor från laserdata.
 
-<img src="tools\OL-Laser\Höjdkurvor OL-Laser Sample.png" alt="Höjdkurvor OL-Laser Sample" width="100"/>
+<img src="tools\OL-Laser\Höjdkurvor OL-Laser Sample.png" alt="Höjdkurvor OL-Laser Sample" width="300"/>
 
 Importera inställningsfiler (Systemunderhåll->Inställningar), sätt som Aktiv. Kör igenom laser-filerna, förslagsvis i Batch mode (Data->Batch...).
 
