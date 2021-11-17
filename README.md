@@ -76,6 +76,19 @@ Indexrutor
 
 https://webgisportal.lantmateriet.se/portal/apps/webappviewer/index.html?id=7e615bb3b343490d8e2c6d1d2793cf8b
 
+### Open Street Map
+
+|  |  |  |
+| - | - | - |
+| | 58.4129 | |
+| 14.1442 | | 14.2317 |
+| | 58.3236 | |
+
+Behöver konverteras till .shp?
+https://mygeodata.cloud/converter/osm-to-shp
+Max en per månad
+Prova kordinatsystem 3006!
+
 #### Program
 
 [karttapullautin](http://www.routegadget.net/karttapullautin/)
