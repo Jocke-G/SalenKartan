@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOCADFileSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OCADFileSettings>
+    <Id>1</Id>
+    <Name>SalenKartan</Name>
+    <ActiveSetting>true</ActiveSetting>
+    <CreatedWhen>2021-11-16T22:00:00.00+01:00</CreatedWhen>
+    <CreatedBy>Jocke-G</CreatedBy>
+    <UpdatedWhen>2021-11-16T22:00:00.00+01:00</UpdatedWhen>
+    <UpdatedBy>Jocke-G</UpdatedBy>
+    <Version>1.4.0.17</Version>
+    <LaserDataEquidistance>0.5</LaserDataEquidistance>
+    <MainCurveEquidistance>5</MainCurveEquidistance>
+    <MainCurveCode>1010</MainCurveCode>
+    <IndexCurveEquidistance>25</IndexCurveEquidistance>
+    <IndexCurveCode>1020</IndexCurveCode>
+    <UseIndexContour>true</UseIndexContour>
+    <HelpCurveCodes>
+      <int>1011</int>
+      <int>1012</int>
+      <int>1011</int>
+      <int>1012</int>
+      <int>1016</int>
+      <int>1012</int>
+      <int>1011</int>
+      <int>1012</int>
+      <int>1011</int>
+    </HelpCurveCodes>
+    <NumberOfHelpCurveCodes>9</NumberOfHelpCurveCodes>
+    <HeightLimitBetweenBigSmalCliff>2</HeightLimitBetweenBigSmalCliff>
+    <OCADCodeSmalCliff>2030</OCADCodeSmalCliff>
+    <OCADCodeBigCliff>2010</OCADCodeBigCliff>
+    <OCADCodeSlopeLines>0</OCADCodeSlopeLines>
+    <SaveSlopeLines>false</SaveSlopeLines>
+  </OCADFileSettings>
+</ArrayOfOCADFileSettings>

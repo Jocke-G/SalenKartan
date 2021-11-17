@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContourSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContourSettings>
+    <Id>1</Id>
+    <Name>SalenKartan</Name>
+    <ActiveSetting>true</ActiveSetting>
+    <CreatedWhen>2021-11-16T22:00:00.00+01:00</CreatedWhen>
+    <CreatedBy>Jocke-G</CreatedBy>
+    <UpdatedWhen>2021-11-16T22:00:00.00+01:00</UpdatedWhen>
+    <UpdatedBy>Jocke-G</UpdatedBy>
+    <Version>1.4.0.17</Version>
+    <LaserDataEquidistance>0.5</LaserDataEquidistance>
+    <IsClean>true</IsClean>
+    <IsGeneralize>true</IsGeneralize>
+    <Ordinata>2</Ordinata>
+    <IsCorrectCurves>true</IsCorrectCurves>
+    <MinCurveLength>10</MinCurveLength>
+    <MinGlappDist>0.5</MinGlappDist>
+  </ContourSettings>
+</ArrayOfContourSettings>

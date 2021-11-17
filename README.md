@@ -80,7 +80,25 @@ https://webgisportal.lantmateriet.se/portal/apps/webappviewer/index.html?id=7e61
 
 [karttapullautin](http://www.routegadget.net/karttapullautin/)
 
-[OL Laser](https://oapp.se/Applikationer/OL_Laser.html)
+##### OL-Laser
+
+Hämtas gratis från [oapp.se](https://oapp.se/Applikationer/OL_Laser.html).
+
+OL-Laser används för att generera höjdkurvor från laserdata.
+
+<img src="tools\OL-Laser\Höjdkurvor OL-Laser Sample.png" alt="Höjdkurvor OL-Laser Sample" width="100"/>
+
+Importera inställningsfiler (Systemunderhåll->Inställningar), sätt som Aktiv. Kör igenom laser-filerna, förslagsvis i Batch mode (Data->Batch...).
+
+För att slå samman filerna, Öppna första filen i Open Orienteering Mapper, importera sedan de övriga filerna. Kontrollera symbolmatchningen, den vill bli fel av någon anledning.
+
+Med så många nivåer av höjdkurvor, så blir det lätt lite grötigt. Därför kan man minska linjebredden lite, enligt nedan.
+0,5m - 101.2 - Grön -  ~~0,07~~ 0,03
+1m - 101.1 - Violett -  ~~0,07~~ 0,03
+2,5m - 101.6 - Gul -  ~~0,07~~ 0,03
+5m - 101.6 - Gul -  ~~0,14~~ 0,06
+25m - 102.0 - Brun -  ~~0,25~~ 0,10
+Man kan även ta bort oanvända/orelevanta karttecken och färger ur denna fil.
 
 [Laserscan tool](https://www.openorienteering.org/apps/laserscan-tool/)
 Inte testat ännu
@@ -115,7 +133,6 @@ Lägg till som bakgrundsbilder.
 [Skogliga grunddata](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/skogliga-grunddata/)
 
 [Ladda ner geodata via klickbara länkar](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/nerladdning-av-geodata/)
-
 
 ### Gammal karta över Kårtorp
 
