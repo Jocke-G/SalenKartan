@@ -22,13 +22,13 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 
 | Trakt | Del | Status |
 | ------------- | ------------- | ------------- |
-| Salen | Byn | Färdig förutom teknisk verifiering av kartnorm. |
+| Salen | Byn | Färdig. |
 | Laggarebolet/Bjärg | Laggarebolets hagar | Färdig |
 | Laggarebolet/Bjärg | Dammen | Färdig |
 | Laggarebolet/Bjärg | Norra skogen | Sporadiskt ritad, mycket återstår. |
 | Laggarebolet/Bjärg | Norra hagarna | Grovt ritad, detaljer återstår. |
 | Laggarebolet/Bjärg | Skogshagarna | Sporadiskt ritad, mycket återstår. |
-| Laggarebolet/Bjärg | Vindkraftverket | Sporadiskt ritad, mycket återstår. |
+| Laggarebolet/Bjärg | Vindkraftverket | Färdig, utom skogen i söder. |
 | Laggarebolet/Bjärg | Södra hagarna | Saknar delvis fastighetskarta. Grovt ritad, detaljer återstår. |
 | Laggarebolet/Bjärg | Tråkeboskogen | Ej påbörjad. |
 | Laggarebolet/Bjärg | Östra skogen | Ej påbörjad. |
@@ -93,11 +93,14 @@ Importera inställningsfiler (Systemunderhåll->Inställningar), sätt som Aktiv
 För att slå samman filerna, Öppna första filen i Open Orienteering Mapper, importera sedan de övriga filerna. Kontrollera symbolmatchningen, den vill bli fel av någon anledning.
 
 Med så många nivåer av höjdkurvor, så blir det lätt lite grötigt. Därför kan man minska linjebredden lite, enligt nedan.
-0,5m - 101.2 - Grön -  ~~0,07~~ 0,03
-1m - 101.1 - Violett -  ~~0,07~~ 0,03
-2,5m - 101.6 - Gul -  ~~0,07~~ 0,03
-5m - 101.6 - Gul -  ~~0,14~~ 0,06
-25m - 102.0 - Brun -  ~~0,25~~ 0,10
+| Ekvidistans | Nummer | Färg | Linjebredd |
+| ------------- | ------------- | ------------- | ------------- |
+| 0,5m | 101.2 | Grön | ~~0,07~~ 0,03 |
+| 1m | 101.1 | Violett | ~~0,07~~ 0,03 |
+| 2,5m | 101.6 | Gul | ~~0,07~~ 0,03 |
+| 5m | 101.6 | Gul | ~~0,14~~ 0,06 |
+| 25m | 102.0 | Brun | ~~0,25~~ 0,10 |
+
 Man kan även ta bort oanvända/orelevanta karttecken och färger ur denna fil.
 
 [Laserscan tool](https://www.openorienteering.org/apps/laserscan-tool/)
