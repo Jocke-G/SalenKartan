@@ -28,7 +28,7 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 | Laggarebolet/Bjärg | Norra skogen | Sporadiskt ritad, mycket återstår. |
 | Laggarebolet/Bjärg | Norra hagarna | Grovt ritad, detaljer återstår. |
 | Laggarebolet/Bjärg | Skogshagarna | Sporadiskt ritad, mycket återstår. |
-| Laggarebolet/Bjärg | Vindkraftverket | Färdig, utom skogen i söder. |
+| Laggarebolet/Bjärg | Vindkraftverket | Färdig |
 | Laggarebolet/Bjärg | Södra hagarna | Saknar delvis fastighetskarta. Grovt ritad, detaljer återstår. |
 | Laggarebolet/Bjärg | Tråkeboskogen | Ej påbörjad. |
 | Laggarebolet/Bjärg | Östra skogen | Ej påbörjad. |
@@ -162,7 +162,25 @@ Andra version renritad 2000.
 
 ### Karttjänster
 
-[Map Puzzle](http://www.mappuzzle.se/) kan användas för att tanka ned georefererade bakgrundsbilder från mängder med tjänster. Bocka för "Generate world file" och välj formatet Lat/Lon.
+[Map Puzzle](http://www.mappuzzle.se/) kan användas för att tanka ned georefererade bakgrundsbilder från mängder med tjänster.
+
+Koordinaterna som matas in anger bildens mitt, så det är lite lurigt att veta vart man ska ta bilden. Men nedan koordinater fungera skapligt (i Eniro).
+
+Nord-Väst
+Latitude: 58.3825 (Öka något, kanske 0.004)
+Longitude: 14.1943
+
+Syd-Öst
+Latitude: 58.3484247
+Longitude: 14.1998291
+
+Zoom: 18 (Finns nog på ännu bättre zoomnivå, men då krävs fler bilder. Testa lite!)
+Width: 19200
+Height: 19200
+
+Bocka för "Generate world file" och välj formatet Lat/Lon.
+
+Tryck browse och välj var filen ska sparas. Tryck sedan Download, och vänta.
 
 När bakgrundsbilden öppnas i OOM, välj först Georefererad, och sedan "Koordinater (WGS84)".
 
