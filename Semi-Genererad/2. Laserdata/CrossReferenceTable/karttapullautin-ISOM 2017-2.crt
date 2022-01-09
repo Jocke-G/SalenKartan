@@ -1,0 +1,24 @@
+# Terrängformer
+# formlines.dxf
+103.0  Layer=formline
+
+# merged_c2.dxf
+202.1  Layer=cliff2
+
+# merged_c3.dxf
+201.1  Layer=cliff3
+202.2  Layer=cliff4
+
+# merged_contours.dxf
+101.0  Layer=contour
+101.2  Layer=contour_intermed
+101.3  Layer=depression
+101.4  Layer=depression_intermed
+102.0  Layer=contour_index
+102.1  Layer=depression_index
+
+# merged_dotknolls.dxf
+109.0  Layer=dotknoll
+109.1  Layer=uglydotknoll
+111.0  Layer=udepression
+111.1  Layer=uglyudepression

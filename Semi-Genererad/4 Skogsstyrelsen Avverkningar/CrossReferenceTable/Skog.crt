@@ -1,0 +1,34 @@
+# Vegetation och öppen mark
+
+# Öppen mark
+403.0  ArendeStat ~= avverkning
+
+# Öppen lättlöpt mark med spridda buskar
+402.1  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2021
+402.1  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2020
+402.1  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2019
+402.1  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2018
+402.1  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2017
+
+# Öppen lättlöpt mark med spridda träd
+402.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2016
+402.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2015
+402.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2014
+402.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2013
+402.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2012
+
+# Skog löphindrande
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2011
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2010
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2009
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2008
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2007
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2006
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2005
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2004
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2003
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2002
+406.0  Avverktyp ~= yngringsavverkning AND Avvdatum ~= 2001
+
+# Okänd
+451.0  3

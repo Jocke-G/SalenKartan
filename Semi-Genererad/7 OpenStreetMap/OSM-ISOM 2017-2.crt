@@ -1,0 +1,153 @@
+# Terrängformer
+107.0  natural = gully
+109.0  natural = ant_hill
+109.0  natural = knoll
+109.0  natural = termite_mount
+109.0  man_made = mound
+111.0  natural = depression
+111.0  natural = hollow
+
+214.0  natural = bare_rock
+213.0  natural = beach AND surface = sand
+203.2  natural = cave_entrance
+201.0  natural = cliff
+206.0  natural = cliff AND (area = yes OR is_area = yes)
+213.0  natural = dune
+203.1  natural = hole AND rock != no
+206.0  natural = rock AND (area = yes OR is_area = yes)
+213.0  natural = sand
+205.0  natural = stone
+
+303.0  natural = hole AND water = yes
+312.0  natural = spring
+301.0  natural = water
+308.0  natural = wetland
+310.0  natural = wetland AND intermittent = yes
+307.1  natural = wetland AND foot = impassable
+
+418.0  natural = bush
+403.0  natural = grassland
+403.0  natural = heath
+408.0  natural = scrub
+417.0  natural = tree
+406.0  natural = wood
+408.0  natural = wood AND (wood:age = young OR wood:age = very_young)
+404.0  natural = wood AND wood:density = sparse
+408.0  natural = wood AND wood:density = dense
+
+304.0  waterway = canal
+306.0  waterway = ditch
+305.0  waterway = drain
+306.0  waterway = drain AND intermittent = yes
+304.0  waterway = river
+301.0  waterway = riverbank
+305.0  waterway = stream
+306.0  waterway = stream AND intermittent = yes
+
+520.0  landuse = allotments
+520.2  landuse = cemetery
+520.0  landuse = commercial
+520.2  landuse = construction
+412.0  landuse = farmland
+520.0  landuse = farmyard
+406.0  landuse = forest
+401.0  landuse = grass
+520.0  landuse = industrial
+# 710    landuse = landfill
+403.0  landuse = logging
+401.0  landuse = meadow
+520.2  landuse = military
+413.0  landuse = orchard
+301.0  landuse = reservoir
+520.2  landuse = quarry
+213.0  landuse = quarry AND resource = sand
+520.0  landuse = residential
+414.0  landuse = vineyard
+
+401.0  leisure = park
+401.0  leisure = pitch
+
+503.0  highway = cycleway
+
+505.0  highway = footway
+
+526.0  highway = milestone
+
+502.2  highway = motorway
+502.0  highway = motorway_link
+
+506.0  highway = path
+505.0  highway = path AND (smoothness = good OR smoothness = intermediate)
+506.0  highway = path AND (smoothness = bad OR smoothness = very_bad)
+507.0  highway = path AND (smoothness = horrible OR smoothness = very_horrible)
+
+502.0  highway = primary
+502.0  highway = secondary
+502.0  highway = tertiary
+
+504.0  highway = track
+503.0  highway = track AND (smoothness = good OR smoothness = intermediate)
+504.0  highway = track AND (smoothness = bad OR smoothness = very_bad)
+505.0  highway = track AND (smoothness = horrible OR smoothness = very_horrible)
+
+502.0  highway = trunk AND lanes = 2
+502.0  highway = trunk_link AND lanes = 1
+
+503.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street)
+502.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street) AND (surface = asphalt OR surface = concrete OR surface = concrete:plates OR surface = concrete:lanes)
+# 503.1  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street) AND (surface = compacted OR surface = gravel)
+503.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street) AND (surface = ground OR surface = sand OR surface = unpaved)
+504.0  (highway = unclassified OR highway = residential) AND (surface = grass OR surface = dirt)
+
+509.0  railway ~= "" AND railway != "abandoned" AND tunnel != "yes"
+
+523.0  building = ruins
+521.0  building ~= "" AND building != ruins
+523.0  building ~= "" AND building != ruins AND ruins = yes
+523.0  building ~= "" AND building != ruins AND historic = ruins
+
+526.0  man_made = cairn
+524.0  man_made = chimney
+508.0  man_made = cutline
+524.0  man_made = lighthouse
+524.0  man_made = mast
+528.0  man_made = pipeline AND location = overhead
+529.0  man_made = pipeline AND location = overground
+526.0  man_made = survey_point
+524.0  man_made = tower
+524.0  man_made = water_tower
+311.0  man_made = water_well
+
+531.0  amenity = bench
+313.0  amenity = drinking_water
+527.0  amenity = feeding_place
+311.0  amenity = fountain
+525.0  amenity = hunting_stand
+501.0  amenity = parking
+520.0  amenity = prison
+521.0  amenity = shelter
+313.0  amenity = watering_place
+520.0  amenity = grave_yard
+
+510.0  aerialway ~= "" AND aerialway != no
+
+511.0  power = line
+510.0  power = minor_line
+
+108.0  barrier = ditch
+518.0  barrier = fence
+517.0  barrier = fence AND ruins = yes
+410.4  barrier = hedge
+410.0  barrier = hedge AND (area = yes OR is_area = yes)
+515.0  barrier = wall
+514.0  barrier = wall AND ruins = yes
+
+521.0  tourism = alpine_hut
+531.0  tourism = artwork
+521.0  tourism = chalet
+
+526.0  historic = boundary_stone
+
+531.0  pipeline = marker
+
+# 713    shop = convenience

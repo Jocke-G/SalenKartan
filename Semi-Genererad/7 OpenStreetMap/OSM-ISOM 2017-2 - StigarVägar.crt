@@ -1,0 +1,35 @@
+501.0  amenity = parking
+502.2  highway = motorway
+502.0  highway = motorway_link
+502.0  highway = primary
+502.0  highway = secondary
+502.0  highway = tertiary
+502.0  highway = trunk AND lanes = 2
+502.0  highway = trunk_link AND lanes = 1
+502.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street) AND (surface = asphalt OR surface = concrete OR surface = concrete:plates OR surface = concrete:lanes)
+
+# 503 - Smal väg
+503.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street)
+503.0  highway = track AND (smoothness = good OR smoothness = intermediate)
+503.0  (highway = unclassified OR highway = residential OR highway = service OR highway = living_street) AND (surface = ground OR surface = sand OR surface = unpaved)
+
+505.0  highway = footway
+
+506.0  highway = path
+505.0  highway = path AND (smoothness = good OR smoothness = intermediate)
+506.0  highway = path AND (smoothness = bad OR smoothness = very_bad)
+507.0  highway = path AND (smoothness = horrible OR smoothness = very_horrible)
+
+
+504.0  highway = track
+504.0  highway = track AND (smoothness = bad OR smoothness = very_bad)
+505.0  highway = track AND (smoothness = horrible OR smoothness = very_horrible)
+
+
+504.0  (highway = unclassified OR highway = residential) AND (surface = grass OR surface = dirt)
+
+509.0  railway ~= "" AND railway != "abandoned" AND tunnel != "yes"
+
+150.0  1
+550.0  2
+453.0  3
