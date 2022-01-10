@@ -43,8 +43,8 @@ Status delas in per [trakt](https://sv.wikipedia.org/wiki/Trakt) och del. Trakte
 | Ruder | - | Material från gammal karta ritad. Fältarbete söder om scoutstuge-vägen återstår. |
 | Kårtorp | Norr Bastavägen | Material från gammal karta ritad. Fältarbete återstår. |
 | Kårtorp | Söder Bastavägen | Sporadiskt ritad från gammal karta, mycket återstår. |
-| Olofsby | - | Ej påbörjad. |
-| Backen | - | Ej påbörjad. |
+| Olofsby | - | Sporadiskt ritad, mycket återstår. |
+| Backen | - | Sporadiskt ritad, mycket återstår. |
 
 ## Kartnorm
 
