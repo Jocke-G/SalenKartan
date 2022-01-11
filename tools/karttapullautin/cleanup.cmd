@@ -1,19 +1,25 @@
 REM Städar genererade filer
-rm -r temp*
-rm header*.xyz
-rm lazlist*.txt
-rm pullautus_depr*.pgw
-rm pullautus_depr*.png
-rm pullautus*.pgw
-rm pullautus*.png
-rm ziplist*.txt
-rm out/*
+rmdir /s /q temp1
+rmdir /s /q temp2
+rmdir /s /q temp3
+rmdir /s /q temp4
+rmdir /s /q temp5
+rmdir /s /q temp6
+del temp*.*
+del header*.xyz
+del lazlist*.txt
+del pullautus_depr*.pgw
+del pullautus_depr*.png
+del pullautus*.pgw
+del pullautus*.png
+del ziplist*.txt
+rmdir /s /q out
 
 REM Städar extra filer som skapas om man väljer savetempfiles=1
-rm dxflist.txt
-rm pnglist.txt
+del dxflist.txt
+del pnglist.txt
 
 REM Städar filer som skapas vid merge
-rm formlines.dxf
-rm merged.*
-rm merged_*.*
+del formlines.dxf
+del merged.*
+del merged_*.*

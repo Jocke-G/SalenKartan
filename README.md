@@ -84,14 +84,11 @@ https://webgisportal.lantmateriet.se/portal/apps/webappviewer/index.html?id=7e61
 | 14.1442 | | 14.2317 |
 | | 58.3236 | |
 
-Behöver konverteras till .shp?
-https://mygeodata.cloud/converter/osm-to-shp
-Max en per månad
-Prova kordinatsystem 3006!
-
 #### Program
 
 [karttapullautin](http://www.routegadget.net/karttapullautin/)
+
+Behöver konverteras till .shp [https://mygeodata.cloud/converter/osm-to-shp] Använd kordinatsystem 3006. Packa sedan upp zip-filen, och packa ned den till en ny osm.zip, där alla filer ligger direkt i filens rot.
 
 ##### OL-Laser
 
@@ -201,6 +198,30 @@ Den behöver dock [konfigureras om till baudrate 4800](https://www.navilock.com/
 [Live-GPS using NMEA on Windows](https://github.com/OpenOrienteering/mapper/issues/1944)
 
 ### Verktyg
+
+#### QGIS
+
+För att beskära och filtrera shape-filer.
+
+##### Beskära shape-filer
+
+Vektor->Forskningsverktyg->Välj efter plats
+
+skär Kanter.shp
+
+Redigera->Kopiera objekt
+
+Redigera->Klistra in som->Temporärt skisslager
+
+Lager->Spara som
+
+[https://stefansolsida.wordpress.com/2020/05/20/att-klippa-terrangkartan-i-qgis/]
+
+[https://stefansolsida.wordpress.com/2016/07/19/workflow-2-for-tomtmark/]
+
+#### Visual Studio Code
+
+För enklare git-hantering.
 
 [Visual Studio Code](https://code.visualstudio.com/)
 
