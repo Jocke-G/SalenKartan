@@ -1,0 +1,353 @@
+﻿<course-scribe-event>
+  <event id="1">
+    <title>Microsprint 2022-05-05</title>
+    <map kind="OCAD" scale="750" ignore-missing-fonts="false" absolute-path="C:\Users\joaki\projects\SalenKartan\SalenFredriksberg-MicroSprint.xmap">..\..\..\SalenFredriksberg-MicroSprint.xmap</map>
+    <standards map="2017" description="2018" />
+    <all-controls print-scale="750" description-kind="symbols" />
+    <print-area automatic="false" restrict-to-page-size="true" left="949.857361" top="1721.71838" right="1232.55933" bottom="1525.8844" page-width="827" page-height="1169" page-margins="28" page-landscape="true" />
+    <numbering start="180" disallow-invertible="false" />
+    <punch-card rows="3" columns="8" left-to-right="true" top-to-bottom="false" />
+    <course-appearance control-circle-size-ratio="1.682243" line-width-ratio="2.857143" number-size-ratio="1.5" scale-sizes="RelativeToMap" scale-sizes-circle-gaps="true" auto-leg-gap-size="3.5" blend-purple="true" />
+    <descriptions lang="sv" color="black" />
+    <ocad overprint-colors="false" />
+  </event>
+  <control id="1" kind="start">
+    <location x="1192.117" y="1651.11133" />
+  </control>
+  <control id="2" kind="finish">
+    <location x="1192.61426" y="1651.20239" />
+    <description box="all" iof-2004-ref="14.3" />
+  </control>
+  <control id="3" kind="normal">
+    <code>180</code>
+    <location x="1084.25623" y="1612.44836" />
+    <description box="D" iof-2004-ref="5.6" />
+    <description box="G" iof-2004-ref="11.3NW" />
+  </control>
+  <control id="4" kind="normal">
+    <code>181</code>
+    <location x="1101.68445" y="1567.92615" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.1S" />
+  </control>
+  <control id="5" kind="normal">
+    <code>182</code>
+    <location x="1081.08215" y="1594.89136" />
+    <description box="D" iof-2004-ref="5.9" />
+    <description box="G" iof-2004-ref="11.4S" />
+  </control>
+  <control id="6" kind="normal">
+    <code>183</code>
+    <location x="1041.74316" y="1554.89844" />
+    <description box="C" iof-2004-ref="0.1W" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1SW" />
+  </control>
+  <control id="7" kind="normal">
+    <code>184</code>
+    <location x="1046.4884" y="1605.08679" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.1SE" />
+  </control>
+  <control id="8" kind="normal">
+    <code>185</code>
+    <location x="1004.35974" y="1559.87878" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.12" />
+  </control>
+  <control id="9" kind="normal">
+    <code>186</code>
+    <location x="1122.78357" y="1595.84216" />
+    <description box="C" iof-2004-ref="0.2SE" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1NW" />
+  </control>
+  <control id="10" kind="normal">
+    <code>187</code>
+    <location x="1082.47473" y="1635.24866" />
+    <description box="D" iof-2004-ref="4.9" />
+    <description box="E" iof-2004-ref="8.10" />
+    <description box="G" iof-2004-ref="11.1NW" />
+  </control>
+  <control id="11" kind="normal">
+    <code>188</code>
+    <location x="1158.56714" y="1693.8623" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.1SE" />
+  </control>
+  <control id="12" kind="normal">
+    <code>189</code>
+    <location x="1091.99719" y="1647.895" />
+    <description box="D" iof-2004-ref="4.7" />
+    <description box="G" iof-2004-ref="11.5W" />
+  </control>
+  <control id="13" kind="normal">
+    <code>190</code>
+    <location x="1126.64819" y="1636.55212" />
+    <description box="D" iof-2004-ref="5.11" />
+    <description box="G" iof-2004-ref="11.4W" />
+  </control>
+  <control id="14" kind="normal">
+    <code>191</code>
+    <location x="1109.49524" y="1615.98315" />
+    <description box="D" iof-2004-ref="2.1" />
+    <description box="G" iof-2004-ref="11.13" />
+  </control>
+  <control id="17" kind="normal">
+    <code>192</code>
+    <location x="1159.6322" y="1625.883" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1E" />
+  </control>
+  <control id="18" kind="normal">
+    <code>193</code>
+    <location x="1135.46118" y="1665.311" />
+    <description box="D" iof-2004-ref="3.9" />
+    <description box="G" iof-2004-ref="11.1W" />
+  </control>
+  <control id="19" kind="normal">
+    <code>194</code>
+    <location x="1194.13965" y="1673.88916" />
+    <description box="D" iof-2004-ref="5.11" />
+    <description box="G" iof-2004-ref="11.4E" />
+  </control>
+  <control id="20" kind="normal">
+    <code>195</code>
+    <location x="1123.985" y="1624.75439" />
+    <description box="D" iof-2004-ref="5.24" />
+    <description box="G" iof-2004-ref="11.8SW" />
+  </control>
+  <control id="21" kind="normal">
+    <code>196</code>
+    <location x="1091.46826" y="1616.00488" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.1SE" />
+  </control>
+  <control id="23" kind="normal">
+    <code>197</code>
+    <location x="1128.60669" y="1652.95923" />
+    <description box="D" iof-2004-ref="6.1" />
+    <description box="G" iof-2004-ref="11.1SE" />
+  </control>
+  <control id="24" kind="normal">
+    <code>198</code>
+    <location x="1076.19836" y="1612.20728" />
+    <description box="D" iof-2004-ref="5.9" />
+    <description box="E" iof-2004-ref="5.10" />
+  </control>
+  <course id="1" kind="normal" order="1">
+    <name>Micro</name>
+    <labels label-kind="sequence" />
+    <first course-control="1" />
+    <print-area automatic="false" restrict-to-page-size="true" left="949.857361" top="1721.71838" right="1232.55933" bottom="1525.8844" page-width="827" page-height="1169" page-margins="28" page-landscape="true" />
+    <options print-scale="750" description-kind="symbols" />
+  </course>
+  <course id="2" kind="normal" order="2">
+    <name>Knatteknat</name>
+    <labels label-kind="sequence" />
+    <first course-control="20" />
+    <print-area automatic="false" restrict-to-page-size="true" left="949.857361" top="1721.71838" right="1232.55933" bottom="1525.8844" page-width="827" page-height="1169" page-margins="28" page-landscape="true" />
+    <options print-scale="750" description-kind="symbols" />
+  </course>
+  <course-control id="1" control="1">
+    <next course-control="3" />
+  </course-control>
+  <course-control id="2" control="2" />
+  <course-control id="3" control="3">
+    <next course-control="4" />
+    <number-location x="-5.73217773" y="7.48327637" />
+  </course-control>
+  <course-control id="4" control="4">
+    <next course-control="5" />
+  </course-control>
+  <course-control id="5" control="5">
+    <next course-control="6" />
+    <number-location x="-8.756348" y="-0.541259766" />
+  </course-control>
+  <course-control id="6" control="6">
+    <next course-control="7" />
+  </course-control>
+  <course-control id="7" control="7">
+    <next course-control="8" />
+    <number-location x="5.300171" y="-6.984619" />
+  </course-control>
+  <course-control id="8" control="8">
+    <next course-control="9" />
+  </course-control>
+  <course-control id="9" control="9">
+    <next course-control="10" />
+  </course-control>
+  <course-control id="10" control="10">
+    <next course-control="13" />
+    <number-location x="-8.437012" y="-2.1550293" />
+  </course-control>
+  <course-control id="11" control="11">
+    <next course-control="12" />
+  </course-control>
+  <course-control id="12" control="12">
+    <next course-control="14" />
+    <number-location x="10.8272705" y="-0.8829346" />
+  </course-control>
+  <course-control id="13" control="13">
+    <next course-control="11" />
+    <number-location x="7.74060059" y="3.4197998" />
+  </course-control>
+  <course-control id="14" control="14">
+    <next course-control="17" />
+    <number-location x="6.824951" y="-6.17590332" />
+  </course-control>
+  <course-control id="17" control="17">
+    <next course-control="18" />
+    <number-location x="5.67407227" y="8.667725" />
+  </course-control>
+  <course-control id="18" control="18">
+    <next course-control="19" />
+    <number-location x="-9.168335" y="-3.27307129" />
+  </course-control>
+  <course-control id="19" control="19">
+    <next course-control="2" />
+  </course-control>
+  <course-control id="20" control="1">
+    <next course-control="22" />
+  </course-control>
+  <course-control id="21" control="2" />
+  <course-control id="22" control="17">
+    <next course-control="23" />
+    <number-location x="-2.17626953" y="9.325195" />
+  </course-control>
+  <course-control id="23" control="20">
+    <next course-control="25" />
+    <number-location x="-3.79138184" y="-10.1374512" />
+  </course-control>
+  <course-control id="25" control="21">
+    <next course-control="27" />
+    <number-location x="1.53869629" y="10.0916748" />
+  </course-control>
+  <course-control id="27" control="3">
+    <next course-control="33" />
+    <number-location x="2.65405273" y="-7.961548" />
+  </course-control>
+  <course-control id="33" control="24">
+    <next course-control="29" />
+    <number-location x="-7.467163" y="5.53723145" />
+  </course-control>
+  <course-control id="29" control="10">
+    <next course-control="30" />
+    <number-location x="2.2635498" y="9.168701" />
+  </course-control>
+  <course-control id="30" control="23">
+    <next course-control="32" />
+  </course-control>
+  <course-control id="31" control="19">
+    <next course-control="21" />
+    <number-location x="6.50305176" y="-6.09130859" />
+  </course-control>
+  <course-control id="32" control="11">
+    <next course-control="31" />
+  </course-control>
+  <special-object id="1" kind="optional-crossing-point" orientation="138.651474" stretch="0.249361217">
+    <location x="1075.92139" y="1612.21179" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="4" kind="descriptions">
+    <location x="1181.32678" y="1633.30725" />
+    <location x="1186.64014" y="1633.30725" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="5" kind="rectangle">
+    <appearance line-kind="single" color="0.00,0.50,1.00,0.00" line-width="1" corner-radius="1" />
+    <location x="950.805542" y="1720.46606" />
+    <location x="1230.57263" y="1526.65686" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="6" kind="white-out">
+    <location x="1105.50073" y="1714.89453" />
+    <location x="1189.86938" y="1717.6803" />
+    <location x="1188.27759" y="1738.37451" />
+    <location x="1099.9292" y="1736.38464" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="7" kind="white-out">
+    <location x="945.5187" y="1539.39172" />
+    <location x="1080.031" y="1528.24878" />
+    <location x="1074.45947" y="1490.04407" />
+    <location x="935.1716" y="1511.53418" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="8" kind="forbidden-route">
+    <location x="985.8159" y="1551.418" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="9" kind="forbidden-route">
+    <location x="1005.71417" y="1571.71423" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="10" kind="forbidden-route">
+    <location x="996.561" y="1562.561" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="11" kind="forbidden-route">
+    <location x="1019.245" y="1584.84717" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="12" kind="forbidden-route">
+    <location x="1030.38806" y="1598.37793" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="13" kind="forbidden-route">
+    <location x="1042.725" y="1612.30676" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="14" kind="forbidden-route">
+    <location x="1057.44971" y="1626.23547" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="15" kind="forbidden-route">
+    <location x="1066.205" y="1635.78674" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="16" kind="forbidden-route">
+    <location x="1101.62378" y="1671.20557" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="17" kind="forbidden-route">
+    <location x="1120.7262" y="1686.32825" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="18" kind="forbidden-route">
+    <location x="1143.01221" y="1699.85913" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="19" kind="forbidden-route">
+    <location x="1161.3186" y="1713.788" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="20" kind="forbidden-route">
+    <location x="1078.54187" y="1648.91956" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="21" kind="text">
+    <text>Fredriksberg</text>
+    <font name="Roboto" bold="true" italic="false" height="10" />
+    <appearance color="black" />
+    <location x="956.7485" y="1714.69836" />
+    <location x="995.5408" y="1706.697" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="22" kind="text">
+    <text>Skala $(PrintScale)</text>
+    <font name="Roboto" bold="true" italic="false" height="5" />
+    <appearance color="black" />
+    <location x="956.748535" y="1697.661" />
+    <location x="1028.30444" y="1681.65845" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="23" kind="text">
+    <text>Ekvidistans 2 meter</text>
+    <font name="Roboto" bold="true" italic="false" height="5" />
+    <appearance color="black" />
+    <location x="956.2752" y="1687.72241" />
+    <location x="1016.67883" y="1679.72107" />
+    <courses all="true" />
+  </special-object>
+</course-scribe-event>

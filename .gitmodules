@@ -1,0 +1,3 @@
+[submodule "grundmaterial"]
+	path = grundmaterial
+	url = git@github.com:Jocke-G/SalenKartan-grundmaterial.git

@@ -1,0 +1,432 @@
+﻿<course-scribe-event>
+  <event id="1">
+    <title>Klubbträning 2022-05-05</title>
+    <map kind="OCAD" scale="15000" ignore-missing-fonts="false" absolute-path="C:\Users\joaki\projects\SalenKartan\SalenKartan.xmap">..\..\..\SalenKartan.xmap</map>
+    <standards map="2017" description="2018" />
+    <all-controls print-scale="5000" description-kind="symbols" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <numbering start="151" disallow-invertible="false" />
+    <punch-card rows="3" columns="8" left-to-right="true" top-to-bottom="false" />
+    <course-appearance scale-sizes="RelativeToMap" scale-sizes-circle-gaps="true" auto-leg-gap-size="3.5" blend-purple="true" />
+    <descriptions lang="sv" color="black" />
+    <ocad overprint-colors="false" />
+  </event>
+  <control id="1" kind="start">
+    <location x="59.719265" y="82.54588" />
+  </control>
+  <control id="2" kind="finish">
+    <location x="59.7555122" y="82.688385" />
+    <description box="all" iof-2004-ref="14.3" />
+  </control>
+  <control id="4" kind="normal">
+    <code>155</code>
+    <location x="65.5426254" y="78.18514" />
+    <description box="C" iof-2004-ref="0.2SE" />
+    <description box="D" iof-2004-ref="1.10" />
+    <description box="G" iof-2004-ref="11.14SE" />
+  </control>
+  <control id="5" kind="normal">
+    <code>157</code>
+    <location x="73.52348" y="91.3321152" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1N" />
+  </control>
+  <control id="6" kind="normal">
+    <code>153</code>
+    <location x="88.3673" y="115.773155" />
+    <description box="D" iof-2004-ref="1.13" />
+    <description box="G" iof-2004-ref="11.2NE" />
+  </control>
+  <control id="7" kind="normal">
+    <code>154</code>
+    <location x="88.3385" y="95.24213" />
+    <description box="D" iof-2004-ref="3.9" />
+    <description box="G" iof-2004-ref="11.1E" />
+  </control>
+  <control id="8" kind="normal">
+    <code>170</code>
+    <location x="56.9960823" y="63.1040421" />
+    <description box="C" iof-2004-ref="0.1N" />
+    <description box="D" iof-2004-ref="5.12" />
+    <description box="G" iof-2004-ref="11.4NW" />
+  </control>
+  <control id="9" kind="normal">
+    <code>156</code>
+    <location x="47.8879776" y="63.4498634" />
+    <description box="D" iof-2004-ref="5.11" />
+    <description box="G" iof-2004-ref="11.5NW" />
+  </control>
+  <control id="10" kind="normal">
+    <code>160</code>
+    <location x="61.667347" y="50.65774" />
+    <description box="D" iof-2004-ref="1.10" />
+    <description box="G" iof-2004-ref="11.14SE" />
+  </control>
+  <control id="11" kind="normal">
+    <code>158</code>
+    <location x="63.2363548" y="68.9956055" />
+    <description box="D" iof-2004-ref="1.5" />
+    <description box="G" iof-2004-ref="11.3NE" />
+  </control>
+  <control id="12" kind="normal">
+    <code>159</code>
+    <location x="62.5471878" y="88.598465" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1N" />
+  </control>
+  <control id="13" kind="normal">
+    <code>173</code>
+    <location x="80.21569" y="94.09386" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1NE" />
+  </control>
+  <control id="14" kind="normal">
+    <code>161</code>
+    <location x="73.78589" y="98.7045441" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1N" />
+  </control>
+  <control id="15" kind="normal">
+    <code>172</code>
+    <location x="70.36552" y="86.39027" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1SW" />
+  </control>
+  <control id="16" kind="normal">
+    <code>167</code>
+    <location x="67.92451" y="77.11712" />
+    <description box="D" iof-2004-ref="1.9" />
+    <description box="E" iof-2004-ref="1.9" />
+    <description box="G" iof-2004-ref="11.15" />
+  </control>
+  <control id="17" kind="normal">
+    <code>164</code>
+    <location x="51.72871" y="65.18408" />
+    <description box="D" iof-2004-ref="6.1" />
+  </control>
+  <control id="18" kind="normal">
+    <code>152</code>
+    <location x="56.96146" y="59.45995" />
+    <description box="D" iof-2004-ref="5.11" />
+    <description box="G" iof-2004-ref="11.12" />
+  </control>
+  <control id="19" kind="normal">
+    <code>166</code>
+    <location x="49.6081848" y="46.8779449" />
+    <description box="D" iof-2004-ref="5.13" />
+    <description box="G" iof-2004-ref="11.5SW" />
+  </control>
+  <control id="20" kind="normal">
+    <code>162</code>
+    <location x="61.2483749" y="43.0399361" />
+    <description box="D" iof-2004-ref="2.4" />
+    <description box="G" iof-2004-ref="11.1NE" />
+  </control>
+  <control id="21" kind="normal">
+    <code>168</code>
+    <location x="62.36557" y="72.66218" />
+    <description box="D" iof-2004-ref="5.3" />
+    <description box="E" iof-2004-ref="4.7" />
+    <description box="F" iof-2004-ref="10.1" />
+  </control>
+  <control id="22" kind="normal">
+    <code>169</code>
+    <location x="58.88622" y="69.51961" />
+    <description box="D" iof-2004-ref="4.4" />
+    <description box="E" iof-2004-ref="8.8" />
+    <description box="G" iof-2004-ref="11.3NW" />
+  </control>
+  <control id="25" kind="normal">
+    <code>171</code>
+    <location x="51.39564" y="72.65012" />
+    <description box="D" iof-2004-ref="1.6" />
+    <description box="G" iof-2004-ref="11.8S" />
+  </control>
+  <control id="26" kind="normal">
+    <code>165</code>
+    <location x="64.49088" y="78.96283" />
+    <description box="C" iof-2004-ref="0.2NW" />
+    <description box="D" iof-2004-ref="1.10" />
+    <description box="G" iof-2004-ref="11.1NE" />
+  </control>
+  <control id="28" kind="normal">
+    <code>151</code>
+    <location x="69.1244659" y="72.23884" />
+    <description box="D" iof-2004-ref="5.2" />
+    <description box="G" iof-2004-ref="11.8N" />
+  </control>
+  <control id="29" kind="normal">
+    <code>174</code>
+    <location x="70.8255539" y="83.27499" />
+    <description box="D" iof-2004-ref="5.2" />
+    <description box="E" iof-2004-ref="5.3" />
+    <description box="F" iof-2004-ref="10.2" />
+  </control>
+  <course id="1" kind="normal" order="1">
+    <name>Bana A</name>
+    <labels label-kind="sequence" />
+    <first course-control="1" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <options print-scale="5000" description-kind="symbols" />
+  </course>
+  <course id="2" kind="normal" order="2">
+    <name>Bana B</name>
+    <labels label-kind="sequence" />
+    <first course-control="7" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <options print-scale="5000" description-kind="symbols" />
+  </course>
+  <course id="3" kind="normal" order="3">
+    <name>Bana C</name>
+    <labels label-kind="sequence" />
+    <first course-control="13" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <options print-scale="5000" description-kind="symbols" />
+  </course>
+  <course id="4" kind="normal" order="4">
+    <name>Bana D</name>
+    <labels label-kind="sequence" />
+    <first course-control="20" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <options print-scale="5000" description-kind="symbols" />
+  </course>
+  <course id="5" kind="normal" order="5">
+    <name>Bana E</name>
+    <labels label-kind="sequence" />
+    <first course-control="27" />
+    <print-area automatic="false" restrict-to-page-size="true" left="38.40767" top="127.121643" right="108.427" bottom="28.1463089" page-width="827" page-height="1169" page-margins="0" page-landscape="false" />
+    <options print-scale="5000" description-kind="symbols" />
+  </course>
+  <course-control id="1" control="1">
+    <next course-control="3" />
+  </course-control>
+  <course-control id="2" control="2" />
+  <course-control id="3" control="4">
+    <next course-control="4" />
+  </course-control>
+  <course-control id="4" control="5">
+    <next course-control="5" />
+    <number-location x="-1.52697754" y="5.238991" />
+  </course-control>
+  <course-control id="5" control="6">
+    <next course-control="6" />
+    <number-location x="-5.00240326" y="-0.500816345" />
+  </course-control>
+  <course-control id="6" control="7">
+    <next course-control="2" />
+    <number-location x="2.99072266" y="-5.101898" />
+  </course-control>
+  <course-control id="7" control="1">
+    <next course-control="9" />
+  </course-control>
+  <course-control id="8" control="2" />
+  <course-control id="9" control="8">
+    <next course-control="10" />
+    <number-location x="-2.65164566" y="5.39911652" />
+  </course-control>
+  <course-control id="10" control="9">
+    <next course-control="11" />
+    <number-location x="-5.37457275" y="2.67682266" />
+  </course-control>
+  <course-control id="11" control="10">
+    <next course-control="12" />
+    <number-location x="4.53973" y="-2.73784637" />
+  </course-control>
+  <course-control id="12" control="11">
+    <next course-control="8" />
+    <number-location x="4.92499161" y="-1.95836639" />
+  </course-control>
+  <course-control id="13" control="1">
+    <next course-control="15" />
+  </course-control>
+  <course-control id="14" control="2" />
+  <course-control id="15" control="12">
+    <next course-control="16" />
+  </course-control>
+  <course-control id="16" control="13">
+    <next course-control="17" />
+    <number-location x="5.339424" y="-1.04656219" />
+  </course-control>
+  <course-control id="17" control="14">
+    <next course-control="18" />
+    <number-location x="1.79026031" y="5.243767" />
+  </course-control>
+  <course-control id="18" control="15">
+    <next course-control="19" />
+    <number-location x="6.377281" y="-0.9311142" />
+  </course-control>
+  <course-control id="19" control="16">
+    <next course-control="14" />
+  </course-control>
+  <course-control id="20" control="1">
+    <next course-control="22" />
+  </course-control>
+  <course-control id="21" control="2" />
+  <course-control id="22" control="17">
+    <next course-control="23" />
+    <number-location x="-3.99193573" y="-0.401794434" />
+  </course-control>
+  <course-control id="23" control="18">
+    <next course-control="24" />
+    <number-location x="2.385765" y="-4.91124725" />
+  </course-control>
+  <course-control id="24" control="19">
+    <next course-control="25" />
+  </course-control>
+  <course-control id="25" control="20">
+    <next course-control="26" />
+  </course-control>
+  <course-control id="26" control="21">
+    <next course-control="21" />
+  </course-control>
+  <course-control id="27" control="1">
+    <next course-control="32" />
+  </course-control>
+  <course-control id="28" control="2" />
+  <course-control id="29" control="22">
+    <next course-control="36" />
+  </course-control>
+  <course-control id="32" control="25">
+    <next course-control="33" />
+    <number-location x="-3.156807" y="-3.42169952" />
+  </course-control>
+  <course-control id="33" control="26">
+    <next course-control="29" />
+  </course-control>
+  <course-control id="36" control="28">
+    <next course-control="37" />
+  </course-control>
+  <course-control id="37" control="29">
+    <next course-control="28" />
+  </course-control>
+  <leg id="1" start-control="7" end-control="2" />
+  <special-object id="3" kind="white-out">
+    <location x="34.4239655" y="38.6748123" />
+    <location x="74.2691" y="38.5993423" />
+    <location x="71.71827" y="71.39573" />
+    <location x="94.31133" y="92.8955841" />
+    <location x="94.5461" y="123.997871" />
+    <location x="66.11999" y="123.651627" />
+    <location x="65.80814" y="135.096008" />
+    <location x="119.260094" y="132.102448" />
+    <location x="110.385269" y="25.84423" />
+    <location x="35.1457329" y="24.0405426" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="2" kind="descriptions">
+    <location x="90.6226349" y="78.426445" />
+    <location x="92.23042" y="78.426445" />
+    <courses>
+      <course course="2" />
+      <course course="3" />
+      <course course="4" />
+      <course course="5" />
+    </courses>
+  </special-object>
+  <special-object id="5" kind="forbidden-route">
+    <location x="73.66646" y="118.858658" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="6" kind="forbidden-route">
+    <location x="74.1261" y="111.964027" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="7" kind="forbidden-route">
+    <location x="72.44074" y="106.141891" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="8" kind="forbidden-route">
+    <location x="67.69111" y="100.7794" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="9" kind="forbidden-route">
+    <location x="64.7800446" y="96.48941" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="11" kind="forbidden-route">
+    <location x="46.03289" y="49.7079964" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="12" kind="forbidden-route">
+    <location x="44.3579979" y="56.5364075" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="13" kind="forbidden-route">
+    <location x="42.4254265" y="40.4316673" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="14" kind="forbidden-route">
+    <location x="46.4194031" y="69.29135" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="15" kind="forbidden-route">
+    <location x="50.1557" y="78.05233" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="16" kind="forbidden-route">
+    <location x="60.3338928" y="87.97285" />
+    <courses>
+      <course course="0" />
+      <course course="1" />
+      <course course="2" />
+      <course course="4" />
+      <course course="5" />
+    </courses>
+  </special-object>
+  <special-object id="17" kind="forbidden-route">
+    <location x="47.3529" y="73.87925" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="18" kind="forbidden-route">
+    <location x="45.53088" y="60.76069" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="19" kind="forbidden-route">
+    <location x="44.07326" y="44.5447" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="20" kind="rectangle">
+    <appearance line-kind="single" color="0.00,0.50,1.00,0.00" line-width="1" corner-radius="1" />
+    <location x="39.9326477" y="126.010063" />
+    <location x="107.528664" y="29.7985916" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="21" kind="descriptions">
+    <location x="83.13704" y="76.45366" />
+    <location x="85.6142654" y="76.45366" />
+    <courses>
+      <course course="1" />
+    </courses>
+  </special-object>
+  <special-object id="22" kind="descriptions">
+    <location x="88.34632" y="85.9529343" />
+    <location x="90.33608" y="85.9529343" />
+    <courses>
+      <course course="0" />
+    </courses>
+  </special-object>
+  <special-object id="23" kind="text">
+    <text>Salen</text>
+    <font name="Roboto" bold="true" italic="false" height="4" />
+    <appearance color="black" />
+    <location x="42.50488" y="124.2021" />
+    <location x="63.95467" y="115.100761" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="25" kind="text">
+    <text>Skala $(PrintScale)</text>
+    <font name="Roboto" bold="true" italic="false" height="2" />
+    <appearance color="black" />
+    <location x="42.461834" y="118.303467" />
+    <location x="83.7671661" y="110.302162" />
+    <courses all="true" />
+  </special-object>
+  <special-object id="26" kind="text">
+    <text>Ekvidistans 5 meter</text>
+    <font name="Roboto" bold="true" italic="false" height="2" />
+    <appearance color="black" />
+    <location x="42.3196449" y="115.354828" />
+    <location x="66.4811" y="112.154305" />
+    <courses all="true" />
+  </special-object>
+</course-scribe-event>

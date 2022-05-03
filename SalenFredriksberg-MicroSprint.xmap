@@ -4026,7 +4026,7 @@
         </symbols>
         <parts count="1" current="0">
             <part name="förvald del">
-                <objects count="106">
+                <objects count="103">
                     <object type="1" symbol="90">
                         <coords count="15">
                             <coord x="1006703" y="-1554484" flags="1"/>
@@ -4240,7 +4240,7 @@
                         </pattern>
                     </object>
                     <object type="1" symbol="61">
-                        <coords count="50">
+                        <coords count="47">
                             <coord x="1066042" y="-1623974" flags="1"/>
                             <coord x="1062993" y="-1620216"/>
                             <coord x="1057906" y="-1616765"/>
@@ -4270,15 +4270,12 @@
                             <coord x="1142659" y="-1643730"/>
                             <coord x="1140671" y="-1645806"/>
                             <coord x="1147091" y="-1652212" flags="1"/>
-                            <coord x="1144588" y="-1655711"/>
-                            <coord x="1143096" y="-1660903"/>
-                            <coord x="1142535" y="-1663190" flags="1"/>
-                            <coord x="1142026" y="-1665266"/>
-                            <coord x="1144101" y="-1667401"/>
-                            <coord x="1145315" y="-1669161" flags="1"/>
-                            <coord x="1150001" y="-1675951"/>
-                            <coord x="1154281" y="-1677744"/>
-                            <coord x="1159053" y="-1681878"/>
+                            <coord x="1148569" y="-1658365"/>
+                            <coord x="1148244" y="-1663395"/>
+                            <coord x="1150592" y="-1663569" flags="1"/>
+                            <coord x="1158026" y="-1664119"/>
+                            <coord x="1165105" y="-1670193"/>
+                            <coord x="1167869" y="-1672588"/>
                             <coord x="1143479" y="-1697623"/>
                             <coord x="1101003" y="-1669616"/>
                             <coord x="1092794" y="-1660405" flags="1"/>
@@ -4357,11 +4354,11 @@
                     </object>
                     <object type="1" symbol="142">
                         <coords count="5">
-                            <coord x="1198548" y="-1672400"/>
-                            <coord x="1195336" y="-1667152"/>
-                            <coord x="1183007" y="-1674718"/>
-                            <coord x="1186325" y="-1679685"/>
-                            <coord x="1198548" y="-1672400" flags="18"/>
+                            <coord x="1195245" y="-1674421"/>
+                            <coord x="1191025" y="-1667527"/>
+                            <coord x="1177662" y="-1675969"/>
+                            <coord x="1181988" y="-1682582"/>
+                            <coord x="1195245" y="-1674421" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -4626,11 +4623,11 @@
                     </object>
                     <object type="1" symbol="88">
                         <coords count="5">
-                            <coord x="1087480" y="-1622303" flags="32"/>
-                            <coord x="1089318" y="-1623982" flags="32"/>
-                            <coord x="1091107" y="-1622023" flags="32"/>
-                            <coord x="1089269" y="-1620344" flags="32"/>
-                            <coord x="1087480" y="-1622303" flags="50"/>
+                            <coord x="1084068" y="-1619435" flags="32"/>
+                            <coord x="1085906" y="-1621114" flags="32"/>
+                            <coord x="1087695" y="-1619155" flags="32"/>
+                            <coord x="1085857" y="-1617476" flags="32"/>
+                            <coord x="1084068" y="-1619435" flags="50"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -4873,20 +4870,6 @@
                         <coords count="1">
                             <coord x="1061201" y="-1585139"/>
                         </coords>
-                    </object>
-                    <object type="4" symbol="194" h_align="1" v_align="2">
-                        <coords count="1">
-                            <coord x="1005623" y="-1705244"/>
-                        </coords>
-                        <text>Fredriksberg</text>
-                    </object>
-                    <object type="4" symbol="191" h_align="0" v_align="1">
-                        <coords count="1">
-                            <coord x="964752" y="-1690051"/>
-                        </coords>
-                        <text>Skala 1:750
-Ekvidistans 2 meter
-</text>
                     </object>
                     <object type="1" symbol="100">
                         <coords count="22">
@@ -5137,12 +5120,6 @@ Ekvidistans 2 meter
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="4" symbol="192" h_align="1" v_align="2">
-                        <coords count="1">
-                            <coord x="1220664" y="-1541028"/>
-                        </coords>
-                        <text>Reviderad 2022-01-09</text>
-                    </object>
                     <object type="1" symbol="0">
                         <coords count="49">
                             <coord x="1112410" y="-1574191" flags="1"/>
@@ -5318,8 +5295,8 @@ Ekvidistans 2 meter
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="250" v_spacing="250" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.669131" position_x="1099838" position_y="-1619081">
-                <map opacity="0.6" visible="true"/>
+            <map_view zoom="0.669131" position_x="1090577" position_y="-1619081">
+                <map opacity="1" visible="true"/>
                 <templates hidden="true" count="0"/>
             </map_view>
         </view>
